@@ -1,0 +1,25 @@
+{
+  "variantId": "LTA_Ant_Annihilator",
+  "hullId": "LTA_Ant",
+  "displayName": "Annihilator",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "annihilatorpod",
+        "WS0002": "annihilatorpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

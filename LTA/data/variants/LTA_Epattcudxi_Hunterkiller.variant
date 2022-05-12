@@ -1,0 +1,39 @@
+{
+  "variantId": "LTA_Epattcudxi_Hunterkiller",
+  "hullId": "LTA_Epattcudxi",
+  "displayName": "Hunterkiller",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

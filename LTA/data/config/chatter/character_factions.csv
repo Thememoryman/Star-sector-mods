@@ -1,0 +1,10 @@
+character,military,corporate,criminal,free,christian,muslim,imperial,templars,spire,darkspire,crystanite
+#default,1,1,0,1,1,1,1,0,1,1,-1
+duinn_mob1,1,1,1,0,-1,-1,0,-1,-1,-1,-1
+duinn_mob2,1,1,1,0,-1,-1,0,-1,-1,-1,-1
+duinn_freedomfighter1,1,0,1,1,-1,-1,0,-1,-1,-1,-1
+duinn_freedomfighter2,1,0,1,1,-1,-1,0,-1,-1,-1,-1
+duinn_raider,1,0,1,0,-1,-1,0,-1,-1,-1,-1
+duinn_insane,1,0,1,1,-1,-1,0,-1,-1,-1,-1
+duinn_2000+years,0,1,1,0,-1,-1,1,-1,-1,-1,-1
+duinn_artist,0,1,1,1,-1,-1,-1,-1,-1,-1,-1

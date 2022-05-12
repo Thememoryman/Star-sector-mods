@@ -1,0 +1,146 @@
+{
+  "hullName": "Epattcud XXI",
+  "hullId": "LTA_Epattcudxxi",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_21_Class_Scrapship.png",
+  "style": "LOW_TECH",
+  "height": 222,
+  "width": 138,
+  "center": [69, 115],
+  "collisionRadius": 159.5,
+  "shieldCenter": [-4, 0],
+  "shieldRadius": 144.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "comp_structure",
+    "militarized_subsystems"
+  ],
+  "builtInWings": [
+    "LTA_RocketTalonP_Wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 135,
+      "locations": [-73, 45]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -135,
+      "locations": [-73, -45]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [74, -46]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        44.5, 36,
+        36, 35.5,
+        39.5, 35,
+        38.5, 36.5,
+        54, 35,
+        51, 36.5,
+        49.5, 35,
+        47, 35.5,
+        41, 35.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-115, 24],
+      "length": 50,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-115, -24],
+      "length": 50,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-114, 7],
+      "length": 50,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-114, -7],
+      "length": 50,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-115, 15.5],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-115, -15.5],
+      "length": 60,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    102.5, -28,
+    83.5, -41,
+    82, -56.5,
+    31, -58.5,
+    22, -67.5,
+    11.5, -58.5,
+    -5.5, -58.5,
+    -45, -42,
+    -57.5, -47.5,
+    -58, -67,
+    -83.5, -58,
+    -84, -38,
+    -114.5, -28,
+    -114.5, 28,
+    -84, 38,
+    -83.5, 58,
+    -58, 67,
+    -57.5, 47.5,
+    -45, 42,
+    -4.5, 59,
+    14, 59,
+    29, 48,
+    64, 45,
+    75, 56,
+    102.5, 28
+  ]
+}

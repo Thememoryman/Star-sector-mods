@@ -1,0 +1,163 @@
+{
+  "bounds": [
+    1,
+    -18,
+    36.5,
+    -10.5,
+    36.5,
+    10.5,
+    1,
+    18,
+    -36,
+    13,
+    -36,
+    -13
+  ],
+  "center": [
+    21,
+    37.5
+  ],
+  "collisionRadius": 43.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -33.5,
+        10
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -33.5,
+        -10
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35.5,
+        7
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35.5,
+        -7
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -36.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 145,
+      "contrailSize": 8,
+      "length": 16,
+      "location": [
+        2.5,
+        15.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": -145,
+      "contrailSize": 8,
+      "length": 16,
+      "location": [
+        2.5,
+        -15.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    }
+  ],
+  "height": 75,
+  "hullId": "missp_patrol_craft",
+  "hullName": "Patrol Craft",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 40,
+  "spriteName": "graphics/ships/patrol_craft/patrol_craft.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 280,
+      "id": "WS0001",
+      "locations": [
+        24.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 198,
+      "id": "WS0002",
+      "locations": [
+        -2.5,
+        8
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 198,
+      "id": "WS0003",
+      "locations": [
+        -2.5,
+        -8
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 127,
+      "id": "WS0004",
+      "locations": [
+        -23.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 42
+}

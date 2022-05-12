@@ -1,0 +1,37 @@
+{
+"hullFrequency":{
+
+		"hulls":{
+			#"Colatlus":0.5, # it's pretty good, so make it more rare
+			"LTA_Corsair":0.5,
+			"LTA_Cravantia":0.75,
+			"LTA_Defender":1.0,
+			"LTA_Mask":1.0,
+			"LTA_Mason":1.0,
+			"LTA_Scourerxiv":0.5,
+		},
+	},
+		"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony"],
+		"weapons":[
+			"LTA_nixie",
+			"LTA_nixietri",
+			"LTA_nixiearray",
+			"LTA_nixiemissilesmall",
+			"LTA_nixiemissilemedium",
+			"LTA_nixiemissilelarge",
+			"LTA_hypervelocitycannon",
+			"LTA_hex",
+			"LTA_talonrail",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hegemony"],
+		"fighters":[
+			"LTA_Tappah_Wing",
+			"LTA_Diadem_Wing",
+			"LTA_DiademXIV_Wing",
+			"LTA_RocketTalon_Wing",
+		],
+	},
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "LTA_Diadem_Wing",
+  "hullId": "LTA_Diadem_Wing",
+  "displayName": "Point Defense Pod",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "LTA_vulcansingle"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_vulcansingle",
+        "WS0003": "LTA_vulcansingle",
+        "WS0005": "LTA_vulcansingle"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LTA_vulcansingle",
+        "WS0004": "LTA_vulcansingle",
+        "WS0006": "LTA_vulcansingle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

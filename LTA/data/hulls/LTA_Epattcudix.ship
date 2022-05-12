@@ -1,0 +1,186 @@
+{
+  "hullName": "Epattcud IX",
+  "hullId": "LTA_Epattcudix",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_9_Class_Scrapship.png",
+  "style": "LOW_TECH",
+  "height": 104,
+  "width": 120,
+  "center": [60, 52],
+  "collisionRadius": 84,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 80.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "comp_structure"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [17, 40]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-20, 33]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [47, 8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [33, -31]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -135,
+      "locations": [-29, -35]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 22.5,
+      "locations": [6, -2]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [39, -14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, 28],
+      "length": 60,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51, -32],
+      "length": 60,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51, -39],
+      "length": 60,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51, 36],
+      "length": 60,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, 50],
+      "length": 60,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, 46],
+      "length": 60,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28, -45],
+      "length": 60,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24, -49],
+      "length": 60,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, -15.5],
+      "length": 60,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, 11.5],
+      "length": 60,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -37, 5.5,
+    -36.5, 21.5,
+    -50.5, 24,
+    -51.5, 40.5,
+    -34, 42,
+    -20.5, 54,
+    21.5, 53.5,
+    36.5, 28.5,
+    47.5, 26,
+    46, -7,
+    38.5, -27.5,
+    15.5, -49.5,
+    -20.5, -59,
+    -23.5, -45.5,
+    -50.5, -43.5,
+    -51, -27,
+    -35, -24.5,
+    -36.5, -8.5,
+    -27, -7,
+    -26, 4
+  ]
+}

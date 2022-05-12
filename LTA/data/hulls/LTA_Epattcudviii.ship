@@ -1,0 +1,310 @@
+{
+  "hullName": "Epattcud VIII",
+  "hullId": "LTA_Epattcudviii",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_8_Class_Scrapship.png",
+  "style": "LOW_TECH",
+  "height": 317,
+  "width": 204,
+  "center": [102, 158.5],
+  "collisionRadius": 215,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 201.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "comp_structure"
+  ],
+  "builtInWings": [
+    "talon_wing"
+  ],
+  "builtInWeapons": {
+    "WS0003": "flak",
+    "WS0004": "flak",
+    "WS0008": "flak"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [142.5, 42]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [142.5, -42]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [78.5, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -45,
+      "locations": [78.5, -33]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [107.5, 86]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [107.5, -86]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [129.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-53.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-123.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -63, 32,
+        -62, 45,
+        -75.5, 46.5,
+        -99.5, 46,
+        -104.5, 29,
+        -102, 20,
+        -75.5, 21.5,
+        -62, 26,
+        -88, 45.5,
+        -100, 35.5,
+        -71.5, 35,
+        -92.5, 33,
+        -91, 24,
+        -82, 39.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -87.5, -3,
+        -87, 7,
+        -87, -12,
+        -102, -11,
+        -103, 8.5,
+        -103, -4,
+        -90.5, 3.5,
+        -91, -7,
+        -99, -7,
+        -99, 1.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -65, -50,
+        -74.5, -39,
+        -75.5, -35,
+        -82, -34.5,
+        -81.5, -38,
+        -62, -45.5,
+        -77, -50.5,
+        -91.5, -49.5,
+        -101, -49,
+        -103, -42,
+        -102.5, -30,
+        -102.5, -23,
+        -88, -22.5,
+        -71, -21.5,
+        -64.5, -22,
+        -64, -34,
+        -70, -29,
+        -93, -31,
+        -94.5, -42,
+        -68, -44.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -36, -28,
+        -23, -28.5,
+        2.5, -27.5,
+        24.5, -27.5,
+        41.5, -27.5,
+        42.5, -40,
+        24, -40.5,
+        7.5, -42,
+        -8.5, -41,
+        -25.5, -41,
+        -37, -40.5,
+        -38, -34,
+        45, -33.5,
+        32.5, -29.5,
+        -13, -29.5,
+        -0.5, -40,
+        -17, -37,
+        15.5, -38,
+        31.5, -37.5,
+        17, -27
+      ]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 90,
+      "locations": [-74.5, 72]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -90,
+      "locations": [-74.5, -72]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-157.5, 18],
+      "length": 110,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-157.5, -18],
+      "length": 110,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-157.5, 47],
+      "length": 71.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-157.5, -47],
+      "length": 71.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-157.5, 39],
+      "length": 71.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-157.5, -39],
+      "length": 71.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    149.5, -59,
+    117, -65,
+    113, -95,
+    54, -99.5,
+    19, -83,
+    -38, -86.5,
+    -56, -73.5,
+    -140, -71.5,
+    -156.5, -52,
+    -156, -8.5,
+    -144, -4.5,
+    -144, 4.5,
+    -156, 8.5,
+    -156.5, 52,
+    -140, 71.5,
+    -56, 73.5,
+    -38, 86.5,
+    19, 83,
+    54, 99.5,
+    113, 95,
+    117, 65,
+    149.5, 59,
+    150.5, 29,
+    143, 20,
+    151, 8,
+    151, -8,
+    143, -20,
+    150.5, -29
+  ]
+}

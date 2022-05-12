@@ -1,0 +1,108 @@
+{
+  "hullName": "Left Module",
+  "hullId": "LTA_Barbicanleftmodule",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/LTA/ships/Modules/LTA_BarbicanModule1.png",
+  "style": "LOW_TECH",
+  "height": 268,
+  "width": 49,
+  "center": [25, 150],
+  "collisionRadius": 299.5,
+  "shieldCenter": [-16, 0.5],
+  "shieldRadius": 280,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "builtInWings": [
+    "LTA_Archer_Wing"
+  ],
+  "builtInWeapons": {
+    "WS0003": "gauss"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-86, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 67.5,
+      "locations": [-59, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [107, -5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -31, -7.5,
+        -23.5, -7.5,
+        -18, -3,
+        -37, -3.5,
+        -40.5, -0.5,
+        -32.5, -3.5,
+        -27.5, -4.5,
+        -22, -4.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-150, -3],
+      "length": 100,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -150, 3.5,
+    -144.5, 7.5,
+    -124.5, 9.5,
+    -124.5, 20.5,
+    -100, 25,
+    -66.5, 24,
+    -66, 16,
+    14.5, 8,
+    26.5, 8.5,
+    31, 14.5,
+    93, 16.5,
+    93, 12,
+    115.5, 11.5,
+    116.5, -21,
+    87.5, -22.5,
+    65, -14.5,
+    29.5, -12,
+    27.5, -1.5,
+    -0.5, -2,
+    -9.5, -12,
+    -85, -9.5,
+    -90.5, -14,
+    -146.5, -13,
+    -149.5, -9
+  ]
+}

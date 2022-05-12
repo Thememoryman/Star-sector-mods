@@ -1,0 +1,81 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Reclaimed Advanced Targeting Core,reclaimedadvancedcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.ReclaimedAdvancedTargetingCore,"Throughout this ship there are signs of an extensive data-wire system hidden behind internal plating, tracing back to a Paragon's ripped out and repurposed Advanced Targeting Core.
+The Ship is too large to receive the full benefit from the already strained core, but it has been directed to focus more of its processing capabilities into assisting point defense weaponry than it otherwise would,
+reducing  the range defecit such weapons receive.
+
+Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.
+
+Precludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",Greatly extends non-missile weapon range.,graphics/LTA/hullmods/reclaimed_advanced_targeting_core.png
+Reckless Engineering,recklessengineering,,,,,,,,TRUE,,0,0,0,0,data.hullmods.RecklessEngineering,"This hull's systems have been recklessly modified and extended, parts of dozens of different ships litter the hull, creating flux coil imbalances and inconsistent power lines, sacrificing nearly everything in exchange for enabling a highly unstable, extremely unsafe amelioration of the ships systems, likely without certified engineering oversight. 
+
+Its systems appear to work correctly under routine conditions, but have a significant chance of critical malfunction when stressed.
+
+Increases the phase-time bonus by %s, increases the maintenance cost by %s, recovery cost by %s and increases the rate at which combat readiness degrades by %s.",,graphics/hullmods/illadvised.png
+Reckless Engineering,recklessengineeringnonphase,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.RecklessEngineeringNonPhase,"This hull's systems have been recklessly modified and extended, with armor plating stitched on top of shell-accelerants, a missile micro-factory and copious flux injectors, sacrificing nearly everything in exchange for enabling a highly unstable, extremely unsafe amelioration of the ships systems, likely without certified engineering oversight. 
+
+Its systems appear to work correctly under routine conditions, but have a significant chance of critical malfunction when stressed.
+
+Increases the damage dealt by all ordnance by %s, slowly reloads missile ordnance while increasing their fire-rate by %s, increases the maintenance cost by %s, recovery cost by %s and increases the rate at which combat readiness degrades by %s.",,graphics/hullmods/illadvised.png
+Reckless Engineering,recklessengineeringnonphasenomalfunctions,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.RecklessEngineeringNonPhaseNoMalfunctions,"This hull's systems have been recklessly modified and extended, with armor plating stitched on top of shell-accelerants, a missile micro-factory and copious flux injectors, sacrificing nearly everything in exchange for enabling a highly unstable, extremely unsafe amelioration of the ships systems, likely without certified engineering oversight. 
+
+Increases the damage dealt by all ordnance by %s, slowly reloads missile ordnance while increasing their fire-rate by %s, increases the maintenance cost by %s, recovery cost by %s and increases the rate at which combat readiness degrades by %s.",,graphics/hullmods/illadvised.png
+Patchwork Heavy Ballistics Integration,PatchworkBallisticsIntegration,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.PatchworkBallisticsIntegration,"Engineers have attempted to aid in the utilization of this hull's large weapons emplacement and only partially succeeded, with various sizes of ammo lines linked in a complicated, low-performance array that takes a long time to filter in shells. Despite this it is still capable of taking on nearly any heavy ballistic weapon, making it far less overwhelming to work with as a small crew, and as such the patchwork system has stuck.
+
+Reduces the ordnance point cost of large ballistic weapons by %s. Decreases weapon rate of fire by %s.","Reduces ordnance point cost of large ballistic weapons. In addition, reduces fire-rate of large ballistic weapons.",graphics/LTA/hullmods/patchwork_ballistics_integration.png
+Retrofitted Accelerators,RetrofittedAccelerators,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.RetrofittedAccelerators,"This ship has been thoroughly 'overhauled' by its Pirate creators, retrofitted with an array of flux accelerators and ammo feeders.
+This somewhat miraculously has produced affable results, increasing the firing clock speed for projectile weapons on board by %s.
+
+Along with these benefits, makeshift armor rigging has been attached to various high-flux and high-heat components, reducing the sensor profile of the ship by %s and increasing the durability of engine machinery by %s.
+
+Unfortunately, integrating nearly any Ballistic or Energy weapon into these systems is a nightmare, making weapons installations %s/%s/%s more expensive.","Increases the ordnance point cost of all weapons. In addition, increases fire-rate of all weapons and increases engine durability, while reducing sensor profile.",graphics/LTA/hullmods/retrofitted_accelerators.png
+Permanent Overdrive,PermanentOverdrive,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.PermanentOverdrive,"A convoluted, winding array of various ammo feeders and flux buffers litter this ship.
+This somewhat miraculously has produced highly affable results, increasing the firing clock speed for all weapons on board by %s.
+
+Unfortunately, due to the ridiculously overbearing tasks involved in running weapons on these modifications, all weapons on board turn %s slower.
+
+Additionally, integrating nearly any Ballistic, Missile or Energy weapon into these systems is an absolute nightmare, making weapons installations %s/%s/%s more expensive.","Increases the ordnance point cost of all weapons. In addition, increases fire-rate of all weapons and reduces weapon turn-rate.",graphics/LTA/hullmods/permanent_overdrive.png
+Improvised Shield Hardeners,improvisedshieldimprovements,,,,,,,,TRUE,,0,0,0,0,data.hullmods.ImprovisedShieldImprovements,"The shield generator on this module has been altered extensively, with vast layers of flux dampeners coating it in an almost incoherent lattice, sprouting cabling that spans the predominance of the interior space.
+
+The disorderly and expansive sprawl of wiring and fluxwork precludes the installation of any additional shield modifications.
+
+Reduces the amount of damage taken by shields by %s. Also reduces the chance that shields will be pierced by EMP arcs from weapons like the Ion Beam.","Increases shield hardness by a small percent, but prevents any additional shield modifications.",graphics/LTA/hullmods/improvised_shield_improvements.png
+Diadem Point Defense Computer,diademcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiademCore,"The Diadem contains an old-fashioned binary supercomputer routed through all of its internal weaponry to increase the effectiveness of its point defense guns.
+
+Extends the range of point defense weapons by %s.
+",Greatly extends point defense weapon range.,graphics/LTA/hullmods/reclaimed_advanced_targeting_core.png
+Damaged Diadem Point Defense Computer,diademcoredamaged,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiademCoreDamaged,"This Diadem contains a damaged or otherwise defective old-fashioned binary supercomputer wedged in between stockpiles of annihilator rockets. This supercomputer is routed through its point defense weaponry, increasing their effectiveness by a notable margin despite its damage.
+
+Extends the range of point defense weapons by %s.
+",Greatly extends point defense weapon range.,graphics/LTA/hullmods/reclaimed_advanced_targeting_core.png
+Modular Armor Plating,modularplating,,,,,,,,TRUE,,0,0,0,0,data.hullmods.ModularPlating,"An array of modular armor plating taken from low-tech stations and battlements cover this ship, providing ample reduction to otherwise devastating impacts.
+
+Unfortunately due to the improvised nature of this plating, shield generators could not be installed on-vessel, and installing off-market shielding solutions has become impossible.","Increases the ordnance point cost of all weapons. In addition, increases fire-rate of all weapons and reduces weapon turn-rate.",graphics/LTA/hullmods/modular_plating.png
+Mining-Rigged Missile Autofactories,DomainMissilePackageMining,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DomainMissilePackageMining,"Missile stockpiles are automatically modified out-of-the-gate using Domain methods to improve the predictability of missile based mining explosives, reducing missile engine speed and maneuverability by %s. The slower traversal speed and freed up space usually reserved for additional fuel also allows for the expansion of missile warheads, increasing their damage by %s, enabling better mining effectiveness against asteroids and ships alike.","Increases the ordnance point cost of all weapons. In addition, increases fire-rate of all weapons and reduces weapon turn-rate.",graphics/LTA/hullmods/domain_missile_package_mining.png
+Duinn Thunderbirds,thunderbirdscapital,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThunderbirdsCapital,"This ship has been given some incredibly costly modifications to become part of the Duinn Thunderbirds, though sections of hull have had to be cleared for the modifications, reducing hull integrity by %s.
+
+Armor has been installed within redundant internal hull segments, increasing armor by %s.
+
+Weapons emplacements have been reinforced and fed with additional ammo lines, increasing slot versatility and improving weapon health by %s, and recoil by %s.
+
+The ships internal flux systems have been completely redesigned, increasing flux capacity and dissipation by %s.
+
+In addition a highly expensive missile microfactory has been installed within the ship, allowing for incredibly slow missile reloading gradually over the course of 240 seconds.
+
+These modifications and upgrades increase the maintenance cost of the ship by %s and deployment recovery costs by %s to run and supply the extra materials needed to keep the extra modifications running correctly.",,graphics/LTA/hullmods/thunderbirds.png
+Duinn Thunderbirds,thunderbirds,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Thunderbirds,"This ship has been given some incredibly costly modifications to become part of the Duinn Thunderbirds, though sections of hull have had to be cleared for the modifications, reducing hull integrity by %s.
+
+Armor has been installed within redundant internal hull segments, increasing armor by %s.
+
+Weapons emplacements have been reinforced and fed with additional ammo lines, increasing slot versatility and improving weapon health by %s, and recoil by %s.
+
+The ships internal flux systems have been completely redesigned, increasing flux capacity and dissipation by %s.
+
+Missile stockpiles have been expanded into surrounding internal spaces, increasing missile capacity by %s.
+
+These modifications and upgrades increase the maintenance cost of the ship by %s and deployment recovery costs by %s to run and supply the extra materials needed to keep the extra modifications running correctly.",,graphics/LTA/hullmods/thunderbirds.png
+Converted Fuel Tanks,ConvertedFuelTanks,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.ConvertedFuelTanks,"A portion of this ships fuel tanks have been sealed off from the fuel supply and filled with mounting emplacements, ammo feeders and missile loaders, reducing fuel capacity by %s.
+
+Additional weapons have been installed on this ship over standard variations of this hull.",,graphics/LTA/hullmods/LTA_convertedfueltanks.png
+Ground Support Modifications,LTA_GroundSupportFrigate,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.LTA_GroundSupportFrigate,"Extensive modifications to this frigate's hull allow it to land in atmosphere, enabling it to deploy small squads of marines and support them. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet.",Improves effectiveness of raids.,graphics/hullmods/ground_support.png
+Overtaxed Hangar Bays,LTA_OvertaxedHangar,,,,,,,,TRUE,,0,0,0,0,data.hullmods.LTA_OvertaxedHangar,"This ship's fighter bays are overtaxed, a result of much of the autofactory space being reserved to supply a constant stream of ordnance to other nearby weapons during combat. Increases the cost OP cost of all wings by %s.",,graphics/LTA/hullmods/LTA_overtaxed_hangar.png
+Rail Fed Fighter,LTA_RailFedFighter,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.LTA_RailFedFighter,"This fighter pilot has to put up with being jammed in a long dark tunnel inside a ship, leading to an autoloading gantry, inside a fighter that they will likely have to escape from when it inevitably fails in heavy fire. Reduces max CR to %s.",,graphics/LTA/hullmods/LTA_overtaxed_hangar.png

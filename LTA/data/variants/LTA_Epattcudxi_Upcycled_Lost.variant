@@ -1,0 +1,43 @@
+{
+  "variantId": "LTA_Epattcudxi_Upcycled_Lost",
+  "hullId": "LTA_Epattcudxi_Upcycled",
+  "displayName": "Lost",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hveldriver",
+        "WS0004": "LTA_upcycledlampreyleftassault",
+        "WS0005": "LTA_upcycledlampreyrightassault"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "LTA_RocketTalon_Wing"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "hullName": "Diadem (P)",
+  "hullId": "LTA_DiademP_Wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/LTA/ships/Fighters/LTA_DiademFighterBase.png",
+  "style": "LOW_TECH",
+  "height": 70,
+  "width": 70,
+  "center": [35, 35],
+  "collisionRadius": 48,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 47,
+  "viewOffset": 0,
+  "builtInMods": [
+    "diademcoredamaged"
+  ],
+  "builtInWeapons": {
+    "WS0001": "lightac",
+    "WS0002": "lightac",
+    "WS0003": "LTA_annihilator_fighter_rmech",
+    "WS0004": "LTA_annihilator_fighter_rmech",
+    "WS0005": "LTA_vulcansingle",
+    "WS0006": "LTA_vulcansingle",
+    "WS0007": "LTA_annihilator_fighter_rmech",
+    "WS0008": "LTA_diademp_top_deco"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 45,
+      "locations": [11, 11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -45,
+      "locations": [11, -11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 90,
+      "locations": [0, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -90,
+      "locations": [0, -19]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 135,
+      "locations": [-11, 11]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -135,
+      "locations": [-11, -11]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [19, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25, 5.5],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -5.5],
+      "length": 30,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    19, -8,
+    6, -20,
+    -6, -20,
+    -20, -8,
+    -25, -8,
+    -25, 8,
+    -20, 8,
+    -6, 20,
+    6, 20,
+    19, 8
+  ]
+}

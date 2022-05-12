@@ -1,0 +1,30 @@
+id,trigger,conditions,script,text,options,notes
+flavourTextMarketTechDuinn,TradePanelFlavorText,"$faction.id == pirates
+$global.tradePanelMode == MARKET
+$id == LTA_Tech_Duinn score:1000","AddText ""The massive station before you lies vast and bustling, ships of every type and colour fly through docking ports and onto and off of mag-locked hull segments. The concourse as you dock seems disproportionately filled with pirates and freedom fighters, and beyond the colossal corridors you entered into, a sprawling sea of chatter, commerce and holo-ads is splayed out in front of you; the occasional fight being the only break in the crowds."" textGrayColor
+AddText ""The huge autofactories and refining complexes are visible from space, but their sheer scale only becomes understood when you step inside, as a huge holo-map displays the third of the entire station dedicated to them, far exaggerated beyond what any planet of this population size could ever hope to support."" textGrayColor
+AddText ""Outside the gigantic station, visible from a row of extremely thick windows, several supermassive fleets of variably put together ships patrol constantly, a reminder of why so many choose to permanently dwell here."" textGrayColor
+AddText ""The Hegemony have yet to quell the empathy-sayers, brigands and freedom fighters that thrive here, not yet, and seemingly, not today."" textGrayColor",,,
+musicMarketTechDuinnFriendly,PopulateOptions,"$faction.id == pirates
+$faction.friendlyToPlayer
+$id == LTA_Tech_Duinn score:1000","$market.musicSetId = ""LTA_Tech_Duinn_Interaction_Friendly"" 0
+",,,
+musicMarketTechDuinnNeutral,PopulateOptions,"$faction.id == pirates
+$faction.neutralToPlayer
+$id == LTA_Tech_Duinn score:1000","$market.musicSetId = ""LTA_Tech_Duinn_Interaction_Neutral"" 0 ",,,
+musicMarketTechDuinnHostile,PopulateOptions,"$faction.id == pirates
+!$faction.friendlyToPlayer
+!$faction.neutralToPlayer
+$id == LTA_Tech_Duinn score:1000","$market.musicSetId = ""LTA_Tech_Duinn_Interaction_DIE"" 0 ",,,
+,,,,,,
+#LTA_sal_UpcyclersSectEasterEggFightDetails,ShowSalvageEntityDetails,$customType == derelict_mothership,"ShowDefaultVisual
+FireBest DerelictPrintExtraInfo","The vast bulk of the automated exploration mothership is burned and battered by centuries of service to the Domain, a drifting forgotten hulk, though sensors indicate that some systems are still nominally active.",,
+LTA_sal_trigger_UpcyclersSectEasterEggFightDetails,ShowSalvageEntityDetails,"$customType == LTA_Epattcudvi_UpcycledDerelict
+$tag:LTA_EasterEggFight score:101","ShowDefaultVisual
+FireBest DerelictPrintExtraInfo","The hull of a large, somewhat pristine capital ship is laid out before you, the model or design almost a complete mystery. Upkept, liquorice coloured paint coats the majority of the hull, belying small asteroid impacts and nebula damage, though sensors indicate that at least most systems are still nominally active. A crew on such a vessel could survive for months, if necessary.",,
+LTA_sal_trigger_UpcyclersSectEasterEggFight,TriggerAutomatedDefenses,"$customType == LTA_Epattcudvi_UpcycledDerelict
+$tag:LTA_EasterEggFight score:101",SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, numerous strong energy signatures are detected coming out of 'dark' state near the ship. Your sensors also detect several life-signatures within the ship itself, running between various posts. 
+
+The fleet holds in space just out of combat range, seemingly trying to intimidate you into leaving them alone. Your comms officer informs you they have partially decrypted some transmissions currently being broadcasted back and forth between the lurking fleet and the ship, and it becomes apparent that the fleet are trying to force the crew of the vessel to give up stolen goods from the 'Tech Duinn high delegates', though what or who this group are is a loss to you.
+
+Eventually, finding themselves at a standstill, your comms officer informs you that they appear to have agreed to leave their differences aside and focus on the threat at hand; you.",,

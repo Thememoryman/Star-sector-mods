@@ -1,0 +1,56 @@
+{
+  "variantId": "LTA_Epattcudxix_Thunderbirds_Support",
+  "hullId": "LTA_Epattcudxix_Thunderbirds",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "LTA_nixiemissilemedium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "LTA_nixiemissilemedium",
+        "WS0003": "LTA_nixiemissilemedium"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightag",
+        "WS0008": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightag",
+        "WS0004": "lightag",
+        "WS0005": "lightag",
+        "WS0006": "lightag",
+		"WS0010": "dualflak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

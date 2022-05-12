@@ -1,0 +1,70 @@
+{
+  "variantId": "LTA_Epattcudxviii_Hellborer",
+  "hullId": "LTA_Epattcudxviii",
+  "displayName": "Hellborer",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "turretgyros",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "hellbore",
+        "WS0015": "shredder",
+        "WS0017": "shredder",
+        "WS0019": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "hellbore",
+        "WS0014": "shredder",
+        "WS0016": "shredder",
+        "WS0018": "shredder"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0020": "salamanderpod",
+        "WS0021": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0002": "hellbore",
+        "WS0003": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "flak",
+        "WS0005": "flak",
+        "WS0006": "lightmg",
+        "WS0007": "lightmg",
+        "WS0008": "lightmg",
+        "WS0009": "lightmg",
+        "WS0010": "lightmg",
+        "WS0011": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

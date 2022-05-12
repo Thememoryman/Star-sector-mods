@@ -1,0 +1,43 @@
+{
+    "displayName": "Artillery",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "hullId": "LTA_Enforcer_Thunderbirds",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "LTA_Enforcer_Thunderbirds_Artillery",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "lightdualac",
+                "WS 007": "lightdualac",
+                "WS 008": "lightdualac",
+                "WS 009": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "LTA_nixie",
+                "WS 004": "LTA_nixie"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "LTA_hex"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 005": "flak"
+            }
+        }
+    ]
+}

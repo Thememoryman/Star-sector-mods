@@ -1,0 +1,63 @@
+{
+  "variantId": "LTA_Cravantia_Elite",
+  "hullId": "LTA_Cravantia",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 30,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyneedler",
+        "WS0002": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heatseeker",
+        "WS0006": "heatseeker",
+        "WS0007": "heatseeker",
+        "WS0008": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymauler",
+        "WS0004": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "LTA_nixie",
+        "WS0010": "LTA_nixie",
+        "WS0011": "LTA_nixie",
+        "WS0012": "LTA_nixie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0015": "lightmg",
+        "WS0016": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

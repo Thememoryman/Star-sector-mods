@@ -1,0 +1,82 @@
+{
+	"name":"Freedom Fighter",
+	"personalities":["steady", "aggressive"],
+	"gender":["f"],
+	"chance":1,
+	"talkativeness":1.5,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"We take our own back today."},
+			{"text":"Forward, in the name of freedom."},
+			{"text":"That frigate crew, I know their admiral, they ordered the bombardment on my planet. Can I have that one?"},
+			{"text":"For freedom."},
+			{"text":"Readying weapons."}
+		],
+		"start_boss":[
+			{"text":"And it is our duty to those whose freedoms have been taken to claim victory."},
+			{"text":"Time to make a difference."},
+			{"text":"I trust you, captain."}
+		],
+		"retreat":[
+			{"text":"As we used to say before the takeover, a living day is a good day."},
+			{"text":"No need to fret, we can come back with more ships."},
+			{"text":"And back again..."}
+		],
+		"out_of_missiles":[
+		],
+		"need_help":[
+			{"text":"Just like the Hegemon' raid on Maxinos"},
+			{"text":"I'm surrounded!"},
+			{"text":"Ditch 'em!"}
+		],
+		"pursuing":[
+			{"text":"No time like the present."},
+			{"text":"Target in sight."},
+			{"text":"Not today."},
+			{"text":"Persuing."}
+		],
+		"running":[
+			{"text":"Sorry, but we need to leave."},
+			{"text":"We can't fight if we're all dead."},
+			{"text":"Breaking formation."},
+			{"text":"Leaving field."}
+		],
+		"hull_90":[
+			{"text":"We've had a hull breach."},
+			{"text":"Was that a det-mine?"},
+			{"text":"Armor down, backing off."},
+			{"text":"*Buzzing broken bridge electricals*"}
+		],
+		"hull_50":[
+			{"text":"This is looking bad!"},
+			{"text":"We've lost starboard!"},
+			{"text":"Engineering isn't responding. It's like the aftermath of a Hegemon' takeover in here."},
+			{"text":"Not today. Not today."}
+		],
+		"hull_30":[
+			{"text":"I think we're on our way out. Give 'em hell, captain."},
+			{"text":"Retreat orders captain?"},
+			{"text":"I pray you fare better."}
+		],
+		"overload":[
+			{"text":"*Fried electrical sounds*"},
+			{"text":"We've lost shields. Any orders?"},
+			{"text":"Someone get this thing off us!"},
+			{"text":"*Ack*"},
+			{"text":"God... My hand... *Crashing sounds*."}
+		],
+		"death":[
+			{"text":"Not today, please not today. DAMN YOU. DAMN Y..*Commline ends*"}
+		],
+		"victory":[
+			{"text":"Another step towards freedom."},
+			{"text":"Thank goodness."},
+			{"text":"No rest for hope."},
+			{"text":"That looks like the last of them."},
+			{"text":"They're running! Lets get out of here."},
+			{"text":"*Sighs of relief*"}
+		]
+	}
+}

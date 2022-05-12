@@ -1,0 +1,22 @@
+{
+  "variantId": "LTA_Mudskipper_mk2_Thunderbirds_Support",
+  "hullId": "LTA_Mudskipper_mk2_Thunderbirds",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "gauss"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

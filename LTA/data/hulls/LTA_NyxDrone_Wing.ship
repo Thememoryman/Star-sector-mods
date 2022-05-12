@@ -1,0 +1,118 @@
+{
+  "hullName": "Nyx",
+  "hullId": "LTA_NyxDrone_Wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/LTA/ships/Fighters/LTA_NyxDrone.png",
+  "style": "LOW_TECH",
+  "height": 46,
+  "width": 46,
+  "center": [23, 23],
+  "collisionRadius": 34.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 31.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0001": "LTA_nixie",
+    "WS0002": "LTA_nixiemissilesmallfighter",
+    "WS0003": "LTA_nixiemissilesmallfighter",
+    "WS0004": "LTA_nixiemissilesmallfighter",
+    "WS0005": "LTA_nixiemissilesmallfighter",
+    "WS0006": "LTA_nyxdrone_overlay"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [9, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [7, -2]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [7, 2]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-7, -2]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-7, 2]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0],
+      "renderOrderMod": 50
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 8],
+      "length": 24,
+      "width": 6,
+      "angle": 165,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-19, -8],
+      "length": 24,
+      "width": 6,
+      "angle": -165,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-20, -0],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    18, -8,
+    0, -16,
+    -19, -9,
+    -19, 9,
+    0, 16,
+    18, 8
+  ]
+}

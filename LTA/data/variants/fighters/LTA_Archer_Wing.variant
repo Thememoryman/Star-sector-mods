@@ -1,0 +1,30 @@
+{
+  "variantId": "LTA_Archer_Wing",
+  "hullId": "LTA_Archer_Wing",
+  "displayName": "Drone Miner",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "swarmer_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

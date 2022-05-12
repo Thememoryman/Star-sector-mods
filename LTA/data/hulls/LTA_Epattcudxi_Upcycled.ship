@@ -1,0 +1,243 @@
+{
+  "hullName": "Epattcud XI Upcycled Core Ship",
+  "hullId": "LTA_Epattcudxi_Upcycled",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/LTA/ships/Epattcud/Upcyclers_Sect/Epattcud_11_Class_Scrapship_Upcycled.png",
+  "style": "LOW_TECH",
+  "height": 150,
+  "width": 120,
+  "center": [60, 68],
+  "collisionRadius": 144.5,
+  "shieldCenter": [7, 0],
+  "shieldRadius": 97.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reinforcedhull"
+  ],
+  "builtInWeapons": {
+    "WS0004": "LTA_upcycledlampreyleftlost",
+    "WS0005": "LTA_upcycledlampreyrightlost",
+    "WS0006": "blinker_red",
+    "WS0007": "blinker_red",
+    "WS0008": "blinker_red",
+    "WS0009": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [55, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 180,
+      "locations": [-34, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [69, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, 40]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [29, -40]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        20, -5,
+        20, 4.5,
+        18, 4,
+        16, -0,
+        16, -3.5,
+        17, -6,
+        23, -7,
+        28.5, -2,
+        23, -0.5,
+        21, -2.5,
+        25.5, -4.5,
+        20, 1.5,
+        28.5, 4,
+        26.5, 1.5,
+        23.5, 4.5,
+        22, 7.5,
+        14, 1,
+        17, 5,
+        19, 8,
+        28.5, -4.5,
+        26, -8,
+        19.5, -8.5,
+        30.5, -0,
+        25, 7.5
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16.5, 5.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [16.5, -5.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [27.5, 5.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [27.5, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-62, 10],
+      "length": 90,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62, -10],
+      "length": 90,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, 27.5],
+      "length": 60,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, -27.5],
+      "length": 60,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, 32.5],
+      "length": 60,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, -32.5],
+      "length": 60,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, 41.5],
+      "length": 60,
+      "width": 8,
+      "angle": 172.5,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, -41.5],
+      "length": 60,
+      "width": 8,
+      "angle": -172.5,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, 46],
+      "length": 60,
+      "width": 8,
+      "angle": 172.5,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, -46],
+      "length": 60,
+      "width": 8,
+      "angle": -172.5,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    75, 7.5,
+    73, 16.5,
+    63, 23,
+    -4, 23,
+    -6, 48,
+    -45, 48,
+    -48, 39,
+    -61.5, 35.5,
+    -61.5, -35.5,
+    -48, -39,
+    -45, -48,
+    -6, -48,
+    -4, -23,
+    63, -23,
+    73, -16.5,
+    75, -7.5
+  ]
+}

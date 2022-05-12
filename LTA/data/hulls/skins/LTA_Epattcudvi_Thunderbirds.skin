@@ -1,0 +1,67 @@
+{
+	"baseHullId":"LTA_Epattcudvi",
+	"skinHullId":"LTA_Epattcudvi_Thunderbirds",
+	"hullName":"E-VI 'Mitigator' (TB)",
+	"descriptionId":"LTA_Epattcudvi",
+	"descriptionPrefix":"This ship has been heavily modified and upclassed for use in the 'Duinn Thunderbirds', sporting many practical but expensive 'showy improvements' that make it more intimidating in combat over standard variations of the hull.",
+	"tags":["rare_bp", "LTA_DuinnThunderbirds"],
+	"tech":"Duinn Thunderbirds",
+	"fleetPoints":32,
+	"ordnancePoints":330,
+	#"restoreToBaseHull":true,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/LTA/ships/Epattcud/Thunderbirds/Epattcud_6_Class_Scrapship_Thunderbirds.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["comp_structure"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+    	"WS0007":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BUILT_IN"
+		},	
+		"WS0008":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BUILT_IN"
+        },
+		"WS0016":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+		"WS0019":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+		"WS0020":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+		"WS0017":{
+			#"angle": 0,
+            #"arc": 5,
+            #"mount": "TURRET",
+            #"size": "LARGE",
+            "type": "COMPOSITE"
+        },
+	},
+	"builtInMods":["augmentedengines", "thunderbirdscapital"],
+	"builtInWeapons":{
+	"WS0007": "LTA_annihilatorbuiltinmitigator",
+	"WS0008": "LTA_annihilatorbuiltinmitigator"
+    },
+}

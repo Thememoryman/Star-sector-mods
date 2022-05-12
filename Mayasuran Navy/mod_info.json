@@ -1,0 +1,10 @@
+{
+	"id":"Mayasuran Navy",
+	"name":"Mayasuran Navy",
+	"author":"Knight Chase",
+	"version":"8.3.5",
+	"description":"Mayasuran Navy faction + A couple lore friendly ships from back in the day.",
+	"gameVersion":"0.95a-RC15",
+	"jars":["jars/Mayasuran.jar"],
+	"modPlugin":"data.scripts.MN_modPlugin"
+}

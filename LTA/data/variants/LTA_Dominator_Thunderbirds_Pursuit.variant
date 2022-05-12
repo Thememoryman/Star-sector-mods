@@ -1,0 +1,65 @@
+{
+  "variantId": "LTA_Dominator_Thunderbirds_Pursuit",
+  "hullId": "LTA_Dominator_Thunderbirds",
+  "displayName": "Pursuit",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "turretgyros",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "devastator",
+        "WS 013": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 014": "chaingun",
+        "WS 015": "chaingun",
+        "WS 016": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "LTA_annihilator_fighter_rmech",
+        "WS0002": "LTA_annihilator_fighter_rmech"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightdualmg",
+        "WS 004": "lightdualmg",
+        "WS 005": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightdualmg",
+        "WS 007": "lightdualmg",
+        "WS 008": "lightdualmg",
+        "WS 009": "lightdualmg",
+        "WS 010": "heavymg",
+        "WS 011": "heavymg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

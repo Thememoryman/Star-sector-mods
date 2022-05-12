@@ -1,0 +1,51 @@
+{
+	"baseHullId":"lasher",
+	"skinHullId":"LTA_Lasher_Thunderbirds",
+	"hullName":"Lasher (TB)",
+	"descriptionId":"lasher",
+	"descriptionPrefix":"This ship has been heavily modified and upclassed for use in the 'Duinn Thunderbirds', sporting many practical but expensive 'showy improvements' that make it more intimidating in combat over standard variations of the hull.",
+	"tags":["rare_bp", "LTA_DuinnThunderbirds"],
+	"tech":"Duinn Thunderbirds",
+	"fleetPoints":8,
+	"ordnancePoints":58,
+	#"restoreToBaseHull":true,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/LTA/ships/Epattcud/Thunderbirds/LTA_Lasher_Thunderbirds.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+    	"WS 001":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "HARDPOINT",
+            #"size": "SMALL",
+            "type": "COMPOSITE"
+		},	
+		"WS 004":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "HARDPOINT",
+            #"size": "SMALL",
+            "type": "COMPOSITE"
+        },
+		"WS 005":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "COMPOSITE"
+        },
+		"WS 006":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "COMPOSITE"
+        },
+	},
+	"builtInMods":["augmentedengines", "thunderbirds"],
+	"builtInWeapons":{
+    },
+}

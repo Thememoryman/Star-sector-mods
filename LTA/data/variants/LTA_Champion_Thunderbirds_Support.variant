@@ -1,0 +1,51 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 24,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "LTA_Champion_Thunderbirds",
+    "hullMods": ["dedicated_targeting_core"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "LTA_Champion_Thunderbirds_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "LTA_nixiemissilesmall",
+                "WS 001": "LTA_nixiemissilesmall",
+                "WS 010": "LTA_nixiemissilesmall",
+                "WS 011": "LTA_nixiemissilesmall"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "LTA_nixiemissilelarge"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "LTA_nixiemissilemedium",
+                "WS 007": "LTA_nixiemissilemedium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "LTA_nixiearray"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+				"WS 002": "pdlaser",
+				"WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser"
+            }
+        }
+    ]
+}

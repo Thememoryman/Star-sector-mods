@@ -1,0 +1,18 @@
+{
+	"plugins":{
+		#"trails_ProjectileTrailHandlerPlugin":"data.scripts.plugins.trails_ProjectileTrailHandlerPlugin",
+		},  
+    "designTypeColors":{
+        "Epattcud":[220,100,70,255],
+		"Duinn Thunderbirds":[220,30,0,255],
+    },
+	"graphics":{
+        "blueprint_packages":{
+            "LTA_Epattcud_bp":"graphics/LTA/icons/cargo/LTA_bp_Epattcud.png",
+        },
+		"fx":{
+			"trails_nixie":"graphics/LTA/trails/fx/LTA_trails_nixie.png",
+
+		},
+	}
+}

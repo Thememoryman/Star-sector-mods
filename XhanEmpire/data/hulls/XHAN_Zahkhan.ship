@@ -1,0 +1,72 @@
+{
+  "bounds": [
+    12.5,
+    -6.5,
+    -10,
+    -14.5,
+    -10,
+    14.5,
+    5.5,
+    12
+  ],
+  "builtInWeapons": {
+    "WS0002": "XHAN_igol_fighter"
+  },
+  "builtInWings": [],
+  "center": [
+    17,
+    11
+  ],
+  "collisionRadius": 27.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 18,
+      "location": [
+        -11,
+        11
+      ],
+      "style": "LOW_TECH",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 18,
+      "location": [
+        -11,
+        -11
+      ],
+      "style": "LOW_TECH",
+      "width": 11
+    }
+  ],
+  "height": 29,
+  "hullId": "XHAN_Zahkhan",
+  "hullName": "Zahkhan",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 24,
+  "spriteName": "graphics/ships/Xhan_ZahKhan.png",
+  "style": "XHANTECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        -4,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 34
+}

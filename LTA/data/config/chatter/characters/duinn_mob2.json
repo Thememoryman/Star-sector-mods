@@ -1,0 +1,82 @@
+{
+	"name":"Mafiosa",
+	"personalities":["steady", "aggressive"],
+	"gender":["f"],
+	"chance":1,
+	"talkativeness":1.5,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"See, the battle has begun."},
+			{"text":"Look at all the money."},
+			{"text":"What a great plan, see."},
+			{"text":"Lookie here, some real jokesters."},
+			{"text":"Won't know what hit 'em."}
+		],
+		"start_boss":[
+			{"text":"If only the delegates could see this."},
+			{"text":"Lookie here, a real big'un."},
+			{"text":"Some real money to be made here, see."}
+		],
+		"retreat":[
+			{"text":"I'm outta' here, see."},
+			{"text":"Report to uppers, or just get Tech-Duinn on a line."},
+			{"text":"That's what you get for half-assing it, see."}
+		],
+		"out_of_missiles":[
+		],
+		"need_help":[
+			{"text":"We just leave if they shoot us, see?"},
+			{"text":"Look at these jokesters."},
+			{"text":"Drat."}
+		],
+		"pursuing":[
+			{"text":"No way anyone's taking this money from me, see."},
+			{"text":"Following the target."},
+			{"text":"What a moron."},
+			{"text":"Fruits for the family."}
+		],
+		"running":[
+			{"text":"A'int no need stayin'."},
+			{"text":"We're leaving, see."},
+			{"text":"What a mess."},
+			{"text":"Duinn got no patience for these jokesters."}
+		],
+		"hull_90":[
+			{"text":"Whew."},
+			{"text":"A bit of our ship? A bit of theirs."},
+			{"text":"You're dead, see."},
+			{"text":"..."}
+		],
+		"hull_50":[
+			{"text":"Give me a break, see!"},
+			{"text":"We're not leavin'."},
+			{"text":"Not right now, see."},
+			{"text":". . ."}
+		],
+		"hull_30":[
+			{"text":"Retreat, Captain?"},
+			{"text":"*Shuttle leaving bay*"},
+			{"text":".  .  ."}
+		],
+		"overload":[
+			{"text":"Put 'em out where you see 'em."},
+			{"text":"We need them Tach-Jacks to fix this when we get back."},
+			{"text":"*incessant growling*"},
+			{"text":"What a pain, see."},
+			{"text":"That ain't funny."}
+		],
+		"death":[
+			{"text":"On my way back to Duinn, see. *Shuttle leaving bay*"}
+		],
+		"victory":[
+			{"text":"Break up the fancy ones see, the Tach-Jacks will want 'em."},
+			{"text":"Get word to Duinn, more material inbound."},
+			{"text":"This is how it's done, see."},
+			{"text":"They're making break. Good."},
+			{"text":"Time to rake in the money, see."},
+			{"text":"Shame we couldnt get more."}
+		]
+	}
+}

@@ -1,0 +1,165 @@
+{
+  "bounds": [
+    -36.5,
+    -20,
+    -1.5,
+    -20,
+    25,
+    -13.5,
+    37,
+    -0,
+    25,
+    13.5,
+    -1.5,
+    20,
+    -36.5,
+    20
+  ],
+  "center": [
+    21,
+    37.5
+  ],
+  "collisionRadius": 45,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -33.5,
+        10
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -33.5,
+        -10
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35.5,
+        7
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35.5,
+        -7
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -36.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 145,
+      "contrailSize": 6.945484,
+      "length": 12.007917,
+      "location": [
+        2.5,
+        16
+      ],
+      "style": "LOW_TECH",
+      "width": 6.945484
+    },
+    {
+      "angle": -145,
+      "contrailSize": 6.945484,
+      "length": 12.007917,
+      "location": [
+        2.5,
+        -16
+      ],
+      "style": "LOW_TECH",
+      "width": 6.945484
+    }
+  ],
+  "height": 75,
+  "hullId": "missp_torpedo_craft",
+  "hullName": "Torpedo Craft",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 39,
+  "spriteName": "graphics/ships/patrol_craft/torpedo_craft.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 280,
+      "id": "WS0001",
+      "locations": [
+        24.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 127,
+      "id": "WS0002",
+      "locations": [
+        -23.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 15,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -4.5,
+        8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -15,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -4.5,
+        -8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 42
+}

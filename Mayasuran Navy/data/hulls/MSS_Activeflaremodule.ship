@@ -1,0 +1,48 @@
+{
+  "bounds": [
+    -3.5,
+    -10,
+    10.5,
+    -7.5,
+    10.5,
+    7.5,
+    -3.5,
+    10,
+    -14,
+    1
+  ],
+  "builtInWings": [],
+  "center": [
+    16,
+    15.5
+  ],
+  "collisionRadius": 327,
+  "engineSlots": [],
+  "height": 31,
+  "hullId": "MSS_Activeflaremodule",
+  "hullName": "FlareModule",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    1
+  ],
+  "shieldRadius": 0,
+  "spriteName": "graphics/mayasura/ships/MSS_activeflaremodule.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        -9.5,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 30
+}

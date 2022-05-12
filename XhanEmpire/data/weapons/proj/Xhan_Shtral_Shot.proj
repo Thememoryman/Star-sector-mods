@@ -1,0 +1,19 @@
+{
+	"id":"Xhan_Shtral_Shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":500.0,
+	"hitGlowRadius":90,
+	"width":28.0,
+	"fadeTime":0.2,
+	"fringeColor":[255,0,0,200],
+	"coreColor":[255,35,25,255],
+	#"coreColor":[153,255,51,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":100.0,
+	"pixelsPerTexel":1.0,
+					}	
+}

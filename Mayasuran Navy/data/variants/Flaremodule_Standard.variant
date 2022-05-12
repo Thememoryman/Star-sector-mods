@@ -1,0 +1,13 @@
+{
+  "displayName": "Standard\r",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "MSS_Activeflaremodule",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "Flaremodule_Standard",
+  "weaponGroups": [],
+  "wings": []
+}

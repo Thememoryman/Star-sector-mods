@@ -1,0 +1,111 @@
+{
+  "hullName": "Killy Bit",
+  "hullId": "LTA_Epattcudxxviii_Module",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_28_Front_Module.png",
+  "style": "LOW_TECH",
+  "height": 188,
+  "width": 108,
+  "center": [54, 108],
+  "collisionRadius": 136.5,
+  "shieldCenter": [-6, -0],
+  "shieldRadius": 129.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ill_advised",
+    "reduced_explosion",
+    "militarized_subsystems"
+  ],
+  "builtInWeapons": {
+    "WS0004": "LTA_annihilator_fighter_r",
+    "WS0005": "LTA_annihilator_fighter_r",
+    "WS0006": "LTA_annihilator_fighter_r"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 22.5,
+      "locations": [30, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -22.5,
+      "locations": [30, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [37, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [77, 5.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [78, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [77, -5.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    79, -9,
+    76, -18,
+    70, -17.5,
+    69.5, -30,
+    61.5, -36.5,
+    56.5, -34.5,
+    47.5, -40.5,
+    16, -41,
+    15, -44.5,
+    6.5, -44,
+    5, -41,
+    -16.5, -39,
+    -23, -29.5,
+    -0.5, -3,
+    -0.5, 3,
+    -23, 29.5,
+    -16.5, 39,
+    5, 41,
+    6.5, 44,
+    15, 44.5,
+    16, 41,
+    47.5, 40.5,
+    56.5, 34.5,
+    61.5, 36.5,
+    69.5, 30,
+    70, 17.5,
+    76, 18,
+    79, 9
+  ]
+}

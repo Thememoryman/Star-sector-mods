@@ -1,0 +1,60 @@
+{
+  "hullName": "Armor",
+  "hullId": "LTA_Epattcudvi_Upcycled_Module",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/LTA/ships/Epattcud/Upcyclers_Sect/Epattcud_6_Class_Scrapship_Upcycled_Armor_Module.png",
+  "style": "LOW_TECH",
+  "height": 60,
+  "width": 208,
+  "center": [104, 30],
+  "collisionRadius": 240,
+  "shieldCenter": [-68, -0],
+  "shieldRadius": 166.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "reinforcedhull",
+    "never_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": 0,
+      "locations": [14, 37]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": -0,
+      "locations": [14, -37]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    15, -51,
+    3.5, -68,
+    -23, -68,
+    -23, -26,
+    -10.5, -25,
+    -11, -14.5,
+    -23, -14,
+    -23, -5,
+    -11.5, -5,
+    -11.5, 5,
+    -23, 5,
+    -23, 14,
+    -11, 14.5,
+    -10.5, 25,
+    -23, 26,
+    -23, 68,
+    3.5, 68,
+    15, 51
+  ]
+}

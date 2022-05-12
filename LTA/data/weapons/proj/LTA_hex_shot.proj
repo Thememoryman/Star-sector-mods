@@ -1,0 +1,43 @@
+{
+	"id":"LTA_hex_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/LTA/missiles/LTA_shell_hex.png",
+	"size":[14,22],	
+	"center":[7,11],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_FF",
+	"passThroughMissiles":true,
+	"coreColor":[255,255,255,200],
+	"glowColor":[255,246,222,80],
+	"glowRadius":40,
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"explosionColor":[255,246,222,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":250, # purely visual
+	"flameoutTime":0.5, # total time from flameout to full fadeout, is tiny to prevent perculiar physics interactions, feel free to set to 10.0 for silly shenanigans
+	"onHitEffect":"data.scripts.weapons.LTA_HexOnHitEffect",
+	"engineSpec":{"turnAcc":30000,
+				  "turnRate":50000,
+				  "acc":500,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],
+				    #"style":"ROCKET_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,125,25,255],
+						"contrailDuration":.01,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[75,75,75,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}

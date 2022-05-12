@@ -1,0 +1,24 @@
+{
+		"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent"],
+		"weapons":[
+			"LTA_nixie",
+			"LTA_nixietri",
+			"LTA_nixiearray",
+			"LTA_nixiemissilesmall",
+			"LTA_nixiemissilemedium",
+			"LTA_nixiemissilelarge",
+			"LTA_hypervelocitycannon",
+			"LTA_hex",
+			"LTA_talonrail",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "independent"],
+		"fighters":[
+			"LTA_Diadem_Wing",
+			"LTA_ModDiadem_Wing",
+			"LTA_RocketTalon_Wing",
+		],
+	},
+}

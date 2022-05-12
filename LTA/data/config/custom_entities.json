@@ -1,0 +1,68 @@
+{
+	#"base_campaign_objective":{
+	#	"defaultRadius":75, # used if radius<0 in addCustomEntity()
+	#	"showInCampaign":true,
+	#	"showIconOnMap":true,
+	#	"showNameOnMap":true,
+	#	"nameFontScale":1,
+	#	"nameAngle":0,
+	#	"nameColor":[70,200,255,255],
+	#	"nameShadowColor":[0,0,0,255],
+	#	"scaleNameWithZoom":false,
+	#	"scaleIconWithZoom":true,
+	#	"renderCircleIndicator":true,
+	#	"renderCircleIndicatorSelectionFlash":true,
+	#	"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	#},
+	"LTA_Tech_Duinn":{
+		"defaultName":"Tech Duinn",
+		"defaultRadius":96,
+		"customDescriptionId":"LTA_Tech_Duinn",
+		"interactionImage":"graphics/illustrations/urban03.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/LTA/stations/LTA_Tech_Duinn.png",
+		"spriteWidth":175, #Originally 128
+		"spriteHeight":175, #Originally 128
+		"renderShadow":false,
+		"useLightColor":false,
+		"showInCampaign":true,
+		"showIconOnMap":false,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"tags":["station","comm_relay","nex_uninvadable"],
+		"layers":[STATIONS],
+		},	
+		
+		"LTA_Epattcudvi_UpcycledDerelict":{
+		"defaultName":"Derelict Ship", # used if name=null in addCustomEntity()
+		"nameInText":"Derelict Ship",
+		"shortName":"Derelict",
+		"aOrAn":"a",
+		"isOrAre":"is",
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"LTA_Epattcudvi_UpcycledDerelict",
+		"interactionImage":"graphics/illustrations/orbital_construction.jpg",
+		"icon":"graphics/icons/derelict.png",
+		"iconWidth":16,
+		"iconHeight":16,
+		"sprite":"graphics/LTA/ships/Epattcud/Upcyclers_Sect/Epattcud_6_Class_Scrapship_Upcycled.png",
+		"spriteWidth":30,
+		"spriteHeight":50,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_high", "LTA_EasterEggFight"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+	
+}
+
+

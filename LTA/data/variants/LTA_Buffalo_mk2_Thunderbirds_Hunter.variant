@@ -1,0 +1,61 @@
+{
+  "variantId": "LTA_Buffalo_mk2_Thunderbirds_Hunter",
+  "hullId": "LTA_Buffalo_mk2_Thunderbirds",
+  "displayName": "Hunter",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "sabot_single",
+        "WS 005": "sabot_single",
+        "WS 006": "sabot_single",
+        "WS 007": "hammer_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightmortar",
+        "WS 003": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "mininglaser"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0002": "LTA_Mudskipper_mk2_Thunderbirds_Hunter"
+    }
+  ],
+  "wings": []
+}

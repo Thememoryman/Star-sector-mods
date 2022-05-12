@@ -1,0 +1,61 @@
+{
+	"baseHullId":"MSS_National",
+	"skinHullId":"MSS_National_Elite",
+	"hullName":"National (M)",
+	"descriptionId":"MSS_National",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"Extremely fast and dangerous, the elite version of the National pulls no punches with its three large energy mounts.",
+	"ordnancePoints":285,
+	"baseValueMult":1.50,
+	"spriteName":"graphics/mayasura/ships/MSS_National_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+		"weaponSlotChanges":{
+		"WS0002":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+            "type": "SYNERGY"
+			}
+	},	
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"removeBuiltInWeapons":[ 
+    "WS0013",
+    "WS0014",
+    "WS0015",
+    "WS0016",], 		# weapon slot ids
+	"builtInWeapons":{    "WS0013": "MSS_ZthrusterB",
+    "WS0014": "MSS_ZthrusterB",
+    "WS0015": "MSS_ZthrusterB",
+    "WS0016": "MSS_ZthrusterB",
+     },
+	
+		 "engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranFlare"},
+		"7":{"style":"MayasuranFlare"},
+		"8":{"style":"MayasuranFlare"},
+		"9":{"style":"MayasuranFlare"},
+		"10":{"style":"MayasuranFlare"},
+		"11":{"style":"MayasuranFlare"},
+		"12":{"style":"MayasuranFlare"},
+		"13":{"style":"MayasuranFlare"},
+		"14":{"style":"MayasuranFlare"},
+		"15":{"style":"MayasuranFlare"},
+		"16":{"style":"MayasuranFlare"},
+		"17":{"style":"MayasuranFlare"},
+		"18":{"style":"MayasuranFlare"},
+
+								
+	},
+}
+
+
+

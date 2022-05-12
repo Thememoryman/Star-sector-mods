@@ -1,0 +1,51 @@
+{
+  "variantId": "prv_fasvinge_starter",
+  "hullId": "prv_fasvinge",
+  "displayName": "Custom",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "quality": 3,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "multineedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "prv_svala",
+        "WS0012": "prv_svala"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "prv_frasare",
+        "WS0005": "prv_frasare"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "prv_sipdlaser",
+        "WS0003": "prv_sipdlaser",
+        "WS0013": "prv_sipdlaser",
+        "WS0014": "prv_sipdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

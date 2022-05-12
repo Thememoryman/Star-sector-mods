@@ -1,0 +1,22 @@
+{
+  "variantId": "MSS_vigilance_carrier_strike",
+  "hullId": "MSS_vigilance_carrier",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": ["piranha_wing"]
+}

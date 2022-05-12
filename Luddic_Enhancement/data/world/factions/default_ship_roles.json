@@ -1,0 +1,99 @@
+{
+
+	"combatSmallForSmallFleet":{
+
+		"brawler_luddic_standard":10,
+
+		"cerberus_luddic_Shielded":4,
+		"cerberus_luddic_Standard":6,
+		
+		"hermes_pather_mg":5,
+		"hermes_pather_mortar":5,			
+	},
+	"combatSmall":{
+
+		"brawler_luddic_standard":10,
+		
+		"cerberus_luddic_Shielded":4,
+		"cerberus_luddic_Standard":6,
+		
+		"hermes_pather_mg":10,
+		"hermes_pather_mortar":5,
+		
+		
+		
+		"dram_lp_ied_std":10,
+	},
+	"combatMedium":{
+		"mule_luddic_path_support":10,
+		"enforcer_Balanced_luddic":15,
+		
+		"fasces_cs":1,
+		"fasces_attack":3,
+		"fasces_standard":5,
+		"fasces_so":1,
+	},
+	"combatLarge":{
+		"dominator_luddic_standard":10,
+		"venture_luddic_path_overdriven":10,
+		
+		"sebastian_cs":1,
+		"sebastian_attack":2,
+		"sebastian_std":4,		
+	},
+	"combatCapital":{
+		"onslaught_lc_Outdated":2,
+		"onslaught_lc_attack":1,
+	},
+		
+		
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"cerberus_luddic_Shielded":4,
+		"cerberus_luddic_Standard":6,
+	},
+	"combatFreighterMedium":{
+		"mule_luddic_support":10,
+		"mule_luddic_path_support":10,
+	},
+	"combatFreighterLarge":{
+		"venture_luddic_support":10,
+		"venture_luddic_path_overdriven":10,		
+	},
+	
+	"carrierSmall":{
+	
+			"fidem_cs":4,
+			"fidem_attack":4,
+			"fidem_std":5,	
+			"fidem_strike":1,
+			
+			"phaeton_lp_attack":7,
+			"phaeton_lp_cs":2,
+			"phaeton_lp_strike":3,
+
+	},
+	"carrierMedium":{	
+			"starliner_lp_attack":4,
+			"starliner_lp_strike":4,
+			"starliner_lp_support":1,
+	},
+			
+	"carrierLarge":{
+		
+		"legion_lc_Assault":2.5,
+		"legion_lc_Escort":2.5,
+		"legion_lc_FS":2.5,
+		"legion_lc_Strike":2.5,
+		
+		"le_prometheus3_std":5,
+	},
+	    "tankerSmall":{
+			"dram_lp_ied_std":5,
+    },
+	    "linerMedium":{
+			"starliner_lp_attack":2,
+			"starliner_lp_strike":2,
+			"starliner_lp_support":1,
+    },
+}

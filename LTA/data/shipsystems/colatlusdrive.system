@@ -1,0 +1,48 @@
+{
+	"id":"colatlusdrive",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.scripts.shipsystems.ColatlusDriveStats",
+	
+	"engineGlowColor":[222,162,206,255],
+	"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":2.5,
+	"engineGlowWidthMult":3,
+	"engineGlowGlowMult":2,
+	
+	"jitterUnderColor":[185,20,30,100],
+	"jitterUnderCopies":10,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":5,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[185,20,30,100],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":2,
+	"jitterRangeRadiusFraction":0,
+	
+	"flameoutOnImpactChance":0.0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+
+	"fadeActivationSoundOnChargedown":true,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"damper_field_loop",
+	"deactivateSound":"ability-sustained_burn_02",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":350,
+		"burstMovementPotential":25,
+		"averageSpeedIncrease":350,
+	}
+}

@@ -1,0 +1,66 @@
+{
+  "variantId": "LTA_Epattcudx_Standard",
+  "hullId": "LTA_Epattcudx",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "tpc",
+        "WS0010": "tpc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightag",
+        "WS0005": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shredder",
+        "WS0002": "shredder"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "dualflak"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0011": "LTA_Epattcudxmoduleleftengine_Standard"
+    },
+    {
+      "WS0012": "LTA_Epattcudxmodulerightengine_Standard"
+    },
+    {
+      "WS0007": "LTA_Epattcudxmodulerightwing_Standard"
+    },
+    {
+      "WS0008": "LTA_Epattcudxmoduleleftwing_Standard"
+    }
+  ],
+  "wings": []
+}

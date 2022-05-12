@@ -1,0 +1,90 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Reclaimed Doom Mine Layer,LTA_reclaimedminelayer,0,,200000,2500,,3000,,25,30,12,30,0.2,1,HIGH_EXPLOSIVE,0,,0,3,1,,0,0,0,0,,300,100,40,1000,SYSTEM,,,,,,,,,,,,,,,666
+Hammer-class Torpedo (Internal Stockpiles),LTA_hammer_repeating,0,,7500,1200,,1500,,30,10,8,3,,,HIGH_EXPLOSIVE,0,,0,45,1,,0,0,0,0,,500,40,4,350,"SYSTEM, STRIKE","strike5, rocket1",,,,Torpedo,Fast,None,,,,,,,TRUE,9.9
+Annihilator Tube,LTA_annihilator_fighter_r,0,,7500,1500,,200,,5,30,6,12,0.2,3,HIGH_EXPLOSIVE,0,,0,10,3,0.075,20,45,10,1,,400,150,3.75,50,SYSTEM,"rocket13, strike8",,,,Pressure,Fast,None,,,,,,,TRUE,666
+Annihilator Tube,LTA_annihilator_fighter_rmech,0,,7500,1500,,200,,5,30,6,24,0.2,6,HIGH_EXPLOSIVE,0,,0,2.5,1,0.075,0,10,2,0.5,,800,600,3.75,50,SYSTEM,"rocket13, strike8",,,,Pressure,Fast,None,,,,,,,TRUE,666
+Fragmentation Swarmer SRM Launcher,LTA_swarmer_mech_fragmentation,1,,250,1000,,175,,5,50,4,2,0.3,2,FRAGMENTATION,0,,0,5,2,0.2,30,30,0,0,,450,400,3,50,"ANTI_FTR, DO_NOT_AIM, SYSTEM, DO_NOT_CONSERVE","utility8, missile0",,,,Anti Small Craft,Fast,Excellent,,,,,,,,666
+Thermite Seeker Flare Launcher,LTA_thermiteseeker,,,,750,,250,400,20,,,,0,,ENERGY,0,0,0,0.1,1,0.1,90,90,0,0,,400,200,10,200,"SYSTEM, ANTI_FTR, USE_VS_FRIGATES, DO_NOT_CONSERVE",,,,,,,,,,,,,,,666
+Annihilator Seeker Rocket Pod,LTA_annihilatorbuiltinmitigator,0,,1200,1200,,200,,5,30,10,100,,,HIGH_EXPLOSIVE,0,,0,2,6,0.25,0,0,0,0,,400,50,4,50,"SYSTEM, DO_NOT_AIM, USE_VS_FRIGATES","rocket13, strike8",,,,Anti Frigate,Fast,Average,,,,,,,,666
+Light Autocannon,LTA_lightacdrone,0,,125,300,,50,,3,20,4,,,,KINETIC,50,,0,0.5,1,,0,8,2,15,,800,,,20,SYSTEM,kinetic6,,,,Anti Shield,,,,,,,,,,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thermite Seeker Flare Launcher,LTA_thermiteseekermounted,,,,1000,,250,400,20,,,,0,,ENERGY,0,0,0,3,1,0.1,90,90,0,0,,400,200,10,200,"SYSTEM, ANTI_FTR, USE_VS_FRIGATES, DO_NOT_CONSERVE",,,,,,,,,,,,,,,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Annihilator Rocket Launcher,annihilator,0,,150,1500,,200,,5,30,4,50,,,HIGH_EXPLOSIVE,0,,0,5,5,0.2,0,0,0,0,,400,50,3.75,50,CONSERVE_1,"rocket7, strike0, missile_bp",,,,Anti Armor,Fast,None,,,,,,,,11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Snapcracker Gun,LTA_snapcrackergunL,2,,6000,1200,1,400,150,30,20,18,4,,,ENERGY,500,,2,2.75,1,,0,5,1,10,,1200,,,75,"SYSTEM, CONSERVE_1","energy18, he17, kinetic17, strike0",,,,Anti Armor,,,,,,,,,,666
+Snapcracker Gun,LTA_snapcrackergunR,2,,6000,1200,1,400,150,30,20,18,4,,,ENERGY,500,,2,2.75,1,,0,5,1,10,,1200,,,75,"SYSTEM, CONSERVE_1","energy18, he17, kinetic17, strike0",,,,Anti Armor,,,,,,,,,,666
+Snapcracker Gun,LTA_snapcrackergunshipL,2,,6000,900,1,400,150,30,20,18,4,0.1,,ENERGY,500,,2,2.75,1,,0,5,1,10,,1200,,,75,"SYSTEM, CONSERVE_1","energy18, he17, kinetic17, strike0",,,,Long Range Support,,,,,,,,,,666
+Snapcracker Gun,LTA_snapcrackergunshipR,2,,6000,900,1,400,150,30,20,18,4,0.1,,ENERGY,500,,2,2.75,1,,0,5,1,10,,1200,,,75,"SYSTEM, CONSERVE_1","energy18, he17, kinetic17, strike0",,,,Long Range Support,,,,,,,,,,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Snapcracker Cannon,LTA_snapcrackercannonl,2,,6000,1000,1,400,150,30,20,22,12,,,ENERGY,500,,2,4.25,3,0.25,0,7.5,2.5,10,,1200,,,75,"SYSTEM, CONSERVE_1","energy18, he17, kinetic17, strike0",,,,Anti Armor,,,,,,,,,,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Vulcan Cannon,LTA_vulcansingle,1,,200,250,,25,,1,75,3,,,,FRAGMENTATION,2,,0,0.1,1,,0,15,1,15,,800,,,10,"SYSTEM, PD","pd7, SR",,,,Point Defense,,,,,,,,,,999
+#Nixie Cannon,LTA_nixie,1,,350,400,,25,,1,75,4,,,,ENERGY,4,,0,0.1,1,,0,2,0.1,2,,1200,,,10,PD,"pd7, SR",,,,Point Defense,,,,,,,,,,999
+Nixie Cannon,LTA_nixie,1,1.2,350,500,,25,15,10,75,5,,,,ENERGY,20,,0,0.2,1,,0,20,0.75,10,,1500,,,10,"PD,PD_ALSO, ANTI_FTR","energy18, pd7, SR, lowtech_bp, midline_bp",,,,Point Defense/Pressure,,,,,"When impacting, the plasma inside the projectile scatters, dealing 5 to 10 High Explosive damage in a tiny explosion.",,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nixus Launcher,LTA_nixiemissilesmall,1,,400,2500,,500,500,100,25,5,,,,ENERGY,0,,,20,1,,0,0,0,0,,300,400,25,250,"DO_NOT_AIM, GUIDED_POOR, EXTRA_RANGE_ON_FIGHTER","utility13, missile6, missile_bp, merc",,,,General,,,,,"When impacting, the plasma inside the projectiles scatters, dealing 150 to 300 collective additional High Explosive damage in a plethora of tiny explosions.",,,,,999
+Nixus Launcher (SRM),LTA_nixiemissilesmallfighter,1,,400,1500,,500,500,100,25,5,3,,,ENERGY,0,,,20,1,,0,0,0,0,,300,50,15,250,"SYSTEM, DO_NOT_AIM, GUIDED_POOR, EXTRA_RANGE_ON_FIGHTER","utility13, missile6, missile_bp, merc",,,,General,,,,,"When impacting, the plasma inside the projectiles scatters, dealing 150 to 300 collective additional High Explosive damage in a plethora of tiny explosions.",,,,,999
+Heavy Nixus Launcher,LTA_nixiemissilemedium,1,,2500,2500,,1000,500,400,5,10,,,,ENERGY,0,,,20,1,,0,0,0,0,,200,300,35,500,"DO_NOT_AIM, EXTRA_RANGE_ON_FIGHTER","utility13, missile6, missile_bp, merc",,,,General,,,,,"When impacting, the plasma inside the projectiles scatters, dealing 375 to 750 collective additional High Explosive damage in a plethora of tiny explosions.",,,,,999
+Nyx Drone Launcher,LTA_nixiemissilelarge,1,0.9,10000,3000,,1500,500,2000,2,18,3,0.01666666666,1,ENERGY,0,,,20,1,,0,0,0,0,,300,50,35,1000,"DO_NOT_AIM, EXTRA_RANGE_ON_FIGHTER","utility13, missile6, missile_bp, merc",,,,General,,,,,"Upon approaching the targeted ship, the drone activates auxiliary engines and its AI takes active control over the four Nixus Launchers and one Nixie Cannon on-board.",,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nixie Tri-Cannon,LTA_nixietri,1,,1500,600,,25,15,10,50,10,,,,ENERGY,20,,0.69,0,15,0.04,0,20,0.4,10,,1500,,,10,"PD,PD_ALSO, ANTI_FTR","energy18, pd7, SR, lowtech_bp, midline_bp",,,,Point Defense/Pressure,,,,,"When impacting, the plasma inside the projectile scatters, dealing 5 to 10 High Explosive damage in a tiny explosion.",,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nixie Array,LTA_nixiearray,1,,5000,750,,25,15,10,20,20,,,,ENERGY,18,,0,0.12,5,0.02,0,20,0.2,5,,1500,,,10,"PD,PD_ALSO, ANTI_FTR","energy18, pd7, SR, lowtech_bp, midline_bp",,,,Point Defense/Pressure,,,,,"When impacting, the plasma inside the projectile scatters, dealing 5 to 10 High Explosive damage in a tiny explosion.",,,,,999
+Hypervelocity Cannon,LTA_hypervelocitycannon,3,0.8,10000,1000,,275,400,40,8,22,,,,KINETIC,350,,0,1.5,2,0.5,,,,,,1000,,,300,,"kinetic15, LR, remnant, rare_bp",,,,Anti Shield,,,,,,,,,,999
+HE-X Heavy Cannon,LTA_hex,3,0.8,6000,1200,,2200,,400,2,25,,,,FRAGMENTATION,1500,,0,6,1,0.5,,,,,,1500,400,1.7,650,GUIDED_POOR,"he17, LR, rare_bp, merc",,,,Anti Armor/Strike,Fast,Poor,,,Projectiles accelerate after being fired due to an onboard engine. Does not benefit from ECCM. Deals 800 energy damage in a small radius upon impact.,,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Talon Rails,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Talon Rail,LTA_talonrail,1,0.8,5000,2500,,500,,5,0,12,2,0.01666666666,1,HIGH_EXPLOSIVE,0,,0.5,19.5,1,,0,0,0,0,,150,350,4,1600,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE","utility13, missile6, missile_bp, merc",,,,Long Range Support,Fast,Fighter,,,Launches Talon fighters controlled by pilots. Not orderable after firing.,,Talons launched will always be at 55% CR.,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thermal Pulse Turret,LTA_tpcturret,0,,100000,900,,250,,0,5,,6,1,9,ENERGY,200,,2,2,9,0.2,0,10,1,5,,1000,,,,"SYSTEM, SHOW_IN_CODEX",,TPC_only,,,Pressure,,,,,,,,,,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Portable Hangar Bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pod-Bay Hangar (Talon),LTA_portablebaytalon,1,0.8,10000,4000,,2000,,1000,10,20,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7, rare_bp, pirate_bp",,,,Long Range Support,N/A,Fighter,,,,,,,TRUE,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pod-Bay Hangar (Piranha),LTA_portablebaypiranha,2,0.8,10000,4000,,2000,,1000,10,30,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7, rare_bp, pirate_bp",,,,Long Range Support,N/A,Fighter,,,,,,,TRUE,666
+Pod-Bay Hangar (Piranha),LTA_portablebaypiranhainfinite,2,,10000,4000,,2000,,1000,10,30,1,0.00555555555,1,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Fighter,,,,,,,TRUE,666
+Pod-Bay Hangar (Diadem [P]),LTA_portablebaydiademp,1,0.8,10000,4000,,2000,,1000,10,25,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7, rare_bp, pirate_bp",,,,Long Range Support,N/A,Fighter,,,,,,,TRUE,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Upcycled Lamprey Launchers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Upcycled 'Lamprey' Assault Corvette,LTA_upcycledlampreyleftassault,0,,10000,4000,,2000,,1000,10,20,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Frigate,,,,,,,TRUE,666
+Upcycled 'Lamprey' Strike Corvette,LTA_upcycledlampreyleftstrike,0,,10000,4000,,2000,,1000,10,30,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Frigate,,,,,,,TRUE,666
+Upcycled 'Lamprey' Support Corvette,LTA_upcycledlampreyleftsupport,0,,10000,4000,,2000,,1000,10,25,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Frigate,,,,,,,TRUE,666
+Upcycled 'Lamprey' Lost Corvette,LTA_upcycledlampreyleftlost,0,,10000,4000,,2000,,1000,10,25,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Frigate,,,,,,,TRUE,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Upcycled 'Lamprey' Assault Corvette,LTA_upcycledlampreyrightassault,0,,10000,4000,,2000,,1000,10,20,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Frigate,,,,,,,TRUE,666
+Upcycled 'Lamprey' Strike Corvette,LTA_upcycledlampreyrightstrike,0,,10000,4000,,2000,,1000,10,30,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Frigate,,,,,,,TRUE,666
+Upcycled 'Lamprey' Support Corvette,LTA_upcycledlampreyrightsupport,0,,10000,4000,,2000,,1000,10,25,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Frigate,,,,,,,TRUE,666
+Upcycled 'Lamprey' Lost Corvette,LTA_upcycledlampreyrightlost,0,,10000,4000,,2000,,1000,10,25,1,,,HIGH_EXPLOSIVE,1000,,2,178,1,,0,0,0,0,,70,500,4,1000000,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile7",,,,Long Range Support,N/A,Frigate,,,,,,,TRUE,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"# DECORATIVES (LIFTED FROM TADA, WILL BE REMOVED AFTER TOURNAMENT)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Zvernier,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Diadem Top,LTA_diadem_top_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,13
+Diadem(P) Top,LTA_diademp_top_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,13
+Mod Diadem Top,LTA_moddiadem_top_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,13
+Diadem(XIV) Top,LTA_diademxiv_top_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,13
+Diadem(TB) Top,LTA_diademtb_top_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,13
+PD Drone (TB) Top,LTA_droneupgradedtb_top_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,13
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nyx Drone Overlay,LTA_nyxdrone_overlay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,13
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# DECORATIVE Ship Overlays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Epattcudxxv Overlay,LTA_epattcudxxv_overlay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+Epattcudxxv Thunderbirds Overlay,LTA_epattcudxxv_thunderbirds_overlay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+Epattcudxxvi Overlay,LTA_epattcudxxvi_overlay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#LIGHTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lamprey Lights,LTA_lights_epattcudxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+Upcycled Lamprey Lights Left,LTA_lights_epattcudxi_upcycled_droneleft,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+Upcycled Lamprey Lights Right,LTA_lights_epattcudxi_upcycled_droneright,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+Ghoul Lights,LTA_lights_epattcudxix,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+Wight Lights,LTA_lights_epattcudxxiii,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666

@@ -1,0 +1,43 @@
+{
+  "variantId": "LTA_Jackhammer_Wing",
+  "hullId": "LTA_Jackhammer_Wing",
+  "displayName": "Modified Heavy Armament",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LTA_snapcrackercannonl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "LTA_annihilator_fighter_rmech"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LTA_swarmer_mech_fragmentation",
+        "WS0004": "LTA_swarmer_mech_fragmentation",
+        "WS0005": "LTA_swarmer_mech_fragmentation"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

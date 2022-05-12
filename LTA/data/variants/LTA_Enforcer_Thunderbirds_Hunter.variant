@@ -1,0 +1,43 @@
+{
+    "displayName": "Hunter",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "hullId": "LTA_Enforcer_Thunderbirds",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "LTA_Enforcer_Thunderbirds_Hunter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "reaper",
+                "WS 007": "reaper",
+                "WS 008": "reaper",
+                "WS 009": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualmg",
+                "WS 004": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "devastator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavymg",
+                "WS 005": "heavymg"
+            }
+        }
+    ]
+}

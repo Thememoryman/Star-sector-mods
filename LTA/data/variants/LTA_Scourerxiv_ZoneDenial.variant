@@ -1,0 +1,43 @@
+{
+  "variantId": "LTA_Scourerxiv_ZoneDenial",
+  "hullId": "LTA_Scourerxiv",
+  "displayName": "Zone Denial",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 27,
+  "quality": 8,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_nixietri",
+        "WS0002": "LTA_nixietri",
+        "WS0005": "LTA_nixietri"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "LTA_nixiearray"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LTA_nixie",
+        "WS0004": "LTA_nixie",
+        "WS0006": "LTA_nixie"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

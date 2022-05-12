@@ -1,0 +1,162 @@
+{
+  "bounds": [
+    5,
+    -15.5,
+    35.5,
+    -11,
+    35.5,
+    11,
+    5,
+    15.5,
+    -36,
+    14.5,
+    -36,
+    -14.5
+  ],
+  "center": [
+    21,
+    37.5
+  ],
+  "collisionRadius": 44,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 30,
+      "location": [
+        -33.5,
+        10
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 30,
+      "location": [
+        -33.5,
+        -10
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35.5,
+        7
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35.5,
+        -7
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -36.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -36.5,
+        0
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 145,
+      "contrailSize": 9.580849,
+      "length": 14.951651,
+      "location": [
+        2.5,
+        14
+      ],
+      "style": "LOW_TECH",
+      "width": 9.580849
+    },
+    {
+      "angle": -145,
+      "contrailSize": 9.580849,
+      "length": 14.951651,
+      "location": [
+        2.5,
+        -14
+      ],
+      "style": "LOW_TECH",
+      "width": 9.580849
+    }
+  ],
+  "height": 75,
+  "hullId": "missp_gun_craft",
+  "hullName": "Gun Craft",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 39.5,
+  "spriteName": "graphics/ships/patrol_craft/gun_craft.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 283,
+      "id": "WS0001",
+      "locations": [
+        24.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 130,
+      "id": "WS0002",
+      "locations": [
+        -23.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        -0.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 42
+}

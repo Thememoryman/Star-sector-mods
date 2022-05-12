@@ -1,0 +1,52 @@
+{
+  "variantId": "LTA_DiademP_Wing",
+  "hullId": "LTA_DiademP_Wing",
+  "displayName": "Rocket Rig",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "LTA_annihilator_fighter_rmech"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "LTA_annihilator_fighter_rmech"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LTA_annihilator_fighter_rmech"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac",
+        "WS0002": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "LTA_vulcansingle",
+        "WS0006": "LTA_vulcansingle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,30 @@
+{
+  "variantId": "LTA_DiademTB_Wing",
+  "hullId": "LTA_DiademTB_Wing",
+  "displayName": "Mobile Drone Bay",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "LTA_thermiteseekermounted"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_vulcansingle",
+        "WS0002": "LTA_vulcansingle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

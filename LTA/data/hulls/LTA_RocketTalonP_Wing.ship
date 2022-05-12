@@ -1,0 +1,130 @@
+{
+  "hullName": "Mod Talon\r",
+  "hullId": "LTA_RocketTalonP_Wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/LTA/ships/Fighters/LTA_RocketTalonP.png",
+  "style": "LOW_TECH",
+  "height": 24,
+  "width": 24,
+  "center": [12, 12],
+  "collisionRadius": 19.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 18.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "LTA_annihilator_fighter_r",
+    "WS0003": "swarmer_fighter",
+    "WS0006": "blinker_green",
+    "WS0007": "blinker_red",
+    "WS0008": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, -5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-8.5, 1]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, -1.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, -1.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, -1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, 1],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-10, 6],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-11, -4.5],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9, 11],
+      "length": 16,
+      "width": 4,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9, -10],
+      "length": 16,
+      "width": 4,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -11, -9,
+    -8.5, 11.5,
+    6.5, 4,
+    10.5, -8.5
+  ]
+}

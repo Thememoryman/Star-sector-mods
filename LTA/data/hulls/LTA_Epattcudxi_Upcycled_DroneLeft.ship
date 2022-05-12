@@ -1,0 +1,119 @@
+{
+  "hullName": "Epattcudxi Upcycled",
+  "hullId": "LTA_Epattcudxi_Upcycled_DroneLeft",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Epattcud/Upcyclers_Sect/Epattcud_11_Class_Scrapship_Upcycled_DroneLeft.png",
+  "style": "LOW_TECH",
+  "height": 116,
+  "width": 52,
+  "center": [28, 57.5],
+  "collisionRadius": 72.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 64.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0005": "LTA_lights_epattcudxi_upcycled_droneleft",
+    "WS0006": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -45,
+      "locations": [32.5, -11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 135,
+      "locations": [-24.5, 8]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [25.5, 7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 90,
+      "locations": [0.5, 15]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, 2]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [53, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-56.5, 11.5],
+      "length": 47.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56.5, 4.5],
+      "length": 47.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50.5, -8],
+      "length": 32.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48.5, -14],
+      "length": 32.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -56.5, 16,
+    40.5, 22,
+    50.5, -5,
+    50.5, -22,
+    39.5, -22.5,
+    17, -16.5,
+    3, -20,
+    -47.5, -18,
+    -56.5, 0.5
+  ]
+}

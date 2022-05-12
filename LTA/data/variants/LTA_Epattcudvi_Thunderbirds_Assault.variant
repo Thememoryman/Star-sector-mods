@@ -1,0 +1,73 @@
+{
+  "variantId": "LTA_Epattcudvi_Thunderbirds_Assault",
+  "hullId": "LTA_Epattcudvi_Thunderbirds",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 43,
+  "fluxVents": 50,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+	"missleracks",
+	"turretgyros",
+	"armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mark9",
+        "WS0006": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "annihilatorpod",
+        "WS0019": "annihilatorpod",
+        "WS0020": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag",
+        "WS0004": "lightag",
+        "WS0015": "lightag",
+        "WS0017": "hellbore",
+        "WS0018": "LTA_nixiearray"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dualflak",
+        "WS0002": "dualflak",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0021": "flak",
+        "WS0022": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "LTA_RocketTalon_Wing",
+    "LTA_RocketTalon_Wing"
+  ]
+}

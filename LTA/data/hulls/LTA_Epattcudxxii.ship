@@ -1,0 +1,150 @@
+{
+  "hullName": "Epattcudxxii",
+  "hullId": "LTA_Epattcudxxii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_22_Class_Scrapship.png",
+  "style": "LOW_TECH",
+  "height": 152,
+  "width": 110,
+  "center": [55, 76],
+  "collisionRadius": 156.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 123,
+  "viewOffset": 0,
+  "builtInMods": [
+    "comp_structure",
+    "shielded_holds",
+    "frontshield",
+    "militarized_subsystems"
+  ],
+  "builtInWeapons": {
+    "WS0003": "hellbore"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [63, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -45,
+      "locations": [63, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [60, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-74, 24.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, -24.5],
+      "length": 48,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-75, 15.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-75, -15.5],
+      "length": 48,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76, 6.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76, -6.5],
+      "length": 48,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64.5, 45.5],
+      "length": 60,
+      "width": 12,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64.5, -45.5],
+      "length": 60,
+      "width": 12,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [65.5, 50.5],
+      "length": 60,
+      "width": 12,
+      "angle": 45,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [65.5, -50.5],
+      "length": 60,
+      "width": 12,
+      "angle": -45,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    74, -17.5,
+    69.5, -45,
+    59.5, -54.5,
+    45.5, -48,
+    -45, -46.5,
+    -60, -50.5,
+    -75, -18.5,
+    -75, 18.5,
+    -60, 50.5,
+    -45, 46.5,
+    45.5, 48,
+    59.5, 54.5,
+    69.5, 45,
+    74, 17.5
+  ]
+}

@@ -1,0 +1,66 @@
+{
+	"id":"LTA_nyxdrone_mrm",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/LTA/missiles/LTA_nyx_mockupmissile.png",
+	"size":[50,50],	
+	"center":[25,25],
+	"collisionRadius":25,
+	"collisionClass":"NONE",
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":500, # purely visual
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":100,
+				  "acc":550,
+				  "dec":350},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-20, 0],
+				    #"style":"MISSILE_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,145,75,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":2.0,
+						"contrailWidthAddedFractionAtEnd":3,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":25, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":20.0,
+				    "length":60.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":1500,
+					"splitRangeRange":250,
+					"minTimeToSplit":2,
+					"canSplitEarly":true,
+					"splitSound":"system_targeting_feed",
+					"numShots":1,
+					"damage":1000,
+					"emp":15,
+					"damageType":ENERGY,
+					"hitpoints":1000,
+					"evenSpread":true,
+					"arc":1,
+					"spreadInaccuracy":0,
+					#"spreadSpeed":300,
+					"spreadSpeed":300,
+					"spreadSpeedRange":50,
+					"projectileRange":800, # only needed if not a missile
+					"projectileSpec":"LTA_nyxdrone_mrm2",
+					"smokeSpec":{"particleSizeMin":20.0,
+								 "particleSizeRange":20.0,
+								 "cloudParticleCount":0,
+								 "cloudDuration":1.0,
+								 "cloudRadius":20.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[100,100,100,200]}
+					}				    
+}

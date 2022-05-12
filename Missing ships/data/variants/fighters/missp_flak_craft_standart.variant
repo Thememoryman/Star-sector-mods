@@ -1,0 +1,24 @@
+{
+  "displayName": "Standart",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "missp_flak_craft",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "missp_flak_craft_Standart",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "vulcan",
+        "WS0003": "flak"
+      }
+    }
+  ],
+  "wings": []
+}

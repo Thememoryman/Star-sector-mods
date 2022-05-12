@@ -1,0 +1,201 @@
+{
+  "hullName": "Mason",
+  "hullId": "LTA_Mason",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/LTA/ships/Hegemony/LTA_Mason.png",
+  "style": "LOW_TECH",
+  "height": 207,
+  "width": 208,
+  "center": [104, 112],
+  "collisionRadius": 163,
+  "shieldCenter": [-8.5, 0],
+  "shieldRadius": 164,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 157,
+      "angle": 67.5,
+      "locations": [-37, 69]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 157,
+      "angle": -67.5,
+      "locations": [-37, -69]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -45,
+      "locations": [34, -81]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [34, 81]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [68, 61]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [68, -61]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [51, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 22.5,
+      "locations": [79, 21]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 180,
+      "locations": [-65, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-112, 38],
+      "length": 116.5,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-112, -38],
+      "length": 116.5,
+      "width": 31,
+      "angle": -180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-104, 21],
+      "length": 121,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-104, -21],
+      "length": 121,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-96, 63],
+      "length": 58.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-96, -63],
+      "length": 58.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-96, 55],
+      "length": 58.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-96, -55],
+      "length": 58.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-92, 78],
+      "length": 94.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-92, -78],
+      "length": 94.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    90.5, -26.5,
+    77.5, -38,
+    72, -77.5,
+    51, -82.5,
+    34, -103.5,
+    -84, -92,
+    -95, -50,
+    -112, -44.5,
+    -112, -35.5,
+    -97, -10,
+    -97, 10,
+    -112, 35.5,
+    -112, 44.5,
+    -95, 50,
+    -84, 92,
+    34, 103.5,
+    51, 82.5,
+    72, 77.5,
+    77.5, 38,
+    90.5, 26.5
+  ]
+}

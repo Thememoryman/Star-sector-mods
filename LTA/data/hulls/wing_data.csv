@@ -1,0 +1,20 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+LTA_Tappah_Wing,LTA_Tappah_Wing,"FIGHTER, fighter5, rare_bp, hegemony, pirates, low",2,0.85,6,25,V,4000,800,800,1,BOMBER,Drone Bomber,30,15000,,,,,,,,,,,,,
+LTA_Tappahlp_Wing,LTA_Tappahlp_Wing,"FIGHTER, fighter5, no_drop, no_sell",2,0.5,6,25,V,6000,1200,1000,1,BOMBER,Assault Fighter Bomber,30,15000,,,,,,,,,,,,,666
+LTA_Ballista_Wing,LTA_Ballista_Wing,"FIGHTER, no_drop, no_sell, derelict",1,1,5,20,V,8000,1000,400,1,ASSAULT,Assault Bomber,25,12500,,,,,,,,,,,,,
+LTA_Archer_Wing,LTA_Archer_Wing,"FIGHTER, fighter5, no_drop, no_sell, derelict",1,1,2,18,V,8000,750,500,3,FIGHTER,Mining Carriage,14,10000,,,,,,,,,,,,,
+LTA_RocketTalon_Wing,LTA_RocketTalon_Wing,"interceptor1, interceptor, pirate_bp, pirates, hegemony",0,1,4,8,V,4000,400,600,3,INTERCEPTOR,Interceptor,8,3500,,,,,,,,,,,,,6
+LTA_RocketTalonP_Wing,LTA_RocketTalonP_Wing,"interceptor1, interceptor, pirate_bp, rare_bp, pirates",0,0.85,4,8,V,6000,400,600,2,INTERCEPTOR,Interceptor,8,4500,,,,,,,,,,,,,6
+LTA_Jackhammer_Wing,LTA_Jackhammer_Wing,"fighter3, fighter, pirates, pirate_bp, rare_bp",2,0.85,10,25,V,4000,1000,-800,1,BOMBER,Gunship,40,12000,,,,,,,,,,,,,6
+LTA_TalonX_Wing,LTA_TalonX_Wing,"fighter2, fighter, pirates, pirate_bp, rare_bp",2,0.75,8,14,V,4000,1000,800,1,ASSAULT,Gunship,15,8500,,,,,,,,,,,,,6
+LTA_Diadem_Wing,LTA_Diadem_Wing,"support3, rare_bp, hegemony, pirates, low",1,1,4,14,V,500,650,500,1,FIGHTER,Vulcan Pod,20,12000,,,,,,,,,,,,,
+LTA_DiademP_Wing,LTA_DiademP_Wing,"fighter3, rare_bp, pirates, pirate_bp",1,1,5,14,V,3000,800,500,1,FIGHTER,Rocket Rig,25,12000,,,,,,,,,,,,,
+LTA_ModDiadem_Wing,LTA_ModDiadem_Wing,"support3, rare_bp, hegemony, low",1,1,4,10,V,1500,650,500,1,FIGHTER,Mining Rig,15,12000,,,,,,,,,,,,,
+LTA_DiademXIV_Wing,LTA_DiademXIV_Wing,"support3, rare_bp, XIV_bp, hegemony",2,0.75,5,14,V,750,650,500,1,FIGHTER,Elite Fighter Pod,20,18000,,,,,,,,,,,,,
+LTA_DiademTB_Wing,LTA_DiademTB_Wing,"support3, rare_bp, rd_no_extra_craft, pirates",2,0.5,5,20,V,2500,300,500,1,SUPPORT,Mobile Drone Bay,60,20000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LTA_NyxDrone_Wing,LTA_NyxDrone_Wing,"FIGHTER, no_drop, no_sell, fighter5 ",2,,6,25,V,8000,500,450,1,ASSAULT,Missile Assault Drone,20,20000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LTA_Talon_Railfed_Interceptor_Wing,LTA_Talon_Railfed_Interceptor_Wing,"interceptor, no_drop, no_sell",0,,3,2,V,4000,200,600,1,INTERCEPTOR,Interceptor,5,2000,,,,,,,,,,,,,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LTA_Talonduo_Wing,LTA_Talonduo,"interceptor, no_drop, no_sell",0,,2,2,V,4000,200,600,2,INTERCEPTOR,Interceptor,5,2000,,,,,,,,,,,,,6

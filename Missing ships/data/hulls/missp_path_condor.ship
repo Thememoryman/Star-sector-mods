@@ -1,0 +1,114 @@
+{
+  "bounds": [
+    21.5,
+    -8.5,
+    100.5,
+    12,
+    82,
+    44,
+    -48,
+    55,
+    -96.5,
+    28.5,
+    -97,
+    -27,
+    -8,
+    -51.5,
+    54,
+    -45
+  ],
+  "builtInMods": [
+    "ill_advised"
+  ],
+  "center": [
+    56,
+    99
+  ],
+  "collisionRadius": 115.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 58,
+      "location": [
+        -90,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 47.5,
+      "location": [
+        -97,
+        18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 47.5,
+      "location": [
+        -97,
+        -18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    }
+  ],
+  "height": 204,
+  "hullId": "missp_path_condor",
+  "hullName": "Condor (Path)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 108.5,
+  "spriteName": "graphics/ships/condor/missp_condor_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -2,
+        44
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 255,
+      "id": "WS0002",
+      "locations": [
+        82,
+        21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -18,
+        -28
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 110
+}

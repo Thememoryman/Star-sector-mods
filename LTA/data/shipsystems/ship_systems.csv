@@ -1,0 +1,50 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
+#Mine Strike,mine_strike_station,,,,,,0,,7,0.33,0.25,,0.25,0,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+#Mine Strike,mine_strike,,,,,,0.1,,5,0.2,0.25,,0.25,0,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Reclaimed Mine Strike,reclaimedminestrike,,,,,,0.1,,3,0.05,1,,0.25,1.75,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Hopper Drive,hopperdrive,1,,,,,,,,,0.5,3,0.75,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,graphics/LTA/icons/hullsys/hopper_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+#Burn Drive,burndrive,1,,,,,,,,,2,5,1,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+MaSs ShUnT,colatlusdrive,1,,,,,0.1,,3,0.01,0.25,3,5,20,,,,,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+PhAseE LeaAp,epattcudxviiiteleporter,,,,,,0.1,,1,0.03,5,0.25,0.25,0,,FALSE,FALSE,,FALSE,FALSE,FALSE,,TRUE,TRUE,graphics/icons/hullsys/interdictor_array.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+PhAseE JuMp,epattcudxxteleporter,,,,,,0.1,,1,0.05,2.5,0.25,0.25,0,,FALSE,FALSE,,FALSE,FALSE,FALSE,,TRUE,TRUE,graphics/icons/hullsys/interdictor_array.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Systems Overdrive,systemsoverdrive,1,,,,,,,,,2,7,1,25,,,,,,FALSE,TRUE,FALSE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Systems Overdrive,systemsoverdrivesafe,1,,,,,,,,,2,7,1,25,,,,,,FALSE,TRUE,FALSE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Systems Overdrive,systemsoverdrivemodule,1,,,,,,,,,2,7,1,25,,,,,,FALSE,TRUE,FALSE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Systems Overdrive,systemssidedrive,1,,,,,,,,,2,7,1,12.5,,,,,,FALSE,FALSE,TRUE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Systems Overdrive,systemsoverdrivemaneuveringfighter,1,,,,,,,,,2,7,1,12.5,,,,,,FALSE,FALSE,FALSE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Systems Overdrive,systemsoverdrivecapital,1,,,,,,,,,4,4,4,25,,,,,,FALSE,TRUE,FALSE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Overclocked Systems,systemssidedrivesafe,1,,,,,,,,,2,7,1,7.5,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Weapons Lock,weaponslock,1,,,,,,,,,3,8,1,10,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Weapons Clamp,weaponsclamp,,,,,,,,,,3,8,1,10,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Thermite Flare Launcher,thermiteflares,,,,,,0.1,,,,,,,5,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Energy Overcharge,LTA_highenergyfocus,1,,,,,,,,,0.25,0.25,0.25,3,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Point Defense Drones,LTA_drone_pd,,,,,,,,6,0.05,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Combat PD Drones,LTA_drone_pd_thunderbirds,,,,,,,,6,0.05,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Drone Retinue,LTA_drone_retinue_thunderbirds,,,,,,,,4,0.05,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Drone Combat Escort,LTA_drone_combatescort_thunderbirds,,,,,,,,2,0.05,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Micro Combat Drone Escort,LTA_drone_microescort_thunderbirds,,,,,,,,2,0.025,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png

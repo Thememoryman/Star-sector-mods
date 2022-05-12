@@ -1,0 +1,35 @@
+{
+  "variantId": "LTA_Epattcudxxviii_Hunter",
+  "hullId": "LTA_Epattcudxxviii",
+  "displayName": "Hunter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightag"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0003": "LTA_Epattcudxxviii_Module_Hunter"
+    }
+  ],
+  "wings": []
+}

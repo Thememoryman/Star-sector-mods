@@ -1,0 +1,34 @@
+{
+	"designTypeColors": {
+		"Mayasuran": [
+			0,
+			41,
+			120,
+			255
+		],
+	},
+	"misc": {
+		"MSS_laststand": "graphics/mayasura/hullmods/laststand.png",
+		"MSS_Akinci": "graphics/mayasura/hullmods/akinci.png",
+		"MSS_Shuttlepod": "graphics/mayasura/hullmods/shuttlepod.png",
+		"MSS_Joker": "graphics/mayasura/hullmods/joker.png",
+	},
+	"graphics": {
+		"blueprint_packages": {
+			"mayasura_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+			"mayasura_e_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+			"mayasura_w_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+			"mayasura_c_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+			"mayasura_wp_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+		},
+		"characters": {
+			"MSS_TheKart": "graphics/mayasura/portraits/bounties/MSS_TheKart.png",
+			"MSS_Cjuicy": "graphics/mayasura/portraits/bounties/MSS_Cjuicy.png",
+		},
+		"hullmods":{
+		"MSS_variableKinetic": "graphics/mayasura/hullmods/variable_ammo/variable_kinetic.png",
+		"MSS_variableHE": "graphics/mayasura/hullmods/variable_ammo/variable_he.png",
+		"MSS_variableCluster": "graphics/mayasura/hullmods/variable_ammo/variable_cluster.png"
+		}
+	},
+}

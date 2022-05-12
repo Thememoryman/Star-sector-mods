@@ -1,0 +1,42 @@
+{
+  "variantId": "LTA_Epattcudix_Hunter",
+  "hullId": "LTA_Epattcudix",
+  "displayName": "Hunter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0006": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LTA_nixiemissilesmall",
+        "WS0004": "heatseeker",
+        "WS0007": "LTA_nixiemissilesmall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0005": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

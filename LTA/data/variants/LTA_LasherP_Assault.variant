@@ -1,0 +1,36 @@
+{
+  "variantId": "LTA_LasherP_Assault",
+  "hullId": "LTA_LasherP",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "annihilator",
+        "WS 002": "annihilator",
+        "WS 003": "annihilator",
+        "WS 004": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

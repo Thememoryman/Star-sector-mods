@@ -1,0 +1,24 @@
+{
+	"baseHullId":"LTA_Epattcudxii",
+	"skinHullId":"LTA_Epattcudxii_Thunderbirds",
+	"hullName":"E-XII 'Junkbox' (TB)",
+	"descriptionId":"LTA_Epattcudxii",
+	"descriptionPrefix":"This ship has been heavily modified and upclassed for use in the 'Duinn Thunderbirds', sporting many practical but expensive 'showy improvements' that make it more intimidating in combat over standard variations of the hull.",
+	"tags":["rare_bp", "LTA_DuinnThunderbirds"],
+	"tech":"Duinn Thunderbirds",
+	"fleetPoints":6,
+	"ordnancePoints":38,
+	#"restoreToBaseHull":true,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/LTA/ships/Epattcud/Thunderbirds/Epattcud_12_Class_Scrapship_Thunderbirds.png",
+	"systemId": "LTA_drone_pd_thunderbirds",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["comp_structure", "PatchworkBallisticsIntegration"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+	},
+	"builtInMods":["augmentedengines", "hbi", "thunderbirds"],
+	"builtInWeapons":{
+    },
+}

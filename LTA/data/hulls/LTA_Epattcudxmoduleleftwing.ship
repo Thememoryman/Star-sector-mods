@@ -1,0 +1,173 @@
+{
+  "hullName": "Left Wing",
+  "hullId": "LTA_Epattcudxmoduleleftwing",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud10/Epattcud_10_LeftWingModule.png",
+  "style": "LOW_TECH",
+  "height": 324,
+  "width": 184,
+  "center": [100, 150],
+  "collisionRadius": 262,
+  "shieldCenter": [12, 8],
+  "shieldRadius": 242,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "comp_structure",
+    "reclaimedadvancedcore",
+    "heavyarmor"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [55, -44]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [-60, -43]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [-31, 58]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 122.5,
+      "locations": [-110, 72]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-79, 76]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [22, 89]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [121, 59]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [88, -2]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -22.5,
+      "locations": [133, 9]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [161, 51]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        34, 23,
+        38.5, 22,
+        42, 22.5,
+        42, 24,
+        43.5, 27.5,
+        36, 28,
+        33.5, 25.5,
+        39.5, 27.5,
+        38, 25.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -136.5, 11.5,
+    -116, 33.5,
+    -132, 49.5,
+    -136.5, 64,
+    -119, 84.5,
+    -99, 83.5,
+    -95, 88.5,
+    -62.5, 89,
+    -56.5, 80,
+    7.5, 82.5,
+    2.5, 100.5,
+    35, 99,
+    42, 77,
+    60.5, 70.5,
+    83, 82,
+    148, 66.5,
+    167.5, 67,
+    168.5, 33,
+    146, 19.5,
+    113.5, 11,
+    129.5, -9,
+    129.5, -39.5,
+    112.5, -62.5,
+    86.5, -73.5,
+    76.5, -81,
+    20.5, -81,
+    0.5, -62.5,
+    -19.5, -79,
+    -95, -78,
+    -106, -71.5,
+    -115, -79.5,
+    -139, -78.5,
+    -137.5, -66.5,
+    -149.5, -56,
+    -150.5, -45,
+    -140, -34,
+    -128.5, -34,
+    -132, -25.5,
+    -123.5, -3
+  ]
+}

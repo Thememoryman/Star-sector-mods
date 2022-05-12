@@ -1,0 +1,109 @@
+{
+  "hullName": "Mask",
+  "hullId": "LTA_Mask",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Hegemony/LTA_Mask.png",
+  "style": "LOW_TECH",
+  "height": 98,
+  "width": 80,
+  "center": [40, 49],
+  "collisionRadius": 72,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 74,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [2, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [2, -31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-17, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [25, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [45, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-49, 19.5],
+      "length": 43.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-49, -19.5],
+      "length": 43.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, 12],
+      "length": 44,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, -12],
+      "length": 44,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    44, -8.5,
+    16.5, -16.5,
+    -1, -36.5,
+    -33.5, -39.5,
+    -49, -25.5,
+    -38, -7.5,
+    -38, 7.5,
+    -49, 25.5,
+    -33.5, 39.5,
+    -1, 36.5,
+    16.5, 16.5,
+    44, 8.5
+  ]
+}

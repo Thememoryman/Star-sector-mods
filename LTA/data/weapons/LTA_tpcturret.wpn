@@ -1,0 +1,54 @@
+{
+  "id": "LTA_tpcturret",
+  "specClass": "projectile",
+  "projectileSpecId": "tpc_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/LTA/weapons/LTA_TPCTurret_turret_base.png",
+  "turretGlowSprite": "graphics/LTA/weapons/LTA_TPCTurret_turret_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/weapons/onslaught_thermal_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "turretOffsets": [
+    58,
+    10,
+    58,
+    -10
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "thermal_pulse_cannon_fire"
+}

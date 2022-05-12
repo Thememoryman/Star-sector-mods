@@ -1,0 +1,68 @@
+{
+  "variantId": "LTA_Horseman_Standard",
+  "hullId": "LTA_Horseman",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 39,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "reinforcedhull",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "hellbore",
+        "WS0010": "shredder",
+        "WS0011": "shredder",
+        "WS0013": "heavymortar",
+        "WS0018": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "locust",
+        "WS0012": "pilum",
+        "WS0014": "swarmer",
+        "WS0015": "heatseeker",
+        "WS0016": "swarmer",
+        "WS0017": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shredder",
+        "WS0002": "shredder",
+        "WS0005": "arbalest",
+        "WS0006": "arbalest",
+        "WS0019": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0004": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,25 @@
+{
+  "variantId": "LTA_Epattcudvi_Upcycled_Module_Assault",
+  "hullId": "LTA_Epattcudvi_Upcycled_Module",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "arbalest",
+        "WS0002": "arbalest"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

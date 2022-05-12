@@ -1,0 +1,66 @@
+{
+  "variantId": "LTA_Cravantia_Standoff",
+  "hullId": "LTA_Cravantia",
+  "displayName": "Standoff",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LTA_nixietri"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "LTA_nixiemissilemedium",
+        "WS0005": "LTA_nixiemissilesmall",
+        "WS0006": "LTA_nixiemissilesmall",
+        "WS0007": "annihilator",
+        "WS0008": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "LTA_nixie",
+        "WS0014": "LTA_nixie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightmg",
+        "WS0010": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0004": "flak",
+        "WS0011": "lightmg",
+        "WS0012": "lightmg",
+        "WS0015": "lightmg",
+        "WS0016": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "LTA_Diadem_Wing"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "hullName": "Xaphan",
+  "hullId": "vic_xaphan",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Xaphan/vic_xaphan.png",
+  "style": "VIC",
+  "height": 151,
+  "width": 82,
+  "center": [41, 75.5],
+  "collisionRadius": 94.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_aerodynamicdesign",
+    "vic_dynamicshields",
+    "vic_hellstormV2",
+    "vic_shturmSolutionDummy"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vic_xaphandecoleft",
+    "WS0002": "vic_xaphandecoright",
+    "WS0006": "vic_xaphandecofront",
+	"WS0007": "VIC_OmniLungeEffect"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-13.5, -24.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [61.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-13.5, 24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-11.5, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-11.5, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [52.5, -0]
+    },
+	{
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73.5, -0],
+      "length": 40.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    }
+  ],
+  "bounds": [
+    -72.5, 5,
+    -65.5, 12,
+    -46, 12,
+    -16, 35.5,
+    0, 26,
+    -1, 18.5,
+    66.5, 10,
+    72.5, 3,
+    72.5, -3,
+    66.5, -10,
+    -1, -18.5,
+    0, -26,
+    -16, -35.5,
+    -46, -12,
+    -65.5, -12,
+    -72.5, -5
+  ]
+}

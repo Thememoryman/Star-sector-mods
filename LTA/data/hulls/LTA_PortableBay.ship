@@ -1,0 +1,189 @@
+{
+  "hullName": "Portable Hangar Bay",
+  "hullId": "LTA_PortableBay",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Pirate/LTA_PortableBayP.png",
+  "style": "LOW_TECH",
+  "height": 80,
+  "width": 80,
+  "center": [40, 40],
+  "collisionRadius": 50,
+  "shieldCenter": [-2, -0],
+  "shieldRadius": 42,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "shield_always_on"
+  ],
+  "builtInWeapons": {
+    "WS0001": "LTA_vulcansingle",
+    "WS0002": "LTA_vulcansingle",
+    "WS0003": "LTA_vulcansingle",
+    "WS0004": "LTA_vulcansingle",
+    "WS0005": "blinker_red",
+    "WS0006": "blinker_red",
+    "WS0007": "blinker_red",
+    "WS0008": "blinker_red",
+    "WS0009": "blinker_red",
+    "WS0010": "blinker_red",
+    "WS0011": "blinker_red",
+    "WS0012": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [0, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [0, -20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [20, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 180,
+      "locations": [-18, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-4.5, 5.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-4.5, -5.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, 5.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6.5, -5.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-4.5, 5.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-4.5, -5.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, 5.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6.5, -5.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        0, -0.5,
+        4, 6.5,
+        -2, 8,
+        -6, 3,
+        -7.5, -0.5,
+        -3, -6,
+        1.5, -9,
+        6, -6.5,
+        10, -1.5,
+        7, 2.5,
+        1.5, 8.5,
+        2, 1.5,
+        5.5, -2,
+        1, -5,
+        -4.5, -1,
+        -0.5, 4,
+        -3, 4,
+        4, 4.5,
+        -6, -4,
+        8, -3.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    24, -9,
+    28, -13,
+    25, -19,
+    0, -27,
+    -30, -19,
+    -30, -7,
+    -22, -7,
+    -22, 7,
+    -30, 7,
+    -30, 19,
+    0, 27,
+    25, 19,
+    28, 13,
+    24, 9
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "bounds": [
+    3.5,
+    -16,
+    36,
+    -9.5,
+    36,
+    9.5,
+    3.5,
+    16,
+    -35,
+    14,
+    -35,
+    -14
+  ],
+  "center": [
+    21,
+    37.5
+  ],
+  "collisionRadius": 44.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -33.5,
+        9.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -33.5,
+        -9.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35.5,
+        6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35.5,
+        -6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -37,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 145,
+      "contrailSize": 6.877817,
+      "length": 13.394921,
+      "location": [
+        2.5,
+        14
+      ],
+      "style": "LOW_TECH",
+      "width": 6.877817
+    },
+    {
+      "angle": -145,
+      "contrailSize": 6.877817,
+      "length": 13.394921,
+      "location": [
+        2.5,
+        -14
+      ],
+      "style": "LOW_TECH",
+      "width": 6.877817
+    }
+  ],
+  "height": 75,
+  "hullId": "missp_flak_craft",
+  "hullName": "Flak Craft",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 40,
+  "spriteName": "graphics/ships/patrol_craft/flak_craft.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 288,
+      "id": "WS0001",
+      "locations": [
+        24.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 141,
+      "id": "WS0002",
+      "locations": [
+        -23.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -0.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 42
+}

@@ -1,0 +1,46 @@
+{
+    "plugins":{
+            "DA_debrisPlugin":"data.scripts.plugins.DiableAvionics_debrisPlugin",
+            "DA_delayedProjectilePlugin":"data.scripts.plugins.DiableAvionics_delayedProjectilePlugin",
+            #"DA_projectileEffectPlugin":"data.scripts.plugins.DiableAvionics_projectileEffectPlugin",
+    },
+    "designTypeColors":{
+        "Diable Avionics":[119,52,47,255],
+    },
+    "graphics":{	
+        "fx":{            		
+            "zap_00":"graphics/da/fx/zap_00.png",	
+            "zap_01":"graphics/da/fx/zap_01.png",		
+            "zap_02":"graphics/da/fx/zap_02.png",		
+            "zap_03":"graphics/da/fx/zap_03.png",		
+            "zap_04":"graphics/da/fx/zap_04.png",		
+            "zap_05":"graphics/da/fx/zap_05.png",		
+            "zap_06":"graphics/da/fx/zap_06.png",		
+            "zap_07":"graphics/da/fx/zap_07.png",		
+            "areaStripes":"graphics/da/fx/areaStripes.png",	
+            "muzzleUhlan":"graphics/da/fx/muzzleUhlan.png",	
+            "muzzleHexafire":"graphics/da/fx/muzzleHexafire.png",	
+            "banishFlash":"graphics/da/fx/banish_flash.png",		
+            "banishSharp":"graphics/da/fx/banish_sharp.png",		
+            "banishDiffuse":"graphics/da/fx/banish_diffuse.png",			
+            "nocturneH":"graphics/da/weapons/diableavionics_nocturne_hardpointglow_base.png",	
+            "nocturneT":"graphics/da/weapons/diableavionics_nocturne_turretglow_base.png",
+            "flakFlash":"graphics/da/fx/flak_flash.png",		
+            "flakPuff":"graphics/da/fx/flak_puff.png",	
+            },
+
+	"diableavionics":{
+            "DS_doorUp":"graphics/da/ships/station/diableavionics_deepStrikeDoorUp.png",
+            "DS_doorLeft":"graphics/da/ships/station/diableavionics_deepStrikeDoorLeft.png",
+            "DS_doorRight":"graphics/da/ships/station/diableavionics_deepStrikeDoorRight.png",
+            "DS_afterimage":"graphics/da/ships/station/diableavionics_deepStrikeM_afterimage.png",
+
+            },
+
+        "blueprint_packages":{
+            "diableavionics_ship_package":"graphics/da/icons/cargo/diableavionics_ship_package.png",
+            "diableavionics_weapon_package":"graphics/da/icons/cargo/diableavionics_weapon_package.png",
+            "diableavionics_wanzer_package":"graphics/da/icons/cargo/diableavionics_wanzer_package.png",
+        },	
+    }
+}

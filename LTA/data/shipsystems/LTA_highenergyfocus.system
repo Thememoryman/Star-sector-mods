@@ -1,0 +1,25 @@
+{
+	"id":"LTA_highenergyfocus",
+	"type":"STAT_MOD",
+	#"aiType":"HIGH_ENERGY_FOCUS",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.scripts.shipsystems.LTA_HighEnergyFocusStats",
+	
+	"weaponGlowColor":[252,3,3,255],
+	"weaponTypes":[ENERGY],
+	
+	#"useSound":"beam_heavy_intro",
+	#"outOfUsesSound":"gun_out_of_ammo",
+
+	#"activatingShieldsCancels":true,
+	
+	
+	"useSound":"beam_heavy_intro",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	# Stian deactivated these two because of audio playback timing issues. See fortressshield.system for more.
+	# Re-enable for testing.
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",	
+}

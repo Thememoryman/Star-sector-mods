@@ -1,0 +1,147 @@
+{
+  "bounds": [
+    47,
+    -51,
+    70,
+    -22,
+    70,
+    22,
+    47,
+    51,
+    -50,
+    50.5,
+    -70,
+    28,
+    -70,
+    -28,
+    -50,
+    -50.5
+  ],
+  "builtInMods": [
+    "civgrade"
+  ],
+  "center": [
+    50,
+    75
+  ],
+  "collisionRadius": 88.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 44.5,
+      "location": [
+        -71,
+        24.5
+      ],
+      "style": "LOW_TECH",
+      "width": 13
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 44.5,
+      "location": [
+        -71,
+        -24.5
+      ],
+      "style": "LOW_TECH",
+      "width": 13
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 44.5,
+      "location": [
+        -72,
+        15.5
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 44.5,
+      "location": [
+        -72,
+        -15.5
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 45,
+      "location": [
+        -73,
+        6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 45,
+      "location": [
+        -73,
+        -6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    }
+  ],
+  "height": 150,
+  "hullId": "missp_buffalomkiii",
+  "hullName": "Buffalo Mk.II",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 83,
+  "spriteName": "graphics/ships/buffalomkiii/buffalo_mkiii.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        57,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        26,
+        37.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        26,
+        -37.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 100
+}

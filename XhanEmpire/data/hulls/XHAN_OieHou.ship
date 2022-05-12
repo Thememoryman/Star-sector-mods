@@ -1,0 +1,116 @@
+{
+  "bounds": [
+    22,
+    30,
+    39.5,
+    2,
+    33.5,
+    -30,
+    -11.5,
+    -55,
+    -28,
+    -25.5,
+    -34.5,
+    -0,
+    -28,
+    24.5,
+    -12,
+    49
+  ],
+  "builtInMods": [
+    "surveying_equipment"
+  ],
+  "builtInWings": [],
+  "center": [
+    53,
+    42
+  ],
+  "collisionRadius": 85.5,
+  "coversColor": "159,161,151,255",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -30,
+        19
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -30,
+        -19
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 22,
+      "length": 50,
+      "location": [
+        -35,
+        -0.5
+      ],
+      "style": "LOW_TECH",
+      "width": 22
+    }
+  ],
+  "height": 102,
+  "hullId": "XHAN_OieHou",
+  "hullName": "Oiehou-M1",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    3,
+    -0
+  ],
+  "shieldRadius": 72,
+  "spriteName": "graphics/ships/OieHou.png",
+  "style": "XHANTECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        14,
+        6
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -145,
+      "arc": 302,
+      "id": "WS0002",
+      "locations": [
+        -8,
+        -6
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        46,
+        -5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 110
+}

@@ -1,0 +1,175 @@
+{
+  "bounds": [
+    -95,
+    -27,
+    -63.5,
+    -51.5,
+    69,
+    -45,
+    97,
+    -28,
+    97,
+    28,
+    69,
+    45,
+    -63.5,
+    51.5,
+    -95,
+    27
+  ],
+  "builtInMods": [
+    "ill_advised",
+    "converted_hangar"
+  ],
+  "center": [
+    53,
+    96
+  ],
+  "collisionRadius": 113.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 38.5,
+      "location": [
+        -95,
+        18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 17,
+      "length": 37.5,
+      "location": [
+        -95,
+        -18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 17
+    },
+    {
+      "angle": 180,
+      "contrailSize": 27,
+      "length": 51.5,
+      "location": [
+        -88,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 27
+    }
+  ],
+  "height": 204,
+  "hullId": "missp_path_tarsus",
+  "hullName": "Tarsus (Path)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 105.5,
+  "spriteName": "graphics/ships/tarsus/missp_tarsus_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 18,
+      "arc": 203,
+      "id": "WS0002",
+      "locations": [
+        84,
+        21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -18,
+      "arc": 203,
+      "id": "WS0003",
+      "locations": [
+        84,
+        -21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 130,
+      "id": "WS0004",
+      "locations": [
+        54,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 129,
+      "id": "WS0005",
+      "locations": [
+        54,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 130,
+      "id": "WS0006",
+      "locations": [
+        27,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 130,
+      "id": "WS0007",
+      "locations": [
+        27,
+        -33
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -135,
+      "arc": 267,
+      "id": "WS0008",
+      "locations": [
+        -58,
+        -37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 135,
+      "arc": 267,
+      "id": "WS0009",
+      "locations": [
+        -58,
+        37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 106
+}

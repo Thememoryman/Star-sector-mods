@@ -1,0 +1,10 @@
+{
+  "id":"LTA",
+	"name":"LTA",
+	"author":"Yui",
+	"version":"0.6.0 (Pre-Tournament Release)",
+	"description":"Requires LazyLib. Requires MagicLib. Compatible with Nexerelin. Use Version Checker. A collection of lore-friendly and balance-friendly lowtech goodies to play with. Requires Magiclib. All credit for music goes to the original composers, links in LTA/sounds/LTA/music and LTA/sounds/LTA/fx/LTAweapons. Enjoy.",
+	"gameVersion":"0.95a-RC15",
+	"jars":["jars/LTA.jar"],
+	"modPlugin":"data.scripts.LTA_modPlugin",
+}

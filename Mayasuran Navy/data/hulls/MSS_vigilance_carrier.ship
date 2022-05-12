@@ -1,0 +1,92 @@
+{
+  "hullName": "Peltast",
+  "hullId": "MSS_vigilance_carrier",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/mayasura/ships/MSS_vigilance_carrier.png",
+  "style": "MIDLINE",
+  "height": 115,
+  "width": 63,
+  "center": [31, 56],
+  "collisionRadius": 80,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 80,
+  "viewOffset": 0,
+  "builtInMods": [
+    "converted_hangar"
+  ],
+  "builtInWeapons": {
+    "WS0001": "taclaser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -105,
+      "locations": [1, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 74.5,
+      "locations": [13, 12]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        31, -10.5,
+        29.5, -12.5,
+        27.5, -14.5,
+        26, -17,
+        26.5, -19.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-55, -0.5],
+      "length": 64,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-55, 2.5],
+      "length": 32,
+      "width": 12,
+      "angle": 172.5,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-55, -3.5],
+      "length": 32,
+      "width": 12,
+      "angle": -172.5,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    17.5, 26,
+    42.5, 8,
+    46.5, -5,
+    58, -15,
+    40.5, -25,
+    -40.5, -14,
+    -54, -7,
+    -54, 7,
+    -32, 18.5
+  ]
+}

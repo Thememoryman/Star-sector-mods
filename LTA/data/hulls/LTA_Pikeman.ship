@@ -1,0 +1,124 @@
+{
+  "hullName": "Pikeman",
+  "hullId": "LTA_Pikeman",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Derelict/LTA_Pikeman.png",
+  "style": "LOW_TECH",
+  "height": 72,
+  "width": 70,
+  "center": [35, 40],
+  "collisionRadius": 68.5,
+  "shieldCenter": [-4, 0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "builtInWeapons": {
+    "WS0003": "swarmer",
+    "WS0004": "swarmer"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [13, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [13, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26, 14],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [26, -14],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [26, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, 15.5],
+      "length": 45,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -15.5],
+      "length": 45,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34, 6.5],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34, -6.5],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    28, -19,
+    24, -20,
+    23, -28,
+    12, -34,
+    0, -24,
+    -38, -20,
+    -38, -11,
+    -34, -4,
+    -29, -3,
+    -29, 3,
+    -34, 4,
+    -38, 11,
+    -38, 20,
+    0, 24,
+    12, 34,
+    23, 28,
+    24, 20,
+    28, 19
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "hullName": "Missile Platform",
+  "hullId": "LTA_Epattcudxxvii_Module_Front",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_27_Front_Module.png",
+  "style": "LOW_TECH",
+  "height": 70,
+  "width": 100,
+  "center": [50, 19],
+  "collisionRadius": 92,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 94.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "missleracks",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "vulcan"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [2, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -45,
+      "locations": [2, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -16, -0,
+    -10.5, -49,
+    36, -14,
+    36, 15,
+    -10.5, 49
+  ]
+}

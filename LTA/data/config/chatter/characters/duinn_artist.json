@@ -1,0 +1,86 @@
+{
+	"name":"Artist",
+	"personalities":["cautious", "timid"],
+	"gender":["m","f","n"],
+	"chance":1,
+	"talkativeness":1.5,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"I'm starting a new painting, keep the bridge floor steady."},
+			{"text":"Be a dear and fetch my tablet, I need to draw this battle."},
+			{"text":"Aw their fleet formation is really pretty, gotta capture that."},
+			{"text":"Don't worry about me, just drawing their flagship."},
+			{"text":"Paint them with guns while I paint them on Canvas."}
+		],
+		"start_boss":[
+			{"text":"God that's beautiful, I'm going to need pictures."},
+			{"text":"Wow look at the battle scars, does anyone have Vandyke Brown?"},
+			{"text":"If you capture that after, can I draw you in front of it?"}
+		],
+		"retreat":[
+			{"text":"Aw I was almost done!"},
+			{"text":"At least I got the guns."},
+			{"text":"I think I have an image of their captain's face, nice!"}
+		],
+		"out_of_missiles":[
+			{"text":"Err, engineering says we're out of missiles."},
+			{"text":"I think we ran out of missiles sometime back there, I was too busy drawing."}
+		],
+		"need_help":[
+			{"text":"Gosh the floor is so shakey, are you doing okay over there second?"},
+			{"text":"Aww, now I have to redo the turrets."},
+			{"text":"*Crash* Ow... Actually that looks pretty good."}
+		],
+		"pursuing":[
+			{"text":"Second's on their tail."},
+			{"text":"Lets chase them then, maybe I can draw their engines."},
+			{"text":"Second's on it."},
+			{"text":"Get me closer I need to draw their bridge!"},
+			{"text":"Erm, sure I guess. Go closer Second."},
+			{"text":"Aaaand done. Lets get em."}
+		],
+		"running":[
+			{"text":"Sorry I'm packing up my painting supplies."},
+			{"text":"Gosh I think we need to go."},
+			{"text":"I think my oil is running."},
+			{"text":"The floor's too shakey to paint over here."}
+		],
+		"hull_90":[
+			{"text":"Everything okay over there Second?"},
+			{"text":"I think the floor's rattling."},
+			{"text":"Well it looks like i'll have to redraw that."},
+			{"text":"What happened in Engineering?"}
+		],
+		"hull_50":[
+			{"text":"Second in command here, captain is in a ball in the corner."},
+			{"text":"*A second, stronger voice breaks through the chaos.*"},
+			{"text":"Does it always look like that Second?"},
+			{"text":"Oh... Gosh."}
+		],
+		"hull_30":[
+			{"text":"Second is hurt! Requesting retreat!"},
+			{"text":"Please let us leave, this is no place for suicide."},
+			{"text":"*Bridge emergency shutters closing*"}
+		],
+		"overload":[
+			{"text":"Gosh i'm going to be sick."},
+			{"text":"Oh dear."},
+			{"text":"I think second has this under control, but please come soon."},
+			{"text":"This is nothing like the simulations, is engineering okay?"},
+			{"text":"*Frantic breathing."}
+		],
+		"death":[
+			{"text":"Hold on tight Second, i'll get us to the escape shuttle."}
+		],
+		"victory":[
+			{"text":"Gosh I think I actually finished this time."},
+			{"text":"My favourite piece so far."},
+			{"text":"I think that was enough, I even got a good image of their captain."},
+			{"text":"Second do you want to catch a bite at that cafe on Umbra?"},
+			{"text":"Me and Second are going on a date after, this stuff is too stressful for me."},
+			{"text":"Awh, don't make that face at me Second, you know we have to stay in fleet for the next few months."}
+		]
+	}
+}

@@ -1,0 +1,57 @@
+{
+  "displayName": "Balanced",
+  "fluxCapacitors": 15,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "prv_gissel",
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "prv_gissel_balanced",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "prv_sidensvans",
+        "WS0002": "prv_sidensvans_array"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "BI01": "prv_skatunge",
+        "BI02": "prv_skatunge",
+        "BI03": "prv_skatunge",
+        "BI04": "prv_skatunge"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightag",
+        "WS0007": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "prv_akc",
+        "WS0004": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "prv_pskd"
+      }
+    }
+  ],
+  "wings": []
+}

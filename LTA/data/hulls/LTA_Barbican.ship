@@ -1,0 +1,160 @@
+{
+  "hullName": "Barbican",
+  "hullId": "LTA_Barbican",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/LTA/ships/Derelict/LTA_Barbican.png",
+  "style": "LOW_TECH",
+  "height": 303,
+  "width": 236,
+  "center": [118, 151.5],
+  "collisionRadius": 306,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 270,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "dedicated_targeting_core"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, 119]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [184, -14]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-12, -115]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [95.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [51.5, 80]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 135,
+      "locations": [-79.5, 14]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -135,
+      "locations": [-79.5, -14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-145.5, -49.5],
+      "length": 100,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-145.5, 49.5],
+      "length": 100,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-150.5, -94.5],
+      "length": 172,
+      "width": 38,
+      "angle": 180,
+      "contrailSize": 38,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-150.5, 94.5],
+      "length": 172,
+      "width": 38,
+      "angle": -180,
+      "contrailSize": 38,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151.5, -70],
+      "length": 226.5,
+      "width": 42,
+      "angle": 180,
+      "contrailSize": 42,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151.5, 70],
+      "length": 226.5,
+      "width": 42,
+      "angle": -180,
+      "contrailSize": 42,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    28, 116.5,
+    -4.5, 116.5,
+    -10, 108.5,
+    -90.5, 106.5,
+    -150.5, 102,
+    -150.5, 62.5,
+    -143.5, 43,
+    -116, 30.5,
+    -116, -30.5,
+    -143.5, -43,
+    -150.5, -62.5,
+    -150.5, -102,
+    -90.5, -106.5,
+    -10, -108.5,
+    1.5, -117,
+    75, -109,
+    73.5, -95.5,
+    84, -86,
+    141.5, -84,
+    140, 50.5,
+    148.5, 68.5,
+    148.5, 91.5,
+    97.5, 92.5,
+    83, 102,
+    32, 107.5
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "hullId": "LTA_Monitor_Thunderbirds",
+    "hullMods": ["advancedshieldemitter"],
+	"goalVariant": true,
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "LTA_Monitor_Thunderbirds_Raider",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "annihilatorpod",
+                "WS 002": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "amblaster",
+                "WS 004": "lightdualac"
+            }
+        }
+    ]
+}

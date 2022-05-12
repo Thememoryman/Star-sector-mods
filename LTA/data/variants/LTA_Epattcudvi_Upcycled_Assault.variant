@@ -1,0 +1,67 @@
+{
+  "variantId": "LTA_Epattcudvi_Upcycled_Assault",
+  "hullId": "LTA_Epattcudvi_Upcycled",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 34,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "hephag",
+        "WS0008": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "annihilatorpod",
+        "WS0015": "annihilatorpod",
+        "WS0016": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "miningblaster",
+        "WS0004": "miningblaster",
+        "WS0011": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac",
+        "WS0010": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0009": "dualflak",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0025": "LTA_Epattcudvi_Upcycled_Module_Assault"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "LTA_Drone_Micro_Thunderbirds",
+  "hullId": "LTA_Drone_Micro_Thunderbirds",
+  "displayName": "Harasser",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "LTA_lightacdrone"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

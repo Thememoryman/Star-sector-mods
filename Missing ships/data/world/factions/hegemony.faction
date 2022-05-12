@@ -1,0 +1,47 @@
+{
+	
+	"hullFrequency":{
+		"tags":{
+			"heg_aux_bp":2.5,
+			"XIV_bp":0.25,
+		},
+		"hulls":{
+			"buffalo2":0, # just say no
+			"condor":0, # just say no
+		},
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"mora",
+			"legion",
+			"onslaught",
+			"onslaught_xiv",
+		],
+	},
+	"knownFighters":{
+		"fighters":[
+			"missp_patrol_craft_wing",
+			"missp_gun_craft_wing",
+			"missp_flak_craft_wing",
+			"missp_patrol_craft_wing",
+			"missp_broadswordmkii_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"hoplon_wing",
+			"broadsword_wing",
+			"piranha_wing",
+			"missp_patrol_craft_wing",
+			"missp_gun_craft_wing",
+			"missp_flak_craft_wing",
+			"missp_patrol_craft_wing",
+			"missp_broadswordmkii_wing",
+		],
+	},
+	
+	
+},

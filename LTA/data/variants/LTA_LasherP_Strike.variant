@@ -1,0 +1,36 @@
+{
+  "variantId": "LTA_LasherP_Strike",
+  "hullId": "LTA_LasherP",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "magazines",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "reaper",
+        "WS 002": "reaper",
+        "WS 003": "reaper",
+        "WS 004": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "amblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

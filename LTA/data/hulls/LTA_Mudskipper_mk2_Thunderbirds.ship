@@ -1,0 +1,78 @@
+{
+  "hullName": "Mudskipper (TB)",
+  "hullId": "LTA_Mudskipper_mk2_Thunderbirds",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Epattcud/Thunderbirds/LTA_Mudskipper2_Thunderbirds.png",
+  "style": "LOW_TECH",
+  "height": 80,
+  "width": 80,
+  "center": [42, 37],
+  "collisionRadius": 61,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "militarized_subsystems",
+    "thunderbirds",
+    "hbi",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-8, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [16, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, -0],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35, 23],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35, -23],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -35, 27,
+    34, 27,
+    41, 17.5,
+    38, 11,
+    38, -11,
+    41, -20,
+    32.5, -29,
+    6, -24,
+    -2, -29,
+    -35, -25
+  ]
+}

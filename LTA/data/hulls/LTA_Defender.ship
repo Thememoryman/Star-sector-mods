@@ -1,0 +1,186 @@
+{
+  "hullName": "Defender",
+  "hullId": "LTA_Defender",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/LTA/ships/Hegemony/LTA_Defender.png",
+  "style": "LOW_TECH",
+  "height": 261,
+  "width": 152,
+  "center": [76, 119],
+  "collisionRadius": 204.5,
+  "shieldCenter": [11.5, 0],
+  "shieldRadius": 183.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 67.5,
+      "locations": [23, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -67.5,
+      "locations": [23, -31]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 135,
+      "locations": [0, 47]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -135,
+      "locations": [0, -47]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-78, 53]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-78, -53]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [65, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [99, -42]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-90, 11],
+      "length": 98,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-90, -11],
+      "length": 98,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-78, 29],
+      "length": 50,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-78, -29],
+      "length": 50,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, 34],
+      "length": 50,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, -34],
+      "length": 50,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, 25],
+      "length": 50,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, -25],
+      "length": 50,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    100, -6.5,
+    88.5, -11,
+    102.5, -31,
+    141.5, -35,
+    135.5, -45,
+    82, -51,
+    34.5, -69,
+    -28, -68.5,
+    -36, -58.5,
+    -74.5, -69,
+    -114.5, -63.5,
+    -113.5, -45,
+    -78.5, -39.5,
+    -77.5, -21.5,
+    -90.5, -17,
+    -90.5, 17,
+    -77.5, 21.5,
+    -78.5, 39.5,
+    -113.5, 45,
+    -114.5, 63.5,
+    -74.5, 69,
+    -36, 58.5,
+    -28, 68.5,
+    34.5, 69,
+    82, 51,
+    135.5, 45,
+    141.5, 35,
+    102.5, 31,
+    88.5, 11,
+    100, 6.5
+  ]
+}

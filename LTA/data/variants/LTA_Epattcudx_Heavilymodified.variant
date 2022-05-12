@@ -1,0 +1,68 @@
+{
+  "variantId": "LTA_Epattcudx_Heavilymodified",
+  "hullId": "LTA_Epattcudx",
+  "displayName": "Heavily Modified",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 39,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "augmentedengines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "tpc",
+        "WS0010": "tpc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun",
+        "WS0005": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0011": "LTA_Epattcudxmoduleleftengine_Heavilymodified"
+    },
+    {
+      "WS0012": "LTA_Epattcudxmodulerightengine_Heavilymodified"
+    },
+    {
+      "WS0007": "LTA_Epattcudxmodulerightwing_Heavilymodified"
+    },
+    {
+      "WS0008": "LTA_Epattcudxmoduleleftwing_Heavilymodified"
+    }
+  ],
+  "wings": []
+}

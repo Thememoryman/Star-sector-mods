@@ -1,0 +1,98 @@
+{
+  "hullName": "Epattcud XXVIII",
+  "hullId": "LTA_Epattcudxxviii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_28_Class_Scrapship.png",
+  "style": "LOW_TECH",
+  "height": 188,
+  "width": 108,
+  "center": [54, 81],
+  "collisionRadius": 182.5,
+  "shieldCenter": [13, 0],
+  "shieldRadius": 141,
+  "viewOffset": 0,
+  "builtInMods": [
+    "comp_structure",
+    "militarized_subsystems",
+    "ground_support"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 10,
+      "locations": [2, 47]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -10,
+      "locations": [2, -47]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [28, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, 12],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-80, -12],
+      "length": 80,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-60.5, 43.5],
+      "length": 75,
+      "width": 16,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-60.5, -43.5],
+      "length": 75,
+      "width": 16,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    28, -3.5,
+    4.5, -23.5,
+    0, -52.5,
+    -13, -51.5,
+    -26, -38,
+    -55, -48.5,
+    -79.5, -18.5,
+    -79.5, 18.5,
+    -55, 48.5,
+    -26, 38,
+    -13, 51.5,
+    0, 52.5,
+    4.5, 23.5,
+    28, 3.5
+  ]
+}

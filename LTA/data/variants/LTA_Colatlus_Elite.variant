@@ -1,0 +1,65 @@
+{
+  "variantId": "LTA_Colatlus_Elite",
+  "hullId": "LTA_Colatlus",
+  "displayName": "Jim's Folly",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 45,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_hypervelocitycannon",
+        "WS0002": "LTA_hypervelocitycannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "harpoonpod",
+        "WS0013": "harpoon",
+        "WS0014": "harpoonpod",
+        "WS0015": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LTA_nixie",
+        "WS0004": "LTA_nixie",
+        "WS0005": "LTA_nixie",
+        "WS0006": "LTA_nixie",
+        "WS0007": "LTA_nixie",
+        "WS0008": "LTA_nixie",
+        "WS0009": "LTA_nixie",
+        "WS0010": "LTA_nixie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "LTA_DiademP_Wing",
+    "LTA_DiademP_Wing"
+  ]
+}

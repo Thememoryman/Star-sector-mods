@@ -1,0 +1,36 @@
+{
+  "variantId": "LTA_Epattcudxxviii_Carrier",
+  "hullId": "LTA_Epattcudxxviii",
+  "displayName": "Carrier",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heatseeker",
+        "WS0002": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "WS0003": "LTA_Epattcudxxviii_Module_Carrier"
+    }
+  ],
+  "wings": [
+    "LTA_TalonX_Wing"
+  ]
+}

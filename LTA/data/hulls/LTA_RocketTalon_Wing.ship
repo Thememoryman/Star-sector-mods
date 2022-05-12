@@ -1,0 +1,83 @@
+{
+  "hullName": "Mod Talon\r",
+  "hullId": "LTA_RocketTalon_Wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/LTA/ships/Fighters/LTA_RocketTalon.png",
+  "style": "LOW_TECH",
+  "height": 24,
+  "width": 24,
+  "center": [12, 12],
+  "collisionRadius": 19.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 18.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "LTA_annihilator_fighter_r"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, -5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-8.5, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, 1],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-10, 6],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-11, -4.5],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -11, -9,
+    -8.5, 11.5,
+    6.5, 4,
+    10.5, -8.5
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "variantId": "LTA_Epattcudxii_Thunderbirds_Heavysupport",
+  "hullId": "LTA_Epattcudxii_Thunderbirds",
+  "displayName": "Heavy Support",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_nixiearray"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

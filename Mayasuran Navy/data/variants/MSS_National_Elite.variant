@@ -1,0 +1,63 @@
+{
+  "variantId": "MSS_National_Elite",
+  "hullId": "MSS_National_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 40,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "plasma",
+        "WS0012": "plasma",
+        "WS0022": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabotpod",
+        "WS0003": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "reaper",
+        "WS0009": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "vulcan",
+        "WS0005": "dualflak",
+        "WS0006": "vulcan",
+        "WS0007": "dualflak",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0020": "vulcan",
+        "WS0021": "vulcan",
+        "WS0023": "vulcan",
+        "WS0026": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

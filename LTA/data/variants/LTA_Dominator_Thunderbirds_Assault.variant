@@ -1,0 +1,65 @@
+{
+  "variantId": "LTA_Dominator_Thunderbirds_Assault",
+  "hullId": "LTA_Dominator_Thunderbirds",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "missleracks",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "mark9",
+        "WS 013": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 014": "annihilatorpod",
+        "WS 015": "annihilatorpod",
+        "WS 016": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "LTA_annihilator_fighter_rmech",
+        "WS0002": "LTA_annihilator_fighter_rmech"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightdualac",
+        "WS 004": "lightdualac",
+        "WS 005": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan",
+        "WS 007": "vulcan",
+        "WS 008": "vulcan",
+        "WS 009": "vulcan",
+        "WS 010": "flak",
+        "WS 011": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

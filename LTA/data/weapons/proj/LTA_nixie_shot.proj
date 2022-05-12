@@ -1,0 +1,20 @@
+{
+	"id":"LTA_nixie_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":10,
+	#"spawnType":"BALLISTIC",
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.LTA_NixieOnHitEffect",
+	"length":10.0,
+	"width":3.0,
+	"fadeTime":0.2,
+	"fringeColor":[255,185,110,150],
+	"coreColor":[255,250,222,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/LTA/missiles/LTA_nixie_shell.png"
+}

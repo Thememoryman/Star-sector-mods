@@ -1,0 +1,52 @@
+{
+  "variantId": "LTA_Cravantia_Annihilator",
+  "hullId": "LTA_Cravantia",
+  "displayName": "Annihilator",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "annihilatorpod",
+        "WS0002": "annihilatorpod",
+        "WS0005": "annihilator_fighter",
+        "WS0006": "annihilator_fighter",
+        "WS0007": "annihilator_fighter",
+        "WS0008": "annihilator_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyac",
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

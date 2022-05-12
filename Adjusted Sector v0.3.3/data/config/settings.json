@@ -1,0 +1,61 @@
+{
+	
+	"plugins":{		
+		"newGameSectorProcGen":"data.scripts.SectorProcGenMod",
+		"newGameCreationEntryPoint":"data.scripts.world.SectorGenMod",
+	},
+	#Change the number below to increase or decrease the size of the Sector
+	#"sectorWidth":164000,
+	#"sectorHeight":104000,
+	#"sectorConstellationSize":100,
+	#"sectorConstellationCellSize":10,
+	"sectorWidth":164000,
+	"sectorHeight":104000,
+	"AdjustedSectorConstellationCount":110,
+	"AdjustedSectorConstellationSize":1000,
+	"AdjustedSectorConstellationCellSize":8,
+
+	"sectorConstellationRemnantMin":15,
+	"sectorConstellationRemnantMax":30,
+	"sectorConstellationRemnantSkipProb":0,
+	# zero means - they wont spawn
+	"sectorRemnantPresenceLow":0,
+	"sectorRemnantPresenceMed":1,
+
+	"sectorConstellationRuinsMin":20,
+	"sectorConstellationRuinsMax":40,
+	
+	"sectorDerelictMotherships":5,
+	"sectorDerelictCryosleepers":5,
+
+	# this field controls the amount of Coronal Taps, default = 2
+	"sectorCoronalTaps":12,
+		
+	#Random number of arcs apply to map
+	#Vanilla value 20
+	"AdjustedSectorRndArcs":20,
+
+	#Generate hyperstorms options.
+	#"true" for generating hyperstorms, "false" to not generate hyperstorms.
+	"AdjustedSectorHS":true,
+
+	#Accessibility will be base - 1 at that many light-years from center of mass
+	#"accessibilityDistFromCOM":50,
+	#"accessibilitySameFactionBonus":0.50,
+	"accessibilityDistFromCOM":50,
+	"accessibilitySameFactionBonus":0.5,
+
+	#If SAD is enabled, you can change the amount of SAD-themed constellations
+	#"SanguinaryAnarchisticDefectors_sectorConstellationMin_AS":4,
+	#"SanguinaryAnarchisticDefectors_sectorConstellationMax_AS":6,
+	"SanguinaryAnarchisticDefectors_sectorConstellationMin_AS":15,
+	"SanguinaryAnarchisticDefectors_sectorConstellationMax_AS":30,
+
+	#If DME is enabled, as well as random generated blade breaker systems, you can change the amount of said BB-themed constellations.
+	#"BladeBreakerThemed_ConstellationMin_AS":3,
+	#"BladeBreakerThemed_ConstellationMax_AS":5,
+	#"BladeBreakerThemed_ConstellationSkipProb_AS":0.75,
+	"BladeBreakerThemed_ConstellationMin_AS":13,
+	"BladeBreakerThemed_ConstellationMax_AS":25,
+	"BladeBreakerThemed_ConstellationSkipProb_AS":0.25,
+}

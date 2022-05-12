@@ -1,0 +1,177 @@
+{
+  "hullName": "Mod Diadem",
+  "hullId": "LTA_ModDiadem_Wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/LTA/ships/Fighters/LTA_DiademFighterBase.png",
+  "style": "LOW_TECH",
+  "height": 70,
+  "width": 70,
+  "center": [35, 35],
+  "collisionRadius": 48,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 47,
+  "viewOffset": 0,
+  "builtInMods": [
+    "turretgyros",
+    "autorepair"
+  ],
+  "builtInWeapons": {
+    "WS0001": "mininglaser",
+    "WS0002": "mininglaser",
+    "WS0003": "mininglaser",
+    "WS0004": "mininglaser",
+    "WS0005": "mininglaser",
+    "WS0006": "mininglaser",
+    "WS0007": "mininglaser",
+    "WS0008": "LTA_moddiadem_top_deco",
+    "WS0009": "blinker_red",
+    "WS0010": "blinker_red",
+    "WS0011": "blinker_red",
+    "WS0012": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 45,
+      "locations": [10, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -45,
+      "locations": [10, -10]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [0, 14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [0, -14]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 135,
+      "locations": [-11, 11]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -135,
+      "locations": [-11, -11]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [14, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1.5, 7.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12.5, 3.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1.5, 7.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12.5, 3.5],
+      "renderOrderMod": 100
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25, 5.5],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -5.5],
+      "length": 30,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    19, -8,
+    6, -20,
+    -6, -20,
+    -20, -8,
+    -25, -8,
+    -25, 8,
+    -20, 8,
+    -6, 20,
+    6, 20,
+    19, 8
+  ]
+}

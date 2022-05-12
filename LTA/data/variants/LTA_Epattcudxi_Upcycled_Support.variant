@@ -1,0 +1,36 @@
+{
+  "variantId": "LTA_Epattcudxi_Upcycled_Support",
+  "hullId": "LTA_Epattcudxi_Upcycled",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pilum",
+        "WS0004": "LTA_upcycledlampreyleftassault",
+        "WS0005": "LTA_upcycledlampreyrightassault"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "LTA_RocketTalon_Wing"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "bounds": [
+    -36.5,
+    -28,
+    37,
+    -26.5,
+    37,
+    26.5,
+    -36.5,
+    28
+  ],
+  "builtInMods": [
+    "heg_militarized"
+  ],
+  "builtInWings": [
+    "talon_wing"
+  ],
+  "center": [
+    32,
+    42
+  ],
+  "collisionRadius": 57.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 26,
+      "length": 57,
+      "location": [
+        -39,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 26
+    }
+  ],
+  "height": 84,
+  "hullId": "missp_mudskipper_heg",
+  "hullName": "Mudskipper (A)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 52,
+  "spriteName": "graphics/ships/mudskipper/mudskipper_hegemony.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -13,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        27.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 64
+}

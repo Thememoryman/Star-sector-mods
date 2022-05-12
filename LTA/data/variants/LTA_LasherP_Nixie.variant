@@ -1,0 +1,36 @@
+{
+  "variantId": "LTA_LasherP_Nixie",
+  "hullId": "LTA_LasherP",
+  "displayName": "Nixie",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "hardened_subsystems",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "LTA_nixiemissilesmall",
+        "WS 002": "LTA_nixiemissilesmall",
+        "WS 003": "LTA_nixiemissilesmall",
+        "WS 004": "LTA_nixiemissilesmall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "LTA_nixie"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

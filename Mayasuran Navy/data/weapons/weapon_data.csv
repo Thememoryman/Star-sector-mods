@@ -1,0 +1,92 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Modular,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Energy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy UV Pulse Laser,MSS_LargeLaserCannon,2,,4500,700,,150,,8,10,25,,,,ENERGY,165,,,0.18,,,5,10,2,10,,800,,,30,,"energy10, mayasura_wp_bp",,Mayasuran,,General,,,,,,,,,,5205
+Ultraviolet Pulse Laser,MSS_LaserCannon,2,,2250,800,,200,,8,15,14,20,0.85,2,ENERGY,240,,0,1.1,2,0.25,3,6,2,10,,800,,,30,,"energy10, mayasura_wp_bp",,Mayasuran,,General,,,,,,,,,,5205
+Heavy Ion Lance,MSS_ionlance,3,0.5,7500,1000,450,,2000,0,7,22,,,,KINETIC,,1600,0.1,2.5,1,5,,,,,9999,,,,,FIRE_WHEN_INEFFICIENT,"beam14, LR, rare_bp, mayasura_wp_bp",,Mayasuran,,,,,,,,,,,,
+Triple Beam Cannon,MSS_tribeam,3,,7500,900,1286,,,0,10,28,,,,ENERGY,,2533.33334,0,0.33334,0.2,,,,,,9999,,,,,"STRIKE, USE_VS_FRIGATES","energy18, beam20, rare_bp, mayasura_wp_bp",,Mayasuran,,Anti Armor,,,,,,,,,,24
+Iruiru PGL,MSS_thumper,3,,1000,700,,200,50,20,10,12,4,0.3,1,HIGH_EXPLOSIVE,480,,0,1.24,1,0.6,0,20,5,2,,180,180,6.5,500,,"he18, rare_bp, mayasura_wp_bp",,Mayasuran,,Area Denial,Fast,None,,,"%s: Grenades stick to targets and explodes after a short duration, dealing %s high explosive damage.
+
+%s: Grenades explode on near-misses, dealing %s high explosive damage.",Magnetized Plasma | 400 | Advanced Proximity Fuse | 200,,,,8
+stuck PGL,MSS_thumper_sub,,,1000,700,,400,,20,10,12,4,0.3,1,HIGH_EXPLOSIVE,480,,0,1.24,1,0.6,0,20,5,2,,180,180,6.5,500,SYSTEM,he18,,Mayasuran,,Area Denial,Fast,None,,,,,,,,7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Ballistic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Autoloader Cannon,MSS_autoloader,3,,8000,1000,,400,,250,5,20,3,0.5,1,HIGH_EXPLOSIVE,500,,1,1,3,0.25,,,,,,900,,,400,SYSTEM,"he16, LR, remnant",,,,,,,,,,,,,,8
+Onocrotalus Autocannon,MSS_onocrotalus,3,0.3,2250,900,,200,,10,20,20,,,1,HIGH_EXPLOSIVE,200,,0,1.75,8,0.25,0,10,1,5,,800,,,100,,"he16, LR, remnant, rare_bp, mayasura_wp_bp",,Mayasuran,,Anti Armor,,,,,,,,,,
+Orchard Autocannon,MSS_Orchard,3,,500,850,,100,,10,20,10,,,,HIGH_EXPLOSIVE,100,,0,1.25,4,0.25,0,10,1,5,,800,,,100,,"he16, LR, remnant, rare_bp, mayasura_wp_bp",,Mayasuran,,Anti Armor,,,,,,,,,,8
+Arbalest Battery,MSS_big_arbalest,0,,3500,700,,150,,10,12,15,,,,KINETIC,170,,0,0.33334,1,,0,15,5,10,,800,,,30,,"kinetic12, mayasura_wp_bp",,Mayasuran,,Anti Shield,,,,,,,,,,4.125
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Missile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Obliterator Rocket Launcher,MSS_rocketlauncher,1,,4000,1500,,300,,5,20,20,200,,,HIGH_EXPLOSIVE,0,,0,4.5,8,0.1,0,10,1,5,,400,50,3.75,250,,"rocket13, strike8, missile_bp, mayasura_wp_bp",,Mayasuran,,Pressure,Fast,None,,,,,,,,12.3
+Gorgon SRM (Single),MSS_gorgon_single,0,,100,700,,900,,15,30,1,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,310,100,5,230,DO_NOT_AIM,"missile6, strike1, mayasura_wp_bp",,,,Finisher,Medium,Medium,,,,,,,TRUE,11.2234
+Gorgon SRM,MSS_gorgon,0,,100,700,,900,,15,30,2,2,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,310,100,5,230,DO_NOT_AIM,"missile6, strike1, mayasura_wp_bp",,,,Finisher,Medium,Medium,,,,,,,TRUE,11.2234
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Built-in,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Ion Lance,MSS_ionlanceSM,3,0.5,7500,1000,450,,2000,0,7,22,,,,KINETIC,,1600,0.1,1.5,1,5,,,,,9999,,,,,"FIRE_WHEN_INEFFICIENT, SYSTEM","beam14, LR",,Mayasuran,,,,,,,,,,,,
+Caliburnus Railgun,MSS_big_railgun,3,,100000,1600,,2250,,500,3,,,,,KINETIC,3250,,1,2.5,,,,,,,,1500,,,400,"SYSTEM,SHOW_IN_CODEX","kinetic20, LR",,Mayasuran,,Sniper,,,,,,,,,,5
+Caliburnus Railgun,MSS_big_railgun_nebulosa,3,,100000,1600,,2250,,500,3,,,,,KINETIC,3250,,1,2.5,,,,,,,,1500,,,400,"SYSTEM,SHOW_IN_CODEX","kinetic20, LR",,Mayasuran,,Sniper,,,,,,,,,,5
+Gandiva,MSS_Gandiva,3,,30000,1200,,750,,300,3,50,,,,KINETIC,1000,,1,0.75,3,0.2,,,,,,1250,,,,"SYSTEM,SHOW_IN_CODEX","kinetic20, LR",,Mayasuran,,Anti Shield,,,,,,,,,,6
+Gandiva,MSS_Gandiva_Elite,3,,30000,1200,,750,,300,3,50,,,,KINETIC,1000,,1,0.75,3,0.2,,,,,,1250,,,,"SYSTEM,SHOW_IN_CODEX","kinetic20, LR",,Mayasuran,,Anti Shield,,,,,,,,,,6
+Sentinel PD System,MSS_Sentinel,2,,30000,1000,2000,,,0,75,50,20,2,,ENERGY,,1000,0,0,0.2,0.1,,,,,1000000,,,,,"PD,ANTI_FTR,SYSTEM","pd19, beam15",,Mayasuran,,Point Defense,,,,,"When all sub-beams impact a target in close proximity to each other, the spalling effect produces an explosion that deals up to 100 points of fragmentation damage to other nearby targets.",100 | fragmentation,,,,26
+Micro Thermal Pulse Cannon,MSS_tpc_turret,0,,100000,1000,,250,,0,5,,10,1,,ENERGY,200,,0,0.2,1,,0,10,2,5,,1000,,,,"SYSTEM,SHOW_IN_CODEX",,TPC_only,Mayasuran,,,,,,,,,,,,40
+Orbital Howitzer,MSS_Starliner_Howitzer,0,,100000,1200,,1200,,300,20,50,,,,HIGH_EXPLOSIVE,1000,,0,5,1,,0,10,5,10,,494,,,400,"SYSTEM,SHOW_IN_CODEX",,,Mayasuran,,Bombardment,,,,,,,,,,
+Heavy UV Pulse Laser,MSS_LargeLaserCannon_scaramouche,2,,4500,700,,150,,8,10,25,,,,ENERGY,150,,,0.1,,,5,10,2,10,,800,,,30,SYSTEM,,,Mayasuran,,General,,,,,,,,,,5205
+Bomb Launcher,MSS_bomb_frigate,1,,200,1500,,400,,50,30,4,20,0.166666667,10,HIGH_EXPLOSIVE,0,,0,5,10,0.2,0,0,0,0,,170,10,25,150,"STRIKE, CONSERVE_1, SYSTEM","strike0, rocket13",,,,,,,,,,,,,,9.899
+Plasma Bomb Launcher,MSS_plasmabomb,1,,200,1500,,400,,100,30,5,20,0.166666667,10,ENERGY,0,,0,5,10,0.2,0,0,0,0,,200,10,25,150,"STRIKE, CONSERVE_1, SYSTEM","strike0, rocket13",,,,,,,,,,,,,,9.896
+Plasma Bomb Pulse,MSS_plasmabomb_pulse,2,,,500,,200,,50,0,,,,,ENERGY,0,,0,5,1,0.2,3,3,0,0,,170,,,100,SYSTEM,,,,,,,,,,,,,,,9.897
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Swappable Railgun,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Caliburnus Railgun,MSS_big_swap_railgunDummy,,,,1600,,2250,,500,3,,,,,ENERGY,3250,,1,2.5,,,,,,,,1500,,,400,"SYSTEM,SHOW_IN_CODEX","energy20, LR",,Mayasuran,,Sniper,,,,,%s: Changes damage type and effects.,Variable Ammo,,,,5
+KE dummy weapon,MSS_big_swap_railgunKinetic,,,,1600,,2250,400,500,3,,,,,KINETIC,3250,,1,2.5,,,,,,,,1500,,,400,"SYSTEM,SHOW_IN_CODEX","kinetic20, LR",,Mayasuran,,Sniper,,,,,,,,,,5
+HE dummy weapon,MSS_big_swap_railgunHE,,,,1600,,2250,,500,3,,,,,HIGH_EXPLOSIVE,3250,,1,2.5,,,,,,,,600,,,400,"SYSTEM,SHOW_IN_CODEX","he20, LR",,Mayasuran,,Sniper,,,,,,,,,,5
+cluster dummy weapon,MSS_big_swap_railgunCluster,,,,1600,,2250,,500,3,,,,,HIGH_EXPLOSIVE,3250,,1,2.5,,,,,,,,750,,,400,"SYSTEM,SHOW_IN_CODEX","he20, LR",,Mayasuran,,Sniper,,,,,,,,,,5
+#Fighter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Mauler (Fighter),MSS_mauler_fighter,3,0.3,2000,900,,200,,10,12,13,,,,HIGH_EXPLOSIVE,225,,0,1.5,1,,0,10,2,5,,900,,,30,SYSTEM,"he16, LR, remnant, rare_bp",,,,Anti Armor,,,,,,,,,,4.75
+Vulcan Cannon (Fighter),MSS_vulcan_fighter,1,,200,250,,25,,1,75,4,400,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,"PD, SYSTEM","pd7, SR",,,,,,,,,,,,,,1
+Light Dual Machine Gun (Fighter),MSS_lightdualmg_fighter,2,,400,300,,25,,1,50,5,180,,,KINETIC,3,,0,0.2,5,0.1,0,5,1,15,,600,,,10,"PD, SYSTEM","pd7, kinetic4, SR",,,,,,,,,,,,,,0.7
+Assault Chaingun (Fighter),MSS_chaingun_fighter,1,,1200,450,,60,,3,30,10,140,,,HIGH_EXPLOSIVE,60,,0,0.15,1,,0,20,1,10,,800,,,30,"PD, SYSTEM","he15, SR, pd7",,,,,,,,,,,,,,4.5
+Plasma Cannon (Fighter),MSS_MiniPC,3,0.3,20000,600,,1000,,500,10,30,2,,,ENERGY,1500,,1,3,2,0.333,,,,,,750,,,500,"SYSTEM, SHOW_IN_CODEX",energy20,,,,,,,,,,,,,,23
+Hephaestus Assault Gun (Fighter),MSS_rotary_fighter,1,,5000,500,,120,,5,20,20,140,,,HIGH_EXPLOSIVE,100,,0,0.25,1,,0,10,2,10,,800,,,50,"PD, SYSTEM","he18, SR, pd7",,,,,,,,,,,,,,7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sagir Autolaser,MSS_Sagir,1,,30000,250,,25,,1,75,4,200,,,ENERGY,5,,0,1.05,20,0.05,0,15,1,15,,800,,,10,"PD, SYSTEM, SHOW_IN_CODEX","pd7, SR",,Mayasuran,,,,,,,,,,,,1
+Twin Sagir Autolasers,MSS_TwinSagir,1,,30000,250,,25,,1,75,4,,,,ENERGY,5,,0,1.05,20,0.05,0,15,1,15,,800,,,10,"PD, SYSTEM, SHOW_IN_CODEX","pd7, SR",,Mayasuran,,,,,,,,,,,,1
+Obliterator Rocket Pod,MSS_obliterator_fighter,3,,15000,1500,,300,,5,30,4,5,,,HIGH_EXPLOSIVE,0,,0,0.1,1,,0,10,1,5,,400,50,3.75,250,SYSTEM,"rocket13, strike8",,Mayasuran,,Anti Armor,Fast,None,,,,,,,,11.1
+Kilij Bomb Bay,MSS_bomb_KE,3,,30000,2000,,100,600,50,15,4,6,,,KINETIC,0,,0,0.75,1,,0,0,0,0,,170,20,25,150,"STRIKE, BOMB, SYSTEM, SHOW_IN_CODEX",he0,,Mayasuran,,,,,,,,,,,,3.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Decorative,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Small Cover,MSS_enCapSmall,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,664
+,MSS_Zthruster,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+,MSS_Zthrusteralwayson,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+,MSS_ZthrusterB,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+,MSS_ZthrusterBalwayson,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+,MSS_Zthrusterbig,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+MSS Blinker Amber,MSS_blinker_amber,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+MSS Blinker Blue,MSS_blinker_blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
+MSS Sipahi Tail,MSS_Sipahi_tail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+MSS TPC Cover,MSS_tpc_turret_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+MSS Phase Boost,MSS_quicksilverSystem,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,666
+caravan Lights,szsp_caravan_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+caravan Deco,szsp_caravan_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Influence Minelayer,szsp_minelayer,0,,200000,3000,,600,,250,30,,32,,,HIGH_EXPLOSIVE,0,,0,15,8,0.25,40,120,40,20,,70,210,45,200,"SYSTEM,SHOW_IN_CODEX",,,,,,,,,,,,,,,
+Influence Minelayer (Fighter),szsp_minelayer_fighter,0,,200000,3000,,600,,250,30,,1,,,HIGH_EXPLOSIVE,0,,0,15,1,0.25,40,120,40,20,,70,210,45,200,"SYSTEM, BOMB, STRIKE, SHOW_IN_CODEX",he0,,,,,,,,,,,,,,
+Starliner Front Cover,MSS_Starliner_Cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Lights - Sagittarius,MSS_sagittarius_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nitrous Canister Pod (Left),MSS_canisterbay_faux_l,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Nitrous Canister Pod (Right),MSS_canisterbay_faux_r,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Nitrous Canister Glow (Left),MSS_canisterbay_glow_l,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Nitrous Canister Glow (Right),MSS_canisterbay_glow_r,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Nitrous Canister,MSS_canisterbay,,,,1000,,50,500,20,,,,0,,ENERGY,0,0,0,0.1,1,,15,15,0,0,,150,150,3,100,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Skyrend Elite Cover,MSS_Skyrend_Elite_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Skyrend Elite Left Cover,MSS_Skyrend_Elite_cover_l,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Skyrend Elite Right Cover,MSS_Skyrend_Elite_cover_r,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,

@@ -1,0 +1,96 @@
+{
+  "hullName": "Epattcud XXVI",
+  "hullId": "LTA_Epattcudxxvi",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_26_Class_Scrapship.png",
+  "style": "LOW_TECH",
+  "height": 80,
+  "width": 56,
+  "center": [28, 40],
+  "collisionRadius": 67.5,
+  "shieldCenter": [0, -3],
+  "shieldRadius": 53,
+  "viewOffset": 0,
+  "builtInMods": [
+    "comp_structure",
+    "PermanentOverdrive"
+  ],
+  "builtInWeapons": {
+    "WS0002": "LTA_vulcansingle",
+    "WS0003": "LTA_snapcrackergunshipL",
+    "WS0004": "LTA_epattcudxxvi_overlay"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [12, -1],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-16, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [11, 18],
+      "renderOrderMod": -100
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0],
+      "renderOrderMod": -10
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, 3],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -3],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -38, 8,
+    -38, -7,
+    -2, -25.5,
+    22, -25,
+    31, -11,
+    31, 3,
+    26, 16,
+    18, 16,
+    12.5, 23,
+    -1, 23,
+    -8, 14,
+    -28, 15
+  ]
+}

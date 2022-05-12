@@ -1,0 +1,233 @@
+{
+  "bounds": [
+    82.5,
+    -36.5,
+    105.5,
+    -18,
+    105.5,
+    18,
+    82.5,
+    36.5,
+    60.5,
+    35.5,
+    58,
+    69,
+    30.5,
+    88.5,
+    -4.5,
+    95.5,
+    -69,
+    91.5,
+    -77.5,
+    51.5,
+    -55,
+    25.5,
+    -55,
+    -25.5,
+    -77.5,
+    -51.5,
+    -69,
+    -91.5,
+    -4.5,
+    -95.5,
+    30.5,
+    -88.5,
+    58,
+    -69,
+    60.5,
+    -35.5
+  ],
+  "builtInMods": [
+    "heg_militarized"
+  ],
+  "center": [
+    97,
+    81
+  ],
+  "collisionRadius": 122.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 47,
+      "location": [
+        -79.5,
+        -54.5
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 47,
+      "location": [
+        -79.5,
+        54.5
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 46.5,
+      "location": [
+        -79.5,
+        -62.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 46.5,
+      "location": [
+        -79.5,
+        62.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 23,
+      "length": 58,
+      "location": [
+        -76,
+        -77.5
+      ],
+      "style": "LOW_TECH",
+      "width": 23
+    },
+    {
+      "angle": -180,
+      "contrailSize": 23,
+      "length": 58,
+      "location": [
+        -76,
+        77.5
+      ],
+      "style": "LOW_TECH",
+      "width": 23
+    }
+  ],
+  "height": 190,
+  "hullId": "missp_venture_heg",
+  "hullName": "Venture (A)",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 116.5,
+  "spriteName": "graphics/ships/venture/venture_hegemony.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        45,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 230,
+      "id": "WS0002",
+      "locations": [
+        -21,
+        68
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 230,
+      "id": "WS0003",
+      "locations": [
+        -21,
+        -68
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0004",
+      "locations": [
+        55,
+        60
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 30,
+      "id": "WS0005",
+      "locations": [
+        55,
+        -60
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0006",
+      "locations": [
+        27,
+        80
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 30,
+      "id": "WS0007",
+      "locations": [
+        27,
+        -80
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -43.5,
+        21.5,
+        -53,
+        22,
+        -51.5,
+        13,
+        -41.5,
+        14
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 194
+}

@@ -1,0 +1,17 @@
+{
+"hullFrequency":{
+
+		"hulls":{
+			#"Colatlus":0.5, # it's pretty good, so make it more rare
+			"LTA_Bastion":1,
+			"LTA_Skull":1.0,
+			"LTA_Portcullis":1.0,
+			"LTA_Barbican":0.85,
+			"LTA_Footman":0.8,
+			"LTA_Horseman":0.9,	
+			"LTA_Pikeman":0.6,
+			"LTA_Ant":0.8,
+			"LTA_Stocks":0.8,
+		},
+	},
+}

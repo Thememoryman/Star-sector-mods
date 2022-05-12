@@ -1,0 +1,38 @@
+{
+	"baseHullId":"LTA_Epattcudxxiii",
+	"skinHullId":"LTA_Epattcudxxiii_Thunderbirds",
+	"hullName":"E-XXIII 'Wight' (TB)",
+	"descriptionId":"LTA_Epattcudxxiii",
+	"descriptionPrefix":"This ship has been heavily modified and upclassed for use in the 'Duinn Thunderbirds', sporting many practical but expensive 'showy improvements' that make it more intimidating in combat over standard variations of the hull.",
+	"tags":["rare_bp", "LTA_DuinnThunderbirds"],
+	"tech":"Duinn Thunderbirds",
+	"fleetPoints":20,
+	"ordnancePoints":200,
+	#"restoreToBaseHull":true,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/LTA/ships/Epattcud/Thunderbirds/Epattcud_23_Class_Scrapship_Thunderbirds.png",
+	"systemId": "systemsoverdrivesafe",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["comp_structure"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+    	"WS0006":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+		},	
+		"WS0007":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+	},
+	"builtInMods":["augmentedengines", "thunderbirds"],
+	"builtInWeapons":{
+    },
+}

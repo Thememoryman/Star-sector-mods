@@ -1,0 +1,45 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "hullId": "prv_tystnad_midline",
+  "hullMods": ["expanded_deck_crew",],
+  "goalVariant": true,
+  "wings": [
+	"warthog_wing",
+  ],
+  "quality": 1,
+  "variantId": "prv_tystnad_midline_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "irpulse",
+        "WS0004": "irpulse",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "displayName": "Missile",
+  "fluxCapacitors": 9,
+  "fluxVents": 0,
+  "hullId": "prv_tystnad_midline",
+  "hullMods": ["missleracks"],
+  "wings": [
+	"warthog_wing",
+  ],
+  "quality": 1,
+  "variantId": "prv_tystnad_midline_missile",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "annihilator",
+        "WS0008": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0005": "railgun",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "vulcan",
+        "WS0006": "vulcan"
+      }
+    }
+  ]
+}

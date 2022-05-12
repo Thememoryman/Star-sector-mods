@@ -1,0 +1,133 @@
+{
+  "bounds": [
+    14,
+    29,
+    -13.5,
+    35,
+    -39,
+    13.5,
+    -31.5,
+    8.5,
+    -41.5,
+    4.5,
+    -41.5,
+    -4.5,
+    -31.5,
+    -8.5,
+    -39,
+    -13.5,
+    -13.5,
+    -35,
+    14,
+    -29,
+    35.5,
+    -12,
+    35.5,
+    12
+  ],
+  "builtInWings": [],
+  "center": [
+    38,
+    43
+  ],
+  "collisionRadius": 74.5,
+  "coversColor": "159,161,151,255",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 26,
+      "length": 64.5,
+      "location": [
+        -42.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 26
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 39,
+      "location": [
+        -39.5,
+        -14.5
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 39,
+      "location": [
+        -39.5,
+        14.5
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    }
+  ],
+  "height": 94,
+  "hullId": "XHAN_Boulo",
+  "hullName": "Boulo",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 66.5,
+  "spriteName": "graphics/ships/Boulo.png",
+  "style": "XHANTECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        -9,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        -9,
+        24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 220,
+      "id": "WS0003",
+      "locations": [
+        11,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        39,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    }
+  ],
+  "width": 76
+}

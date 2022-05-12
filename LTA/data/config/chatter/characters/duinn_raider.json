@@ -1,0 +1,86 @@
+{
+	"name":"Raider",
+	"personalities":["steady", "aggressive", "reckless"],
+	"gender":["m","f","n"],
+	"chance":1,
+	"talkativeness":1.5,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Take their loot when we're done."},
+			{"text":"That's a fair few supplies floating around out there, how about we take them in?"},
+			{"text":"A fancy one huh? I'll have that."},
+			{"text":"Time for action, don't break lines."},
+			{"text":"These guys won't know what hit 'em."}
+		],
+		"start_boss":[
+			{"text":"Even more loot? Delegates will be happy at least."},
+			{"text":"That's more than I prefer to take on, are we good ya?"},
+			{"text":"Time to take prizes."}
+		],
+		"retreat":[
+			{"text":"Thin line between bravery and stupidity."},
+			{"text":"Not this again..."},
+			{"text":"Better be easier next time."}
+		],
+		"out_of_missiles":[
+			{"text":"Rocket stocks depleted, do we have any in storage?"},
+			{"text":"We're out of rockets, engaging as normal."}
+		],
+		"need_help":[
+			{"text":"A lot of 'em here!"},
+			{"text":"Where's the Duinn fleet when you need it?!"},
+			{"text":"Damn!"}
+		],
+		"pursuing":[
+			{"text":"Come here, pretty."},
+			{"text":"You should have ponied up when we gave you the chance."},
+			{"text":"Morons, should have taken the easy way."},
+			{"text":"I'm sure there's handsomes on there."},
+			{"text":"*Indecipherable yelling*."},
+			{"text":"First come..."}
+		],
+		"running":[
+			{"text":"We're out"},
+			{"text":"You guys do whatever you want. We outtie."},
+			{"text":"I think we need to cut losses here. Duinn will get them eventually."},
+			{"text":"Leavin' with loot."}
+		],
+		"hull_90":[
+			{"text":"That's gonna smart."},
+			{"text":"Now let the real battle begin!"},
+			{"text":"Don't get too excited. It's just beginner's luck."},
+			{"text":"I hate morons like this."}
+		],
+		"hull_50":[
+			{"text":"God that's loud."},
+			{"text":"*Scrambling footsteps*"},
+			{"text":"I hate that weapon."},
+			{"text":"I hate that, I hate that so much."}
+		],
+		"hull_30":[
+			{"text":"Let us get out of here! We're hit!"},
+			{"text":"Get the crew in the shuttles, I'll man the ship myself."},
+			{"text":"Son of a Hegemon'!"}
+		],
+		"overload":[
+			{"text":"I'm never going to get used to this."},
+			{"text":"This is why them mafia types have it easy."},
+			{"text":"KNOCK IT OFF."},
+			{"text":"What a pain."},
+			{"text":"That ain't funny geez."}
+		],
+		"death":[
+			{"text":"*A roaring voice, then silence*."}
+		],
+		"victory":[
+			{"text":"Anyone got a smoke?"},
+			{"text":"My favourite time of day."},
+			{"text":"No rest for the wicked."},
+			{"text":"Finally, relief."},
+			{"text":"It's like watching the Hegemony raid a base then frame us, except it's us this time. Funny that."},
+			{"text":"Okay, still hoping for more here."}
+		]
+	}
+}

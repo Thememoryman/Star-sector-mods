@@ -1,0 +1,113 @@
+{
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"pirate_bp":0.0,
+			"lowtech_bp":0,
+			"midline_bp":0,
+			"hightech_bp":0,
+			"LP_bp":1,
+		},
+		"hulls":{
+			"prometheus2":2,
+			"gremlin":0,
+			"hound":0,
+			"cerberus":0,
+			"venture":0,
+			"missp_path_ragnarok":1,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "LP_bp", "luddic_path"],
+		"hulls":[
+			"prometheus2",
+			"missp_path_ragnarok",
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp", "LP_bp", "luddic_path"],
+		"hulls":[
+			"prometheus2",
+			"missp_path_ragnarok",
+		],
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"missp_path_ragnarok",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "LP_bp", "luddic_path"],
+		"fighters":[
+			"broadsword_wing",
+			"piranha_wing",
+			"perdition_wing",
+			"talon_wing",
+			"missp_nail_wing",
+			"missp_path_patrol_craft_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"perdition_wing",
+			"talon_wing",
+			"missp_nail_wing",
+			"missp_path_patrol_craft_wing",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+		
+		"officerQuality":2,
+		"shipQuality":1,
+		"numShips":4,
+		
+		"shipSize":3,
+		
+		"aggression":5,
+		
+		"combatFreighterProbability":1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.75,			# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.5,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"officer_management",
+		],
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true,
+		"postsNoBounties":true,
+		"buysAICores":true,
+		"AICoreValueMult":0.1,
+		"AICoreRepMult":1,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"patrolsHaveNoPatrolMemoryKey":true,
+		"pirateBehavior":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"patherBaseTypesSmall":{
+			"orbitalstation":10,
+		},
+		"patherBaseTypesLarge":{
+			"battlestation":10,
+		},
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":true,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+},
+
+
+
+
+

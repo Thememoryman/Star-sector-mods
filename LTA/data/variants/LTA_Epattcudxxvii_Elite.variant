@@ -1,0 +1,81 @@
+{
+  "variantId": "LTA_Epattcudxxvii_Elite",
+  "hullId": "LTA_Epattcudxxvii",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 50,
+  "quality": 4,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "magazines",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_tpcturret",
+        "WS0002": "LTA_tpcturret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0018": "harpoonpod",
+        "WS0019": "harpoonpod",
+        "WS0020": "harpoonpod",
+        "WS0021": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mjolnir",
+        "WS0004": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "LTA_nixiearray"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "dualflak",
+        "WS0006": "dualflak",
+        "WS0007": "dualflak",
+        "WS0009": "dualflak",
+        "WS0010": "dualflak",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0017": "LTA_Epattcudxxvii_Module_Front_Elite"
+    },
+    {
+      "WS0015": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0013": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0016": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0014": "LTA_EpattcudArmor_Plate"
+    }
+  ],
+  "wings": []
+}

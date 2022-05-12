@@ -1,0 +1,24 @@
+{
+	"id":"reclaimedminestrike",
+	"type":"STAT_MOD",
+	"aiType":"MINE_STRIKE",
+	
+	"statsScript":"data.scripts.shipsystems.ReclaimedMineStrikeStats",
+
+	"canUseWhileRightClickSystemOn":true,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":2000, #Originally 1500
+		"threatAmount":15, #Originally 10
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

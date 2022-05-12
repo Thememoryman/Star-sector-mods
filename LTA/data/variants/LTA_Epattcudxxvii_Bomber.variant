@@ -1,0 +1,82 @@
+{
+  "variantId": "LTA_Epattcudxxvii_Bomber",
+  "hullId": "LTA_Epattcudxxvii",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 27,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_tpcturret",
+        "WS0002": "LTA_tpcturret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "LTA_portablebaypiranha",
+        "WS0018": "pilum",
+        "WS0019": "pilum",
+        "WS0020": "pilum",
+        "WS0021": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyac",
+        "WS0006": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LTA_nixiearray",
+        "WS0008": "LTA_nixiearray"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "LTA_nixietri",
+        "WS0009": "LTA_nixietri",
+        "WS0010": "LTA_nixietri",
+        "WS0011": "LTA_nixie",
+        "WS0012": "LTA_nixie"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0017": "LTA_Epattcudxxvii_Module_Front_Bomber"
+    },
+    {
+      "WS0015": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0013": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0016": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0014": "LTA_EpattcudArmor_Plate"
+    }
+  ],
+  "wings": [
+    "piranha_wing"
+  ]
+}

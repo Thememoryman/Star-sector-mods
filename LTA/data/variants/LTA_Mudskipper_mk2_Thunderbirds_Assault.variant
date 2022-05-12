@@ -1,0 +1,22 @@
+{
+  "variantId": "LTA_Mudskipper_mk2_Thunderbirds_Assault",
+  "hullId": "LTA_Mudskipper_mk2_Thunderbirds",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": ["heavyarmor"],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hephag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

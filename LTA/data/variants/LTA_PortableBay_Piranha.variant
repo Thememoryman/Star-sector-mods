@@ -1,0 +1,27 @@
+{
+  "variantId": "LTA_PortableBay_Piranha",
+  "hullId": "LTA_PortableBay",
+  "displayName": "Piranha Bay",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 10,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_vulcansingle",
+        "WS0002": "LTA_vulcansingle",
+        "WS0003": "LTA_vulcansingle",
+        "WS0004": "LTA_vulcansingle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "piranha_wing"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+	"name":"...",
+	"personalities":["aggressive", "reckless"],
+	"gender":["m","f","n"],
+	"chance":1,
+	"talkativeness":3.0,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"GAHAHAHA! An ACTUAL fight!"},
+			{"text":"*Knuckles cracking*"},
+			{"text":"I'll show you hell. You'll LOVE IT."},
+			{"text":"What beautiful bugs to crush, you spoil me."},
+			{"text":"I THINK IT'S TIME TO RUIN SOME BODIES."}
+		],
+		"start_boss":[
+			{"text":"HA. A big one."},
+			{"text":"What a large insect, it's death will look beautiful."},
+			{"text":"*Corks popping*"}
+		],
+		"retreat":[
+			{"text":"*Glugging noises*"},
+			{"text":"AND BACK WE GO!"},
+			{"text":"This is second in command, the captain is passed out drunk. Retreating."}
+		],
+		"out_of_missiles":[
+		],
+		"need_help":[
+			{"text":"WHAT FUN, COME CLOSER."},
+			{"text":"I'll show you a secret. Come closer."},
+			{"text":"'SO MANY PRETTY LIGHTS.' 'Captain those are gamma warnings, we need to get out of here'."}
+		],
+		"pursuing":[
+			{"text":"I WONDER WHERE YOU THINK YOU'RE GOING."},
+			{"text":"PERSUING... HAPPILY."},
+			{"text":"BEAUTIFUL BUG, COME TO ME."},
+			{"text":"HELLO HELLO HELLO, DO YOU SCREAM WELL?"},
+			{"text":"GOD I LOVE COWARDS."},
+			{"text":"I WANT THEIR TEETH."},
+			{"text":"'Second in command here, Captain is up top with their rifle'."}
+		],
+		"running":[
+			{"text":"LEAVING."},
+			{"text":"I'm out of alcohol. LEAVING."},
+			{"text":"..."},
+			{"text":"NO. WE'RE NOT LEAVI... *Clang* 'Taking command Captain, heading out.'"}
+		],
+		"hull_90":[
+			{"text":"YOU THINK THAT HURT?"},
+			{"text":"YOU THINK THAT FREAKING HURT? COME HERE."},
+			{"text":"Engineering says we are primed to RAM their ship... Please?"},
+			{"text":"Give me their head."},
+			{"text":"WHAT FUN."},
+			{"text":"You think you're FUNNY? I'll show you FUNNY."}
+		],
+		"hull_50":[
+			{"text":"I've never heard prettier sounds."},
+			{"text":"Good pretty bugs DON'T FIRE BACK."},
+			{"text":"WHAT ALARM IS THAT? TURN IT UP IT'S BEAUTIFUL."},
+			{"text":"Oh you've done it now. RAM THEIR SHIP!"},
+			{"text":"*Chuckling*."}
+		],
+		"hull_30":[
+			{"text":"..."},
+			{"text":"GET NEXT TO ME SO I CAN HIT YOU WITH MY RIFLE."},
+			{"text":"*Airlock sounds*"}
+		],
+		"overload":[
+			{"text":"THAT FEELS AMAZING."},
+			{"text":"THE SHIELDS ARE GONE? WHERE'S MY BEER?"},
+			{"text":"Shields are useless."},
+			{"text":"THIS IS WHAT I CAME HERE FOR."},
+			{"text":"*Alarms blaring*"}
+		],
+		"death":[
+			{"text":"*Sounds of gunfire and fighting inside an enemy vessel.*"},
+			{"text":"LET US DIE TOGETHER THEN. COME HERE."}
+		],
+		"victory":[
+			{"text":"AGAIN!"},
+			{"text":"What fun."},
+			{"text":"'Second in command here, Captain is out looking for stragglers with their rifle. Something about rabbit hunting'"},
+			{"text":"And back we go."},
+			{"text":"I WANT A HEAD."},
+			{"text":"KILL THE SURVIVORS."}
+		]
+	}
+}

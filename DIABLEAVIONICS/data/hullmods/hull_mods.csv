@@ -1,0 +1,56 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+
+Advanced Avionics,diableavionics_avionics,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsUpgrade," Diable Avionic designs feature custom avionics systems allowing for a much finer control of their ships. The reduction in parasite accelerations coupled with their proprietary Quantum Branch Prediction Computer allows those ships to optimize their thrust and their firing solutions the more time they spend in contact with the enemy.
+
+Upon deployment the ships suffer a %s reduction of their weapons accuracy. But after each computation cycle of %s, the ships gain a significant boost in both weapon accuracy and engines performances. Depending on the size of the ship, %s are necessary to achieve maximum performances with %s better engine acceleration and %s better leading accuracy.",,graphics/da/hullmods/diableavionics_avionics.png
+
+Resilient Frame,diableavionics_wanzer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsWanzer,"Wanzers are exceptionally durable small crafts, with reinforced internals and tripe redundant systems. They get %s resitance to EMP, plus their weapons and engines are %s less likely to fail.",Gives Wanzers a %s resitance to EMP and reduce the damage taken to their weapons and engines by %s .,graphics/da/hullmods/diableavionics_quantumsensor.png
+
+Dampened Mount,diableavionics_mount,3,0.33,Diable Avionics,"offensive, req_spaceport","Weapons, Requires Dock",15000,,,,10,15,25,40,data.hullmods.DiableAvionicsMount,Extra recoil dampeners fitted around the mounts allow projectile weapons to fire at a slightly extended range of %s but only at %s of their maximum firerate. They also take %s more damage as a result.,,graphics/da/hullmods/diableavionics_mount.png
+
+Cramped Hull,diableavionics_cramped,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCramped,"This hull is abnormally small and can't accomodate any modification requiring much space such as %s, %s, or %s. Missile based weapons fire-rate reduced by %s.","Prevents the installation of large hullmods, reduce missiles fire-rate by %s.",graphics/da/hullmods/diableavionics_cramped.png
+
+Oversized Hull,diableavionics_oversized,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsOversized,"This ship is abnormally large which creates a logistical nightmare when it needs to be readied for combat. Increases CR recovery cost by %s.","Increases CR recovery cost by %s.",graphics/da/hullmods/diableavionics_oversized.png
+
+# WANZER GANTRY
+
+Wanzer Servicing Gantry,diableavionics_universaldecks,2,0.66,Diable Avionics,"special, req_spaceport","Fighters, Requires Dock",10000,,,,10,15,25,40,data.hullmods.DiableAvionicsUniversalDecksUpgrade,"Enlarged maintenance bays that allow for easier servicing on oversized space vehicles such as Wanzers. When the fighter complement only consist of Wanzers, streamlined operations decrease their replacement time by %s. 
+
+However this also accelerates the rate at which the fighter replacement rate decreases due to fighter losses by %s per fitted wing. 
+
+No effect on regular fighters or non Wanzer-exclusive complements.",,graphics/da/hullmods/diableavionics_decks.png
+
+Wanzer Servicing Gantry,diableavionics_universaldecksBI,,,Diable Avionics,,,,,TRUE,,10,15,25,40,data.hullmods.DiableAvionicsUniversalDecksUpgradeBI,"Enlarged maintenance bays that allow for easier servicing on oversized space vehicles such as Wanzers. When the fighter complement only consist of Wanzers, streamlined operations decrease their replacement time by %s. 
+
+Ships designed around those decks can maintain an optimal replacement rate comparable to regular flight decks.
+
+No effect on regular fighters or non Wanzer-exclusive complements.",,graphics/da/hullmods/diableavionics_decks.png
+
+# COMMISSIONED CREW
+#Optimized Operations,diableavionics_cc,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,"The crew of this ship has been trained to follow the extremely strict protocols of the Diable Avionics Corporation, leading to a somewhat more economical maintenance of %s or %s supplies per month (whichever comes first). The reduced amount of immediately available spare parts means that recovering from combat deployment takes about %s more time.","Reduce the monthly maintenance but also reduces the CR recovery.",graphics/da/hullmods/diableavionics_cc.png
+Hyperspace Navigation Protocols,diableavionics_cc,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,"The crew of this ship has been trained to spot and weather deep hyperspace storms, ships will take %s less damage from strikes.","Reduce the impact of hyperspace storms on the fleet.",graphics/da/hullmods/diableavionics_cc.png
+
+# STATION REVERSE ROTAION
+Axial Rotation,diableAvionics_axialrotation,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAxialRotation,This structure constantly rotates around its axis.,,graphics/hullmods/axial_rotation.png
+
+# VERSANT WEAPON SELECTOR
+Sensible Tuning,diableavionics_tuning,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsTuning,"This ship is a precisely fine-tuned machine of war that does not like getting tinkered with. 
+
+As such, using Hull-mods that increase mechanical stress, such as %s, %s, %s or %s, will reduce its peak performance time. 
+
+Current impact on PPT: %s",,graphics/da/hullmods/diableavionics_tuning.png
+"Fire selector: AUTOMATIC",diableavionics_selector_auto,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAuto,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences.
+
+%s has better sustained firepower, but worse accuracy and range.
+
+%s",,graphics/da/hullmods/diableavionics_selector_auto.png
+"Fire selector: BURST",diableavionics_selector_burst,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsBurst,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences. 
+
+%s has better accuracy and flux efficiency, but worse sustained firepower.
+
+%s",,graphics/da/hullmods/diableavionics_selector_burst.png
+"Fire selector: SEMI-AUTO",diableavionics_selector_semi,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsSemi,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences. 
+
+%s has much better damage per shot and range, but worse sustained firepower and flux efficiency.
+
+%s",,graphics/da/hullmods/diableavionics_selector_semi.png

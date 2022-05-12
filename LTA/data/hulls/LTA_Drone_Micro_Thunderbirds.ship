@@ -1,0 +1,52 @@
+{
+  "hullName": "Micro Combat Drone",
+  "hullId": "LTA_Drone_Micro_Thunderbirds",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/LTA/ships/Drones/LTA_Drone_Assault_MicroTB.png",
+  "style": "MIDLINE",
+  "height": 14,
+  "width": 14,
+  "center": [7, 8],
+  "collisionRadius": 12,
+  "shieldCenter": [-1, 0],
+  "shieldRadius": 12,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [3, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": 0,
+      "locations": [-1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-3, -0],
+      "length": 8,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    3, 0,
+    -2, 3,
+    -2, -3
+  ]
+}

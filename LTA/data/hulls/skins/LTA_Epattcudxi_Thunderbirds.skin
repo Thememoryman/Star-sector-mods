@@ -1,0 +1,30 @@
+{
+	"baseHullId":"LTA_Epattcudxi",
+	"skinHullId":"LTA_Epattcudxi_Thunderbirds",
+	"hullName":"E-XI 'Lamprey' (TB)",
+	"descriptionId":"LTA_Epattcudxi",
+	"descriptionPrefix":"This ship has been heavily modified and upclassed for use in the 'Duinn Thunderbirds', sporting many practical but expensive 'showy improvements' that make it more intimidating in combat over standard variations of the hull.",
+	"tags":["rare_bp", "LTA_DuinnThunderbirds"],
+	"tech":"Duinn Thunderbirds",
+	"fleetPoints":6,
+	"ordnancePoints":48,
+	#"restoreToBaseHull":true,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/LTA/ships/Epattcud/Thunderbirds/Epattcud_11_Class_Scrapship_Thunderbirds.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["comp_structure"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+    	"WS0003":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "COMPOSITE"
+			},
+	},
+	"builtInMods":["augmentedengines", "thunderbirds", "LTA_GroundSupportFrigate"],
+	"builtInWeapons":{
+    },
+}

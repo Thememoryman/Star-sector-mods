@@ -1,0 +1,38 @@
+{
+  "variantId": "LTA_Epattcudxxvi_Blaster",
+  "hullId": "LTA_Epattcudxxvi",
+  "displayName": "Blaster",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LTA_snapcrackergunshipL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LTA_vulcansingle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,38 @@
+{
+	"baseHullId":"LTA_Epattcudxix",
+	"skinHullId":"LTA_Epattcudxix_Thunderbirds",
+	"hullName":"E-XIX 'Ghoul' (TB)",
+	"descriptionId":"LTA_Epattcudxix",
+	"descriptionPrefix":"This ship has been heavily modified and upclassed for use in the 'Duinn Thunderbirds', sporting many practical but expensive 'showy improvements' that make it more intimidating in combat over standard variations of the hull.",
+	"tags":["rare_bp", "LTA_DuinnThunderbirds"],
+	"tech":"Duinn Thunderbirds",
+	"fleetPoints":12,
+	"ordnancePoints":105,
+	#"restoreToBaseHull":true,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/LTA/ships/Epattcud/Thunderbirds/Epattcud_19_Class_Scrapship_Thunderbirds.png",
+	"systemId": "systemsoverdrivesafe",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["comp_structure", "heavyarmor"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+    	"WS0009":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "COMPOSITE"
+		},	
+		"WS0010":{
+			"angle": 0,
+            "arc": 360,
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+	},
+	"builtInMods":["ConvertedFuelTanks", "augmentedengines", "thunderbirds"],
+	"builtInWeapons":{
+    },
+}

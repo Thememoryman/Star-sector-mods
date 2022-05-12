@@ -1,0 +1,54 @@
+{
+  "variantId": "LTA_Buffalo_mk2_Thunderbirds_Assault",
+  "hullId": "LTA_Buffalo_mk2_Thunderbirds",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 008": "sabotpod",
+        "WS0001": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "harpoon",
+        "WS 005": "harpoon",
+        "WS 006": "harpoon",
+        "WS 007": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "LTA_nixie",
+        "WS 003": "LTA_nixie"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0002": "LTA_Mudskipper_mk2_Thunderbirds_Assault"
+    }
+  ],
+  "wings": []
+}

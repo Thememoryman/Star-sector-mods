@@ -1,0 +1,43 @@
+{
+  "variantId": "LTA_Epattcudxi_Upcycled_Assault",
+  "hullId": "LTA_Epattcudxi_Upcycled",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "annihilatorpod",
+        "WS0004": "LTA_upcycledlampreyleftassault",
+        "WS0005": "LTA_upcycledlampreyrightassault"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "LTA_RocketTalon_Wing"
+  ]
+}

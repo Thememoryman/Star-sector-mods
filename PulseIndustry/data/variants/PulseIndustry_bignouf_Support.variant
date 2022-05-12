@@ -1,0 +1,43 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "hullId": "PulseIndustry_bignouf",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "PulseIndustry_bignouf_Support",
+  "weaponGroups": [
+  {
+    "autofire": true,
+    "mode": "LINKED",
+    "weapons": {
+      "WS0001": "irpulse",
+      "WS0002": "irpulse"
+    }
+  },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "PulseIndustry_low_blaster",
+        "WS0006": "PulseIndustry_low_blaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heatseeker",
+        "WS0004": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

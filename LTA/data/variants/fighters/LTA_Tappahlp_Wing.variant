@@ -1,0 +1,32 @@
+{
+  "variantId": "LTA_Tappahlp_Wing",
+  "hullId": "LTA_Tappahlp_Wing",
+  "displayName": "Assault Fighter Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammer_single",
+        "WS0002": "hammer_single",
+        "WS0003": "hammer_single",
+        "WS0004": "hammer_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

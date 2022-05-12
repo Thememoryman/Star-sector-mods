@@ -1,0 +1,38 @@
+{
+	"id":"diableavionics_thunderbolt",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+        "onHitEffect":"data.scripts.weapons.Diableavionics_ShapedCharge_b",			
+	"sprite":"graphics/da/missiles/diableavionics_thunderbolt.png",
+	"size":[8,22],	
+	"center":[4,11],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"engineSpec":{
+            "turnAcc":320,
+            "turnRate":100,
+            "acc":700,
+            "dec":100},	  
+	"engineSlots":[
+                        {"id":"ES1",
+			"loc":[-8, 0],
+			"style":"CUSTOM",
+			"styleSpec":{
+                            "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                            "engineColor":[155,10,10,225],
+                            "contrailDuration":0.75,
+                            "contrailWidthMult":3,
+                            "contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+                            "contrailMinSeg":10, # min segment length, in pixels
+                            "contrailMaxSpeedMult":0.33f,
+                            "contrailAngularVelocityMult":2f,
+                            "contrailColor":[43,98,149,220],
+                            "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+			},
+			"width":4.0,
+			"length":16.0,
+			"angle":180.0},
+    ],				    
+}

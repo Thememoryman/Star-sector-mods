@@ -1,0 +1,118 @@
+{
+  "hullName": "Right Module",
+  "hullId": "LTA_Barbicanrightmodule",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/LTA/ships/Modules/LTA_BarbicanModule2.png",
+  "style": "LOW_TECH",
+  "height": 277,
+  "width": 58,
+  "center": [29, 138.5],
+  "collisionRadius": 364,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 352.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "builtInWings": [
+    "LTA_Ballista_Wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-74.5, -11]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -67.5,
+      "locations": [-47.5, -4]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -23.5, 2.5,
+        -9.5, 3,
+        -6, -1.5,
+        -14.5, 2.5,
+        -19, 2.5,
+        -26.5, -1.5,
+        -21.5, 1,
+        -12, 0.5,
+        -16.5, -1
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": -45,
+      "locations": [76.5, -9]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -22.5,
+      "locations": [116.5, 10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-138.5, -1.5],
+      "length": 100,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -138.5, 5,
+    -135.5, 9.5,
+    -77, 8.5,
+    -73.5, 5,
+    4, 7,
+    8.5, -1.5,
+    85, 5,
+    85.5, 20.5,
+    97, 29,
+    134, 29,
+    136.5, 5.5,
+    125, -8,
+    99, -9,
+    95, -22.5,
+    68.5, -23,
+    67, -19.5,
+    35.5, -19,
+    34, -24.5,
+    25, -24,
+    23.5, -12.5,
+    -55.5, -19.5,
+    -56, -28.5,
+    -91, -29,
+    -114, -22.5,
+    -114.5, -13.5,
+    -135.5, -11,
+    -138.5, -7.5
+  ]
+}

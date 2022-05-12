@@ -1,0 +1,235 @@
+{
+  "bounds": [
+    -136,
+    -30,
+    -115,
+    -50.5,
+    -76,
+    -52,
+    -37,
+    -43.5,
+    -31,
+    -56,
+    33,
+    -52,
+    47.5,
+    -63.5,
+    92.5,
+    -63,
+    128,
+    -47.5,
+    141,
+    0,
+    141,
+    -0,
+    128,
+    47.5,
+    92.5,
+    63,
+    47.5,
+    63.5,
+    33,
+    52,
+    -31,
+    56,
+    -37,
+    43.5,
+    -76,
+    52,
+    -115,
+    50.5,
+    -136,
+    30
+  ],
+  "builtInMods": [
+    "converted_bay",
+    "ill_advised"
+  ],
+  "center": [
+    72,
+    162.5
+  ],
+  "collisionRadius": 154.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 44.5,
+      "location": [
+        -136.5,
+        18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 19,
+      "length": 44.5,
+      "location": [
+        -136.5,
+        -18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 19
+    },
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 44.5,
+      "location": [
+        -136.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 19
+    }
+  ],
+  "height": 325,
+  "hullId": "missp_path_starliner",
+  "hullName": "Starliner (Path)",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 146,
+  "spriteName": "graphics/ships/starliner/missp_starliner_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 259,
+      "id": "WS0001",
+      "locations": [
+        15.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 56.5,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        96.5,
+        47
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -56.5,
+      "arc": 220,
+      "id": "WS0003",
+      "locations": [
+        96.5,
+        -47
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0004",
+      "locations": [
+        58.5,
+        52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0005",
+      "locations": [
+        58.5,
+        -52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 135,
+      "arc": 241,
+      "id": "WS0006",
+      "locations": [
+        -81.5,
+        37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -135,
+      "arc": 241,
+      "id": "WS0007",
+      "locations": [
+        -81.5,
+        -37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        -22.5,
+        50
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        -22.5,
+        -50
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        1.5,
+        48
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        1.5,
+        -48
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 144
+}

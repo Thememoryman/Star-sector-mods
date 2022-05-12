@@ -1,0 +1,134 @@
+{
+  "bounds": [
+    -10.5,
+    29,
+    -40,
+    18,
+    -29.5,
+    3.5,
+    -40,
+    -20.5,
+    -25,
+    -38.5,
+    -5.5,
+    -34.5,
+    20,
+    -37,
+    32.5,
+    -20,
+    29.5,
+    4,
+    40,
+    13.5,
+    33.5,
+    29.5
+  ],
+  "builtInMods": [
+    "phasefield",
+    "delicate"
+  ],
+  "builtInWings": [],
+  "center": [
+    32,
+    41
+  ],
+  "collisionRadius": 95.5,
+  "coversColor": "159,161,151,255",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 39.5,
+      "location": [
+        -41,
+        17
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 42,
+      "location": [
+        -41,
+        -20
+      ],
+      "style": "LOW_TECH",
+      "width": 19
+    },
+    {
+      "angle": 144,
+      "contrailSize": 10.391395,
+      "length": 26.024118,
+      "location": [
+        -15.5,
+        28.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10.391395
+    },
+    {
+      "angle": -146,
+      "contrailSize": 12.246939,
+      "length": 29.64377,
+      "location": [
+        -26,
+        -39
+      ],
+      "style": "LOW_TECH",
+      "width": 12.246939
+    }
+  ],
+  "height": 90,
+  "hullId": "XHAN_Ubellop",
+  "hullName": "Ubellop",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 85.5,
+  "spriteName": "graphics/ships/XHAN_Ulbellop.png",
+  "style": "XHANTECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        37.5,
+        16
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 252,
+      "id": "WS0002",
+      "locations": [
+        9,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 245,
+      "id": "WS0003",
+      "locations": [
+        -20,
+        -17
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 74
+}

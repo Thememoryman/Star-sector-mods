@@ -1,0 +1,12 @@
+{
+    "DetailedCombatResults": {
+      "CombatAnalyzeKey":"L",
+      "DetailedCombatResults_LoggingLevel" : "INFO",
+
+      "MaxCombatResultCount":50, #max number to allow in our save
+      "CombatResultLifetimeInDays":730, #How long the intel report sticks around (just the visualization of data, data still sticks around)
+      "AggregateResultLifetimeInDays":5, #Aggregate reports don't last as long since they can be regenerated,
+      "SimulationResultLifetimeInDays":1,
+      "FighterWeaponBreakout":false, #true if you want to break out fighter damage by individual weapon, when true makes results hard to read
+    }
+}

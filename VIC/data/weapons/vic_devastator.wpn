@@ -1,0 +1,83 @@
+{
+  "id": "vic_devastator",
+  "specClass": "projectile",
+  "projectileSpecId": "vic_besomar_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/vic_besomar_base_turret.png",
+  "turretGunSprite": "graphics/weapons/vic_besomar_barrel_turret.png",
+  "hardpointSprite": "graphics/weapons/vic_besomar_base_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/vic_besomar_barrel_hardpoint.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 8,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    38.5,
+    0,
+    34.5,
+    1,
+    35.5,
+    -2,
+    31.5,
+    2.5,
+    32.5,
+    -2.5,
+    28.5,
+    4,
+    29.5,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    1.5,
+    -1.5,
+    3,
+    -3,
+    4.5,
+    -4.5
+  ],
+  "hardpointOffsets": [
+    39,
+    0,
+    35.5,
+    2,
+    36,
+    -2,
+    32.5,
+    3,
+    33,
+    -3,
+    29.5,
+    4,
+    30,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    1.5,
+    -1.5,
+    3,
+    -3,
+    4.5,
+    -4.5
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 35,
+    "particleSizeMin": 12,
+    "particleSizeRange": 22,
+    "particleDuration": 0.2,
+    "particleCount": 5,
+    "particleColor": [
+      255,
+      225,
+      165,
+      175
+    ]
+  },
+  "textureType": ROUGH
+}

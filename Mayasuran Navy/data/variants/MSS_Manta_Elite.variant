@@ -1,0 +1,44 @@
+{
+  "variantId": "MSS_Manta_Elite",
+  "hullId": "MSS_Manta",
+  "displayName": "Elite",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "amblaster",
+        "WS0002": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MSS_Khopesh"
+  ]
+}

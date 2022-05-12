@@ -1,0 +1,49 @@
+{
+  "variantId": "LTA_Barbican_Mothershipdefender",
+  "hullId": "LTA_Barbican",
+  "displayName": "Mothership Defender",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "vulcan",
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "LTA_Barbicanleftmodule_Mothershipdefender"
+    },
+    {
+      "WS0002": "LTA_Barbicanrightmodule_Mothershipdefender"
+    },
+    {
+      "WS0003": "LTA_Barbicanfrontmodule_Mothershipdefender"
+    }
+  ],
+  "wings": []
+}

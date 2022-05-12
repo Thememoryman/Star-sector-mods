@@ -1,0 +1,123 @@
+{
+  "hullName": "Epattcud XV",
+  "hullId": "LTA_Epattcudxv",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Epattcud/Epattcud_15_Class_Scrapship.png",
+  "style": "LOW_TECH",
+  "height": 61,
+  "width": 91,
+  "center": [45.5, 28],
+  "collisionRadius": 78,
+  "shieldCenter": [2.5, 0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "comp_structure"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -67.5,
+      "locations": [-8, -12.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 90,
+      "locations": [15, 33.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [22, -1.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [25, 14.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 0,
+      "locations": [21, -16.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, 33],
+      "length": 42.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28, -33],
+      "length": 42.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28, 27.5],
+      "length": 42.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28, -27.5],
+      "length": 42.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -26, 12.5,
+    -18, 17,
+    -18, 23.5,
+    -28, 25,
+    -27.5, 36.5,
+    -18, 38.5,
+    -17, 43.5,
+    21, 44.5,
+    28, 36,
+    28, 29.5,
+    19, 25.5,
+    23, 20,
+    28, 20,
+    29, 4,
+    29, -9.5,
+    23, -9.5,
+    20.5, -40,
+    4.5, -46,
+    -18, -40.5,
+    -28, -36.5,
+    -28, -24.5,
+    -20, -22.5,
+    -26, -17
+  ]
+}

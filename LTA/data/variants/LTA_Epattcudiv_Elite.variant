@@ -1,0 +1,33 @@
+{
+  "variantId": "LTA_Epattcudiv_Elite",
+  "hullId": "LTA_Epattcudiv",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0002": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymg",
+        "WS0004": "heavymg",
+        "WS0005": "heavymg",
+        "WS0006": "heavymg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

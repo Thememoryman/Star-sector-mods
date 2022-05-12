@@ -1,0 +1,39 @@
+{
+  "variantId": "LTA_Epattcudxi_Brawler",
+  "hullId": "LTA_Epattcudxi",
+  "displayName": "Brawler",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_nixie",
+        "WS0002": "LTA_nixie"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,54 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 14,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "drg_aphelion",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "drg_aphelion_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "harpoon",
+                "WS0008": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabot",
+                "WS0006": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pulselaser",
+                "WS0002": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "lrpdlaser",
+                "WS0010": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "drg_arc_s",
+                "WS0004": "drg_arc_s",
+                "WS0017": "pdlaser"
+            }
+        }
+    ],
+    "wings": ["drg_kaskara_wing"]
+}

@@ -1,0 +1,51 @@
+{
+  "displayName": "Flicker",
+  "fluxCapacitors": 12,
+  "fluxVents": 22,
+  "goalVariant": true,
+  "hullId": "prv_fasvinge",
+  "hullMods": [
+    "targetingunit",
+    "magazines"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "prv_fasvinge_flicker",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "prv_siege_akers"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "prv_berguv_rack",
+        "WS0012": "prv_berguv_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ioncannon",
+        "WS0003": "ioncannon",
+        "WS0004": "prv_gravkan",
+        "WS0005": "prv_gravkan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "pdburst",
+        "WS0014": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

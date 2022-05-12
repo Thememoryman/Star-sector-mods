@@ -1,0 +1,66 @@
+{
+  "displayName": "Stormhawk",
+  "fluxCapacitors": 0,
+  "fluxVents": 48,
+  "goalVariant": true,
+  "hullId": "MSS_Nebulosa_Warhawk",
+  "hullMods": [
+    "expanded_deck_crew",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Nebulosa_Stormhawk",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0023": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0005": "MSS_Orchard",
+        "WS0008": "MSS_Orchard",
+        "WS0010": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "MSS_ionlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0003": "flak",
+        "WS0004": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "flak",
+        "WS0009": "flak",
+        "WS0011": "flak",
+        "WS0020": "dualflak"
+      }
+    }
+  ],
+  "wings": [
+    "MSS_Sipahi",
+    "MSS_Sipahi"
+  ]
+}

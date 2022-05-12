@@ -1,0 +1,122 @@
+{
+  "hullName": "Gun Platform",
+  "hullId": "LTA_Barbicanfrontmodule",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/LTA/ships/Modules/LTA_BarbicanModule3.png",
+  "style": "LOW_TECH",
+  "height": 126,
+  "width": 188,
+  "center": [108, 63],
+  "collisionRadius": 200,
+  "shieldCenter": [0, 14],
+  "shieldRadius": 174,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "reduced_explosion",
+    "dedicated_targeting_core"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 22.5,
+      "locations": [-32, 44]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -22.5,
+      "locations": [-32, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [19, 70]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [51, 14]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [51, -27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [2, -59]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -4, 39,
+        -4, -9.5,
+        -5.5, -11,
+        -3.5, -10.5,
+        -5, 39.5,
+        -3, 40.5,
+        -3, 37,
+        -5, -8.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -46.5, -71.5,
+    -46.5, -2,
+    -44, 0.5,
+    -42.5, 30,
+    -46, 34,
+    -44, 63,
+    -40, 75.5,
+    -35, 79,
+    -36.5, 106,
+    -8.5, 105,
+    11.5, 87,
+    28, 85.5,
+    28, 51,
+    36.5, 47,
+    36.5, 35.5,
+    42.5, 30.5,
+    60.5, 30,
+    59.5, -2,
+    39, -6,
+    59.5, -11,
+    59.5, -42.5,
+    37.5, -44,
+    37, -60,
+    30.5, -66.5,
+    -48, -80.5,
+    -63.5, -72.5
+  ]
+}

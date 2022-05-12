@@ -1,0 +1,42 @@
+{
+	
+    "hullFrequency":{
+        "hulls":{
+            "missp_albatross":1.5,
+            "missp_staple":1.2,
+            "missp_expedition":1.0,
+			"missp_nyx":1.0,
+			"missp_buffalomkiii":1.0,
+        },
+    },
+    "shipsWhenImporting":{
+        "hulls":[
+            "missp_albatross",
+            "missp_staple",
+            "missp_expedition",
+			"missp_nyx",
+			"missp_buffalomkiii",
+        ],
+    },
+    "knownShips":{
+        "hulls":[
+            "missp_albatross",
+            "missp_staple",
+            "missp_expedition",
+			"missp_nyx",
+			"missp_buffalomkiii",
+        ],
+    },
+	"knownFighters":{
+		"fighters":[
+			"missp_patrol_craft_wing",
+			"missp_gun_craft_wing",
+			"missp_flak_craft_wing",
+			"missp_patrol_craft_wing",
+			"missp_broadswordmkii_wing",
+			"missp_midline_patrol_craft_wing",
+		],
+	},
+},
+
+

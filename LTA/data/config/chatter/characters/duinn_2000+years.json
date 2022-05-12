@@ -1,0 +1,82 @@
+{
+	"name":"High Delegate",
+	"personalities":["steady", "aggressive", "cautious"],
+	"gender":["m","f","n"],
+	"chance":1,
+	"talkativeness":1.5,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Perhaps after these last 2000 years, I may finally see something entertaining..."},
+			{"text":"We'll make this one entertaining, any objections?"},
+			{"text":"War is hell. This is no war. I have seen it, accross the stars, you have not the capacity for war."},
+			{"text":"You must think yourself noble, battling with our hopes. I assure you, this is no such thing as nobility, dog of the domain."},
+			{"text":"You will pay for your immorality, dogs of war."}
+		],
+		"start_boss":[
+			{"text":"What beautiful sights. We must preserve them."},
+			{"text":"Our strengths are innumerable, our victory guaranteed."},
+			{"text":"Do not test us, mortal."}
+		],
+		"retreat":[
+			{"text":"And when we return we shall with the strength of a thousand, of hundreds of thousands."},
+			{"text":"If our lives are ended this day, let it be known it was in the name of the eternal delegates of Duinn, may their empathy reign eternal."},
+			{"text":"A wise decision."}
+		],
+		"out_of_missiles":[
+		],
+		"need_help":[
+			{"text":"I require assistance, if you please."},
+			{"text":"My ship is in an undesireable location."},
+			{"text":"These are the tactics of dogs."}
+		],
+		"pursuing":[
+			{"text":"They think it possible to leave? Maybe today, but eventually you will be run down. And when you are, your death will be slow."},
+			{"text":"They wish to flee, how amusing."},
+			{"text":"I do not believe in cowardice, idiots should flee when pressed. It does not stop me from pursuing them."},
+			{"text":"Wonderful."}
+		],
+		"running":[
+			{"text":"This battle holds no contention, we should regroup."},
+			{"text":"I believe this is ample time to make a rearrangement of our forces."},
+			{"text":"This fight is unnecessary."},
+			{"text":"You inebriate yourselves on the rush of battle, I have other matters to attend to."}
+		],
+		"hull_90":[
+			{"text":"You appear to have breached my ship, how entertaining."},
+			{"text":"An actual battle? How charming."},
+			{"text":"That individual on the gun that hit us? Hack their gunnery implants. I want them screaming."},
+			{"text":"I suppose it is a good time for this fetid battle to actually begin."}
+		],
+		"hull_50":[
+			{"text":"You will not defeat us this day, nor any day, dog of the Domain. With or without my demise."},
+			{"text":"I see."},
+			{"text":"What persistent dogs, under the heel of the Domain. They should be freed."},
+			{"text":"My ship appears aesthetically damaged, for what it is worth."}
+		],
+		"hull_30":[
+			{"text":"My ship is burning around me, but my men still man the controls, does your false empathy inspire such loyalty, dog of the Domain?"},
+			{"text":"My life in service to empathy. Die, domain war-dog."},
+			{"text":"My ship's explosion will be a firework upon the stars. Far prettier than your existence, dog of the domain."}
+		],
+		"overload":[
+			{"text":"My controls are in revolt, assistance may be neccessary."},
+			{"text":"My shields are faltering, though not without purchase."},
+			{"text":"The dogs of the Domain have rendered my ship shieldless. Protect my crew."},
+			{"text":"This may become unsalvageable."},
+			{"text":"Mein sohn, nur mut... *Sounds of crew singing, undemoralised*."}
+		],
+		"death":[
+			{"text":"I have already returned to my other vessel, my crew are in your hands."}
+		],
+		"victory":[
+			{"text":"And such is another day in the Persean Sector."},
+			{"text":"Be certain to check the ships, we do not want any breakaways while we are salvaging."},
+			{"text":"Perhaps, should another thousand years pass, battles like these will not be neccessary."},
+			{"text":"The remaining stragglers have left in cloaked shuttles from their ships, how amusing. You there, fire on those shuttles."},
+			{"text":"And now, time to enjoy some semblance of life before the domain again. At least until the next conflict. I hope you do not mind."},
+			{"text":"It is pitiable that they hoped to live through this battle."}
+		]
+	}
+}

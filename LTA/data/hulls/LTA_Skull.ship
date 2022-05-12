@@ -1,0 +1,209 @@
+{
+  "hullName": "Skull",
+  "hullId": "LTA_Skull",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/LTA/ships/Derelict/LTA_Skull_Drone.png",
+  "style": "LOW_TECH",
+  "height": 250,
+  "width": 250,
+  "center": [130, 125],
+  "collisionRadius": 205.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 184.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [28, 60]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -67.5,
+      "locations": [44, -103]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -22.5,
+      "locations": [75, -82]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -135,
+      "locations": [-76, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [98, 48]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [98, 6]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": 135.5,
+      "locations": [-50, 78]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [8, 124]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-30, 125]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 90,
+      "locations": [-8, 106]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -22.5,
+      "locations": [10, -49]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-118, -35],
+      "length": 125,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-112, 67],
+      "length": 180,
+      "width": 35,
+      "angle": 180,
+      "contrailSize": 35,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-119, 10],
+      "length": 150,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, -87],
+      "length": 180,
+      "width": 35,
+      "angle": 180,
+      "contrailSize": 35,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-111, 41],
+      "length": 125,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118, -14],
+      "length": 125,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118, -57],
+      "length": 125,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -119, -63,
+    -119, 19,
+    -95.5, 28.5,
+    -110, 34,
+    -111.5, 76.5,
+    -93, 83.5,
+    -65, 74,
+    -39, 127.5,
+    13.5, 126.5,
+    14.5, 115.5,
+    52, 71,
+    86, 69.5,
+    107, 64,
+    107, -11,
+    119, -16,
+    119, -63,
+    107, -64,
+    104.5, -88.5,
+    92.5, -102.5,
+    68, -104,
+    62, -115,
+    3.5, -113,
+    2.5, -116.5,
+    -24, -116,
+    -24, -112,
+    -46.5, -112,
+    -47, -105.5,
+    -79.5, -95,
+    -79.5, -78,
+    -67, -72,
+    -102.5, -71
+  ]
+}

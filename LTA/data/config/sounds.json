@@ -1,0 +1,30 @@
+{
+
+#collapseopen MUSIC
+	
+"music":{
+			"LTA_Tech_Duinn_Interaction_Friendly":[
+				{"file":"LTA_Tech_Duinn_Interaction_Friendly.ogg","source":"sounds/LTA/music/","volume":0.75,"randomStart":false},
+			],
+			"LTA_Tech_Duinn_Interaction_Neutral":[
+				{"file":"LTA_Tech_Duinn_Interaction_Neutral.ogg","source":"sounds/LTA/music/","volume":0.5,"randomStart":false},
+			],
+			"LTA_Tech_Duinn_Interaction_DIE":[
+				{"file":"LTA_Tech_Duinn_Interaction_Hostile.ogg","source":"sounds/LTA/music/","volume":1.0,"randomStart":false},
+			],
+	},
+	
+            "nixie_cannon":[
+                {"file":"sounds/LTA/fx/LTAweapons/Nixie_Cannon.ogg","pitch":1.0,"volume":0.5},
+                #{"file":"sounds/LTA/fx/LTAweapons/Nixie_Cannon_basic.ogg","pitch":0.5,"volume":0.2},
+            ],
+            "nixie_missilemedium_split":[
+                {"file":"sounds/LTA/fx/LTAweapons/Nixie_MissileMedium_split.ogg","pitch":1.25,"volume":2.0},
+            ],
+            "nixie_missilelarge_split":[
+                {"file":"sounds/LTA/fx/LTAweapons/Nixie_MissileLarge_split.ogg","pitch":0.75,"volume":2.0},
+            ],
+            "nixie_missilelarge_fire":[
+                {"file":"sounds/LTA/fx/LTAweapons/Nixie_MissileLarge_fire.ogg","pitch":1.0,"volume":2.0},
+            ],
+}

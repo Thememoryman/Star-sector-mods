@@ -1,0 +1,168 @@
+{
+  "bounds": [
+    71,
+    -33.5,
+    89,
+    -0,
+    71,
+    33.5,
+    29,
+    34,
+    -10,
+    56.5,
+    -66,
+    46,
+    -87,
+    30.5,
+    -87,
+    -30.5,
+    -66,
+    -46,
+    -10,
+    -56.5,
+    29,
+    -34
+  ],
+  "builtInMods": [
+    "converted_hangar",
+    "ill_advised"
+  ],
+  "center": [
+    64,
+    96
+  ],
+  "collisionRadius": 109,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 53.5,
+      "location": [
+        -87,
+        21.5
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 53.5,
+      "location": [
+        -87,
+        -21.5
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 53.5,
+      "location": [
+        -87,
+        29
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 53.5,
+      "location": [
+        -87,
+        -29
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    }
+  ],
+  "height": 192,
+  "hullId": "missp_path_mule",
+  "hullName": "Mule (Path)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 101,
+  "spriteName": "graphics/ships/mule/missp_mule_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 260,
+      "id": "WS0001",
+      "locations": [
+        54,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        -8,
+        40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 220,
+      "id": "WS0003",
+      "locations": [
+        -8,
+        -40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 130,
+      "id": "WS0004",
+      "locations": [
+        -62,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        17,
+        39
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        17,
+        -39
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 128
+}

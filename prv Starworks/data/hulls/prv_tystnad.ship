@@ -1,0 +1,189 @@
+{
+  "hullName": "Tystnad",
+  "hullId": "prv_tystnad",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/prv/ships/prv_tystnad.png",
+  "style": "PRV_HIGH",
+  "height": 155,
+  "width": 80,
+  "center": [40, 79],
+  "collisionRadius": 110.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 108,
+  "viewOffset": 0,
+  "builtInMods": [
+    "prv_leanhangar",
+    "prv_companion_integration",
+    "prv_ramshield"
+  ],
+  "builtInWeapons": {
+    "prv_ramshield": "prv_u_ramshield"
+  },
+  "weaponSlots": [
+    {
+      "id": "prv_ramshield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [67, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [-43, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [28, 16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [28, -16]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-25, 17.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-25, -17.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        4, -12,
+        -4, -15.5,
+        11.5, -15.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3.5, 12.5,
+        11, 15,
+        -4.5, 14.5
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-57, 24]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-57, -24]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44.5, 34.5],
+      "length": 21,
+      "width": 7,
+      "angle": 160,
+      "contrailSize": 7,
+      "style": "PRV_HIGH"
+    },
+    {
+      "location": [-44.5, -34.5],
+      "length": 21,
+      "width": 7,
+      "angle": -160,
+      "contrailSize": 7,
+      "style": "PRV_HIGH"
+    },
+    {
+      "location": [-73.5, 19],
+      "length": 46.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "PRV_HIGH"
+    },
+    {
+      "location": [-73.5, -19],
+      "length": 46.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "PRV_HIGH"
+    },
+    {
+      "location": [-78.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "PRV_HIGH"
+    }
+  ],
+  "bounds": [
+    -71.5, 24,
+    -59, 32,
+    -17.5, 27.5,
+    -11, 19.5,
+    28, 22.5,
+    55.5, 20,
+    72, 7.5,
+    72, -7.5,
+    55.5, -20,
+    28, -22.5,
+    -11, -19.5,
+    -17.5, -27.5,
+    -59, -32,
+    -71.5, -24
+  ]
+}

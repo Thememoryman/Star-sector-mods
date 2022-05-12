@@ -1,0 +1,222 @@
+{
+  "bounds": [
+    -110,
+    2.5,
+    -73.5,
+    15,
+    -58,
+    16,
+    -40,
+    23,
+    -36.5,
+    17,
+    6.5,
+    15,
+    1.5,
+    54.5,
+    44.5,
+    58,
+    51,
+    29,
+    62.5,
+    13,
+    38,
+    2,
+    38,
+    -2,
+    62.5,
+    -13,
+    51,
+    -29,
+    44.5,
+    -58,
+    1.5,
+    -54.5,
+    6.5,
+    -15,
+    -36.5,
+    -17,
+    -40,
+    -23,
+    -58,
+    -16,
+    -73.5,
+    -15,
+    -110,
+    -2.5
+  ],
+  "builtInMods": [
+    "MSS_LastStand",
+    "MSS_Prime"
+  ],
+  "center": [
+    66,
+    113
+  ],
+  "collisionRadius": 139.201294,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 64,
+      "location": [
+        0,
+        43
+      ],
+      "style": "MayasuranFlare",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 64,
+      "location": [
+        0,
+        -43
+      ],
+      "style": "MayasuranFlare",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 34,
+      "location": [
+        3.5,
+        -30
+      ],
+      "style": "MayasuranFlare",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 34,
+      "location": [
+        3.5,
+        30
+      ],
+      "style": "MayasuranFlare",
+      "width": 10
+    }
+  ],
+  "height": 179,
+  "hullId": "MSS_Manta",
+  "hullName": "Manta",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    -10,
+    -0
+  ],
+  "shieldRadius": 108.102959,
+  "spriteName": "graphics/mayasura/ships/MSS_Manta_Elite.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        57,
+        13
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        57,
+        -13
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 20,
+      "arc": 150,
+      "id": "WS0003",
+      "locations": [
+        29,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -20,
+      "arc": 150,
+      "id": "WS0004",
+      "locations": [
+        29,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0005",
+      "locations": [
+        4,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 105,
+      "arc": 180,
+      "id": "WS0006",
+      "locations": [
+        -39,
+        16
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -105,
+      "arc": 180,
+      "id": "WS0007",
+      "locations": [
+        -39,
+        -16
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -70,
+        -0,
+        -72,
+        4.5,
+        -75.5,
+        7,
+        -71.5,
+        -4,
+        -75.5,
+        -6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 132
+}

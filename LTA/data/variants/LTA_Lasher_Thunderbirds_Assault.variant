@@ -1,0 +1,39 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "LTA_Lasher_Thunderbirds",
+    "hullMods": [
+		"hardened_subsystems"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "LTA_Lasher_Thunderbirds_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightag",
+                "WS 003": "lightag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "lightdualac",
+                "WS 004": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 007": "vulcan"
+            }
+        }
+    ]
+}

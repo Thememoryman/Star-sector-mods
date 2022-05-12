@@ -1,0 +1,24 @@
+{
+  "variantId": "LTA_Mudskipper_mk2_Thunderbirds_Hunter",
+  "hullId": "LTA_Mudskipper_mk2_Thunderbirds",
+  "displayName": "Hunter",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "LTA_nixiearray"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

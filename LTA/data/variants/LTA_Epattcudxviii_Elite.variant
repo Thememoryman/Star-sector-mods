@@ -1,0 +1,68 @@
+{
+  "variantId": "LTA_Epattcudxviii_Elite",
+  "hullId": "LTA_Epattcudxviii",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "hveldriver",
+        "WS0017": "heavymauler",
+        "WS0019": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "hurricane",
+        "WS0013": "cyclone",
+        "WS0020": "sabotpod",
+        "WS0021": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "multineedler",
+        "WS0003": "hephag",
+        "WS0004": "heavyac",
+        "WS0005": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "lightmortar",
+        "WS0016": "lightmortar",
+        "WS0018": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "flak",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,231 @@
+{
+  "bounds": [
+    -55.5,
+    -73,
+    109,
+    -29.5,
+    109,
+    29.5,
+    -55.5,
+    73,
+    -74.5,
+    39,
+    -105,
+    44,
+    -105,
+    -44,
+    -74.5,
+    -39
+  ],
+  "builtInMods": [
+    "ill_advised"
+  ],
+  "center": [
+    81,
+    111
+  ],
+  "collisionRadius": 128,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 44.5,
+      "location": [
+        -108,
+        -16
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 44.5,
+      "location": [
+        -108,
+        16
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 43.5,
+      "location": [
+        -107,
+        -26.5
+      ],
+      "style": "LOW_TECH",
+      "width": 13
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 43.5,
+      "location": [
+        -107,
+        26.5
+      ],
+      "style": "LOW_TECH",
+      "width": 13
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 37,
+      "location": [
+        -106,
+        -37
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 37,
+      "location": [
+        -106,
+        37
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    }
+  ],
+  "height": 222,
+  "hullId": "missp_path_falcon",
+  "hullName": "Falcon (Path)",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 119,
+  "spriteName": "graphics/ships/falcon/missp_falcon_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 45,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        -9,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 220,
+      "id": "WS0003",
+      "locations": [
+        -9,
+        -38
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        31,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 220,
+      "id": "WS0004",
+      "locations": [
+        31,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0005",
+      "locations": [
+        99,
+        22
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 30,
+      "id": "WS0006",
+      "locations": [
+        99,
+        -22
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 135,
+      "arc": 220,
+      "id": "WS0007",
+      "locations": [
+        -84,
+        26
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -135,
+      "arc": 220,
+      "id": "WS0008",
+      "locations": [
+        -84,
+        -26
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        -37,
+        69
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        -37,
+        -69
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 162
+}

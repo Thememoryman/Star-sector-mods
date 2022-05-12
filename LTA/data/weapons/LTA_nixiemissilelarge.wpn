@@ -1,0 +1,46 @@
+{
+  "id": "LTA_nixiemissilelarge",
+  "specClass": "projectile",
+  "projectileSpecId": "LTA_nyxdrone_mrm",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/LTA/weapons/LTA_NixieMissileLarge_turret_base.png",
+  "hardpointSprite": "graphics/LTA/weapons/LTA_NixieMissileLarge_hardpoint_base.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    12,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 40,
+    "cloudParticleCount": 20,
+    "cloudDuration": 2,
+    "cloudRadius": 15,
+    "blowbackParticleCount": 12,
+    "blowbackDuration": 3,
+    "blowbackLength": 40,
+    "blowbackSpread": 15,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "reaper_fire"
+}

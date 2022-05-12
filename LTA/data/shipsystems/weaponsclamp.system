@@ -1,0 +1,33 @@
+{
+	"id":"weaponsclamp",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.scripts.shipsystems.WeaponsClampStats",
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	#"engineGlowLengthMult":2.5,
+	#"engineGlowWidthMult":3,
+	#"engineGlowGlowMult":2,
+	
+	"weaponGlowColor":[255,200,0,155],
+	"weaponTypes":[BALLISTIC, MISSILE, ENERGY],
+	
+	"flameoutOnImpactChance":0.0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+	"alwaysAccelerate":false,
+
+	"useSound":"system_targeting_feed",
+	"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":10,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":10,
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "hullId": "LTA_Monitor_Thunderbirds",
+    "hullMods": ["advancedshieldemitter"],
+	"goalVariant": true,
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "LTA_Monitor_Thunderbirds_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "LTA_nixiemissilemedium",
+                "WS 002": "LTA_nixiemissilemedium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "amblaster",
+                "WS 004": "lightdualac"
+            }
+        }
+    ]
+}

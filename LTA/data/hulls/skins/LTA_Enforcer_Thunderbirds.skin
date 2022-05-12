@@ -1,0 +1,72 @@
+{
+	"baseHullId":"enforcer",
+	"skinHullId":"LTA_Enforcer_Thunderbirds",
+	"hullName":"Enforcer (TB)",
+	"descriptionId":"enforcer",
+	"descriptionPrefix":"This ship has been heavily modified and upclassed for use in the 'Duinn Thunderbirds', sporting many practical but expensive 'showy improvements' that make it more intimidating in combat over standard variations of the hull.",
+	"tags":["rare_bp", "LTA_DuinnThunderbirds"],
+	"tech":"Duinn Thunderbirds",
+	"fleetPoints":12,
+	"ordnancePoints":115,
+	#"restoreToBaseHull":true,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/LTA/ships/Epattcud/Thunderbirds/LTA_Enforcer_Thunderbirds.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+    	"WS 002":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            "size": "SMALL",
+            #"type": "BALLISTIC"
+		},	
+		"WS 004":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            "size": "SMALL",
+            #"type": "BALLISTIC"
+        },
+		"WS 003":{
+			#"angle": 0,
+            #"arc": 5,
+            #"mount": "TURRET",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+        },
+		"WS 006":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+		"WS 007":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+		"WS 008":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+		"WS 009":{
+			#"angle": 0,
+            "arc": 5,
+            #"mount": "TURRET",
+            #"size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+	},
+	"builtInMods":["augmentedengines", "thunderbirds"],
+	"builtInWeapons":{
+    },
+}

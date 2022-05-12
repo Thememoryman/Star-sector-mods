@@ -1,0 +1,76 @@
+{
+  "variantId": "LTA_Epattcudvi_Broadside",
+  "hullId": "LTA_Epattcudvi",
+  "displayName": "Broadside",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 50,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "extendedshieldemitter",
+    "turretgyros",
+    "advancedshieldemitter",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "harpoonpod",
+        "WS0016": "harpoonpod",
+        "WS0019": "harpoonpod",
+        "WS0020": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "hephag",
+        "WS0018": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0008": "lightdualac",
+        "WS0010": "lightag",
+        "WS0011": "lightag",
+        "WS0021": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "shredder",
+        "WS0006": "shredder",
+        "WS0009": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "lightmg",
+        "WS0007": "lightmg",
+        "WS0012": "lightmg",
+        "WS0013": "vulcan",
+        "WS0014": "lightmg",
+        "WS0015": "vulcan",
+        "WS0022": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing"
+  ]
+}

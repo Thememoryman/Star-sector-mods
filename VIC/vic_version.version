@@ -1,0 +1,11 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/AstaratStarsector/Starsector_VIC/master/VIC/vic_version.version",
+    "modName":"VIC",
+    "modThreadId":"19603",
+    "modVersion":
+    {
+        "major":1,
+        "minor":3,
+        "patch":3,
+    },
+}

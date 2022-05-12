@@ -1,0 +1,35 @@
+{
+  "variantId": "LTA_Epattcudxi_Upcycled_DroneRight_Support",
+  "hullId": "LTA_Epattcudxi_Upcycled_DroneRight",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "hardened_subsystems",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "pilum",
+        "WS0004": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_nixie",
+        "WS0002": "LTA_nixie"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,200 @@
+{
+  "bounds": [
+    -61.5,
+    -49.5,
+    -84.5,
+    -49.5,
+    -81.5,
+    -90,
+    -7,
+    -99,
+    102,
+    -20.5,
+    102,
+    20.5,
+    -7,
+    99,
+    -81.5,
+    90,
+    -84.5,
+    49.5,
+    -61.5,
+    49.5
+  ],
+  "builtInMods": [
+    "ill_advised",
+    "converted_bay"
+  ],
+  "center": [
+    97,
+    86
+  ],
+  "collisionRadius": 133,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -85,
+        54.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -85,
+        -54.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -85,
+        62.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -85,
+        -62.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 52.5,
+      "location": [
+        -81,
+        77.5
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 52.5,
+      "location": [
+        -81,
+        -77.5
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    }
+  ],
+  "height": 190,
+  "hullId": "missp_path_venture",
+  "hullName": "Venture (Path)",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 124.5,
+  "spriteName": "graphics/ships/venture/missp_venture_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 260,
+      "id": "WS0001",
+      "locations": [
+        40,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 260,
+      "id": "WS0002",
+      "locations": [
+        -26,
+        68
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 260,
+      "id": "WS0003",
+      "locations": [
+        -26,
+        -68
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        50,
+        60
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        50,
+        -60
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        22,
+        80
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        22,
+        -80
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 194
+}

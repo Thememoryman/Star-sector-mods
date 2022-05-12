@@ -1,0 +1,19 @@
+{
+	"id":"vic_shockDischarger",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.vic_shockDischargerAI",
+	
+	"statsScript":"data.scripts.shipsystems.vic_shockDischarger",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"vic_FluxRaptur",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":2000,
+		"threatAmount":5000,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

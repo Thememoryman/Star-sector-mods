@@ -1,0 +1,68 @@
+{
+  "variantId": "LTA_Epattcudxviii_Charger",
+  "hullId": "LTA_Epattcudxviii",
+  "displayName": "Charger",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "heavymauler",
+        "WS0021": "heavymauler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "hurricane",
+        "WS0013": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mjolnir",
+        "WS0004": "heavyneedler",
+        "WS0005": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "lightmortar",
+        "WS0015": "lightmortar",
+        "WS0016": "lightmortar",
+        "WS0017": "lightmortar",
+        "WS0018": "lightmortar",
+        "WS0019": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "devastator",
+        "WS0003": "devastator",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

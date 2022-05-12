@@ -1,0 +1,35 @@
+{
+  "variantId": "LTA_Epattcudxxviii_Elite",
+  "hullId": "LTA_Epattcudxxviii",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heatseeker"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0003": "LTA_Epattcudxxviii_Module_Elite"
+    }
+  ],
+  "wings": []
+}

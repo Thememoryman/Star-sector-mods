@@ -1,0 +1,14 @@
+{
+  "variantId": "LTA_EpattcudArmor_Plate",
+  "hullId": "LTA_EpattcudArmor",
+  "displayName": "Plte",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

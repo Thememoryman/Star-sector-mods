@@ -1,0 +1,10 @@
+{
+	"id":"XhanEmpire",
+	"name":"Xhan Empire",
+	"author":"Peplat",
+	"version":"2.21 Plans set in motion",
+	"description":"The Xhan Empire.",
+	"gameVersion":"0.95a-RC10",
+	"jars":["jars/XhanEmpire.jar"],
+	"modPlugin":"data.scripts.XhanEmpireModPlugin",
+}

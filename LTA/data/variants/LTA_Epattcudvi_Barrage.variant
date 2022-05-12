@@ -1,0 +1,73 @@
+{
+  "variantId": "LTA_Epattcudvi_Barrage",
+  "hullId": "LTA_Epattcudvi",
+  "displayName": "Barrage",
+  "goalVariant": true,
+  "fluxCapacitors": 24,
+  "fluxVents": 50,
+  "quality": 3,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mark9",
+        "WS0006": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0002": "pilum",
+        "WS0016": "pilum",
+        "WS0019": "pilum",
+        "WS0020": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "lightdualac",
+        "WS0014": "lightdualac",
+        "WS0021": "shredder",
+        "WS0022": "shredder"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0007": "lightmg",
+        "WS0008": "lightmg",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0015": "vulcan",
+        "WS0018": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "LTA_Tappah_Wing",
+    "LTA_Tappah_Wing"
+  ]
+}

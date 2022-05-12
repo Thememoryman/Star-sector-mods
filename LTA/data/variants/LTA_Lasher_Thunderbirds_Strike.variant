@@ -1,0 +1,40 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "LTA_Lasher_Thunderbirds",
+    "hullMods": [
+		"missleracks"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "LTA_Lasher_Thunderbirds_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "LTA_nixie",
+                "WS 003": "LTA_nixie"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "reaper",
+                "WS 006": "reaper",
+                "WS 007": "reaper",
+                "WS 004": "reaper"
+
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "LTA_nixie"
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "LTA_NyxDrone_Wing",
+  "hullId": "LTA_NyxDrone_Wing",
+  "displayName": "Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "LTA_nixiemissilesmallfighter",
+        "WS0003": "LTA_nixiemissilesmallfighter",
+        "WS0004": "LTA_nixiemissilesmallfighter",
+        "WS0005": "LTA_nixiemissilesmallfighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_nixie"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

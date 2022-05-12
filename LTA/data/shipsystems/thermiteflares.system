@@ -1,0 +1,12 @@
+{
+	"id":"thermiteflares",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	"weaponDataId":"LTA_thermiteseeker",
+	
+	#"useSound":"system_flare_launcher_active",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

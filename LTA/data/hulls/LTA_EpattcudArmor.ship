@@ -1,0 +1,29 @@
+{
+  "hullName": "Armor",
+  "hullId": "LTA_EpattcudArmor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Epattcud/Misc&Modules/Epattcud_Armor_Module_Medium.png",
+  "style": "LOW_TECH",
+  "height": 50,
+  "width": 146,
+  "center": [73, 25],
+  "collisionRadius": 110.5,
+  "shieldCenter": [-11, -0],
+  "shieldRadius": 94,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    24, -0,
+    3, -69,
+    -8, -72,
+    -16, -67.5,
+    -16, 67.5,
+    -8, 72,
+    3, 69
+  ]
+}

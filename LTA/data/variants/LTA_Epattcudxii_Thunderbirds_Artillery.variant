@@ -1,0 +1,24 @@
+{
+  "variantId": "LTA_Epattcudxii_Thunderbirds_Artillery",
+  "hullId": "LTA_Epattcudxii_Thunderbirds",
+  "displayName": "Artillery",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_hex"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

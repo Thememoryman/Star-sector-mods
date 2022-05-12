@@ -1,0 +1,82 @@
+{
+  "variantId": "LTA_Epattcudxxvii_Assault",
+  "hullId": "LTA_Epattcudxxvii",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "magazines",
+    "pointdefenseai",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LTA_tpcturret",
+        "WS0002": "LTA_tpcturret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0018": "pilum",
+        "WS0019": "salamanderpod",
+        "WS0020": "pilum",
+        "WS0021": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hellbore",
+        "WS0007": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "devastator",
+        "WS0008": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak",
+        "WS0006": "flak",
+        "WS0009": "flak",
+        "WS0010": "flak",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0017": "LTA_Epattcudxxvii_Module_Front_Assault"
+    },
+    {
+      "WS0015": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0013": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0016": "LTA_EpattcudArmor_Plate"
+    },
+    {
+      "WS0014": "LTA_EpattcudArmor_Plate"
+    }
+  ],
+  "wings": []
+}

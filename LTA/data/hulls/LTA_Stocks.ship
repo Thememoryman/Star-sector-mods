@@ -1,0 +1,137 @@
+{
+  "hullName": "Stocks",
+  "hullId": "LTA_Stocks",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/LTA/ships/Derelict/LTA_Stocks.png",
+  "style": "LOW_TECH",
+  "height": 70,
+  "width": 60,
+  "center": [30, 35],
+  "collisionRadius": 64,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 57.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "swarmer_fighter",
+    "WS0003": "swarmer_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [23, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 90,
+      "locations": [23, 20.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -90,
+      "locations": [23, -20.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 90,
+      "locations": [5, 25]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -90,
+      "locations": [5, -25]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 90,
+      "locations": [-10, 25]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -90,
+      "locations": [-10, -25]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, 9],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, -9],
+      "length": 50,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, 16],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, -16],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    31, -2.5,
+    26, -10.5,
+    32, -15,
+    32, -19,
+    27, -23,
+    -15.5, -25.5,
+    -28.5, -20,
+    -28.5, 20,
+    -15.5, 25.5,
+    27, 23,
+    32, 19,
+    32, 15,
+    26, 10.5,
+    31, 2.5
+  ]
+}

@@ -1,0 +1,67 @@
+{
+	"id":"LTA_nixiemissilemedium_mrmfighter",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/LTA/missiles/LTA_nixie_missile_medium.png",
+	"size":[9,25],	
+	"center":[4.5,12.5],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":100,
+				  "acc":550,
+				  "dec":350},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12, 0],
+				    #"style":"MISSILE_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,145,75,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":11.0,
+				    "length":40.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"onHitEffect":"data.scripts.weapons.LTA_NixieOnHitEffect",
+					"splitRange":350,
+					"splitRangeRange":50,
+					"minTimeToSplit":2,
+					"canSplitEarly":true,
+					"splitSound":"nixie_missilemedium_split",
+					"numShots":40,
+					"damage":25,
+					"emp":15,
+					"damageType":ENERGY,
+					"hitpoints":500,
+					"evenSpread":true,
+					"arc":9,
+					"spreadInaccuracy":30,
+					#"spreadSpeed":300,
+					"spreadSpeed":1000,
+					"spreadSpeedRange":500,
+					"projectileRange":800, # only needed if not a missile
+					"projectileSpec":"LTA_nixie_shot",
+					"smokeSpec":{"particleSizeMin":20.0,
+								 "particleSizeRange":20.0,
+								 "cloudParticleCount":11,
+								 "cloudDuration":1.0,
+								 "cloudRadius":20.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[100,100,100,200]}
+					}				    
+}

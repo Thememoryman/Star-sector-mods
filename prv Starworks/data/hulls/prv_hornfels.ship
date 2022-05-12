@@ -1,0 +1,312 @@
+{
+  "bounds": [
+    71,
+    -53,
+    101,
+    -41,
+    94,
+    0,
+    101,
+    42,
+    71,
+    54,
+    48.5,
+    53,
+    9.5,
+    32.5,
+    -39,
+    68,
+    -52.5,
+    68,
+    -104.5,
+    28,
+    -104.5,
+    -28,
+    -52.5,
+    -67,
+    -39,
+    -67,
+    9.5,
+    -32.5,
+    48.5,
+    -52
+  ],
+  "center": [
+    80,
+    109.5
+  ],
+  "collisionRadius": 149.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 36,
+      "location": [
+        -109.5,
+        -25
+      ],
+      "style": "PRV_LOW",
+      "width": 30
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 36,
+      "location": [
+        -109.5,
+        25
+      ],
+      "style": "PRV_LOW",
+      "width": 30
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 25,
+      "location": [
+        -105.5,
+        16.5
+      ],
+      "style": "PRV_LOW",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 25,
+      "location": [
+        -105.5,
+        -16.5
+      ],
+      "style": "PRV_LOW",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 54,
+      "location": [
+        -95.5,
+        -46
+      ],
+      "style": "PRV_LOW",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 54,
+      "location": [
+        -95.5,
+        46
+      ],
+      "style": "PRV_LOW",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 25,
+      "location": [
+        -101,
+        8.5
+      ],
+      "style": "PRV_LOW",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 25,
+      "location": [
+        -101,
+        -8.5
+      ],
+      "style": "PRV_LOW",
+      "width": 12
+    }
+  ],
+  "height": 245,
+  "hullId": "prv_hornfels",
+  "hullName": "Hornfels",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 147.5,
+  "spriteName": "graphics/prv/ships/prv_hornfels.png",
+  "style": "PRV_LOW",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 45,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        -36.5,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 120,
+      "id": "WS0002",
+      "locations": [
+        -36.5,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0003",
+      "locations": [
+        81.5,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 60,
+      "arc": 135,
+      "id": "WS0004",
+      "locations": [
+        -11.5,
+        26
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -60,
+      "arc": 135,
+      "id": "WS0005r",
+      "locations": [
+        -11.5,
+        -26
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -44.5,
+        -58
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0006",
+      "locations": [
+        -44.5,
+        58
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 75,
+      "arc": 150,
+      "id": "WS0007",
+      "locations": [
+        36.5,
+        32
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        23.5,
+        -40.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        96.5,
+        37
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        96.5,
+        -37
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        61,
+        38.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0012",
+      "locations": [
+        60,
+        -43
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0013",
+      "locations": [
+        3.5,
+        -43.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 160
+}

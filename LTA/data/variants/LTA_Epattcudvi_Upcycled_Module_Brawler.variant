@@ -1,0 +1,23 @@
+{
+  "variantId": "LTA_Epattcudvi_Upcycled_Module_Brawler",
+  "hullId": "LTA_Epattcudvi_Upcycled_Module",
+  "displayName": "Brawler",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "heavymauler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
